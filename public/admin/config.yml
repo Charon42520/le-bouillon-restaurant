@@ -13,8 +13,8 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "About Page"
-        name: "about"
+      - label: "Page d'accueil"
+        name: "index"
         file: "src/content/pages/index.json"
         fields:
           - { label: Titre, name: title, widget: string }
