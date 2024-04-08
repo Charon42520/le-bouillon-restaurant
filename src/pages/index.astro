@@ -1,12 +1,27 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import index from "../content/pages/index.json";
+import Layout from "@layouts/Layout.astro";
+import { SEO } from "astro-seo";
 ---
 
 <Layout title="Welcome to Astro.">
-  <main m="t5 b5" text="amber">
-    <h1 bg-red>{index.title}</h1>
+  <SEO
+    slot="head"
+    title="Le Bouillon des Eaux Vives | Restaurant brasserie à Saint-Pierre de Boeuf"
+  />
 
-    <p>{index.description}</p>
+  <main container mx-auto>
+    <p text-6>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos,
+      necessitatibus, excepturi iure harum voluptates a reprehenderit tempora
+      asperiores impedit odit placeat. Sit modi facilis harum nostrum est,
+      maxime dolorem inventore.
+    </p>
+
+    <p text-4 text-gray-4>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit,
+      quam quasi ducimus maxime porro quidem hic voluptate accusamus itaque
+      tenetur, beatae iure laudantium doloribus ex? Delectus omnis excepturi
+      iste.
+    </p>
   </main>
 </Layout>

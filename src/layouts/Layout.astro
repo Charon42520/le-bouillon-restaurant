@@ -1,9 +1,6 @@
 ---
-interface Props {
-  title: string;
-}
-
-const { title } = Astro.props;
+import Logo from "@components/Logo.astro";
+import NavBar from "@components/NavBar/NavBar.astro";
 ---
 
 <!doctype html>
@@ -14,9 +11,17 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    <slot name="head" />
   </head>
-  <body>
+  <body font-sans font-normal text-gray-7>
+    <header text-primary flex justify-center>
+      <a href="/" my-4 w-50 sm:w-70 lg:w-120>
+        <Logo />
+      </a>
+    </header>
+
+    <NavBar />
+
     <slot />
   </body>
 </html>
