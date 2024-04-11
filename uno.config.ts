@@ -11,7 +11,10 @@ export default defineConfig({
     presetAttributify(),
     presetUno(),
     presetIcons(),
-    presetWebFonts({ provider: "bunny", fonts: { sans: "Hind" } }),
+    presetWebFonts({
+      provider: "bunny",
+      fonts: { sans: "Hind", sherif: "Bree Serif" },
+    }),
   ],
   theme: {
     colors: {

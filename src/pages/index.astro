@@ -1,6 +1,9 @@
 ---
+import Logo from "@components/Logo.astro";
 import Layout from "@layouts/Layout.astro";
 import { SEO } from "astro-seo";
+import { Picture } from "astro:assets";
+import wrenchPicture from "./_wrench.png";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -9,26 +12,42 @@ import { SEO } from "astro-seo";
     title="Le Bouillon des Eaux Vives | Restaurant brasserie à Saint-Pierre de Boeuf"
   />
 
-  <main container mx-auto>
-    <p text-6>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos,
-      necessitatibus, excepturi iure harum voluptates a reprehenderit tempora
-      asperiores impedit odit placeat. Sit modi facilis harum nostrum est,
-      maxime dolorem inventore.
+  <main
+    max-w-200
+    h-full
+    mx-auto
+    flex="~ col"
+    items-center
+    justify-center
+    gap-6
+    text-center
+    p-4
+  >
+    <header text-primary flex justify-center w-full>
+      <Logo />
+    </header>
+
+    <p text-primary text-10.5>Site web en construction</p>
+
+    <div w-50%>
+      <Picture src={wrenchPicture} alt="Clef à molette" />
+    </div>
+
+    <p text-primary text-8>
+      Nous vous recevrons bientôt, en attendant pour toutes informations et
+      réservations :
     </p>
 
-    <p text-4 text-gray-4>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit,
-      quam quasi ducimus maxime porro quidem hic voluptate accusamus itaque
-      tenetur, beatae iure laudantium doloribus ex? Delectus omnis excepturi
-      iste.
-    </p>
+    <div flex="~ col" items-center justify-center gap-0>
+      <p text-primary text-8>
+        <a href="mailto:cuisine.lebouillon@gmail.com"
+          >cuisine.lebouillon@gmail.com</a
+        >
+      </p>
 
-    <p text-4 text-gray-4>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit,
-      quam quasi ducimus maxime porro quidem hic voluptate accusamus itaque
-      tenetur, beatae iure laudantium doloribus ex? Delectus omnis excepturi
-      iste.
-    </p>
+      <p text-primary text-8>
+        <a href="tel:0607383161">06 07 38 31 61</a>
+      </p>
+    </div>
   </main>
 </Layout>
