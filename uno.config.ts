@@ -15,7 +15,11 @@ export default defineConfig({
   ],
   theme: {
     colors: {
-      primary: "#ea4900",
+      primary: "rgb(234, 73, 0)",
+      "secondary-beige": "rgb(208, 182, 136)",
+      "secondary-blue": "rgb(176, 215, 229)",
+      "secondary-gray": "rgb(225, 223, 210)",
+      "secondary-yellow": "rgb(242, 194, 72)",
     },
   },
 });

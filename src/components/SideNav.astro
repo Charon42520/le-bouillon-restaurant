@@ -1,0 +1,107 @@
+---
+export interface Props {
+  showIndexLink?: boolean;
+  showPresentationLink?: boolean;
+  showHoursLink?: boolean;
+  showMenuLink?: boolean;
+  showDayMenuLink?: boolean;
+  showProgramationLink?: boolean;
+  showContactLink?: boolean;
+}
+
+const {
+  showIndexLink,
+  showPresentationLink,
+  showHoursLink,
+  showMenuLink,
+  showDayMenuLink,
+  showProgramationLink,
+  showContactLink,
+} = Astro.props;
+---
+
+<aside h-full>
+  <ul h-full flex>
+    {
+      showIndexLink && (
+        <li text-secondary-blue bg-primary>
+          <a href="/" class="nav-link">
+            Accueil
+          </a>
+        </li>
+      )
+    }
+
+    {
+      showPresentationLink && (
+        <li text-primary bg-secondary-blue>
+          <a href="/presentation" class="nav-link">
+            Présentation
+          </a>
+        </li>
+      )
+    }
+
+    {
+      showHoursLink && (
+        <li text-primary bg-secondary-yellow>
+          <a href="/horaires" class="nav-link">
+            Horaires
+          </a>
+        </li>
+      )
+    }
+
+    {
+      showMenuLink && (
+        <li text-primary bg-secondary-gray>
+          <a href="/menu" class="nav-link">
+            Carte
+          </a>
+        </li>
+      )
+    }
+
+    {
+      showDayMenuLink && (
+        <li text-primary bg-secondary-beige>
+          <a href="/menu" class="nav-link">
+            Menu du jour
+          </a>
+        </li>
+      )
+    }
+
+    {
+      showProgramationLink && (
+        <li text-primary bg-secondary-blue>
+          <a href="/programmation" class="nav-link">
+            Programmation
+          </a>
+        </li>
+      )
+    }
+
+    {
+      showContactLink && (
+        <li text-primary bg-secondary-yellow>
+          <a href="/contact" class="nav-link">
+            Contact
+          </a>
+        </li>
+      )
+    }
+  </ul>
+</aside>
+
+<style>
+  .nav-link {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    height: 100%;
+    padding: 1rem 0.625rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+  }
+</style>

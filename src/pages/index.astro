@@ -1,4 +1,6 @@
 ---
+import Logo from "@components/Logo.astro";
+import SideNav from "@components/SideNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { SEO } from "astro-seo";
 ---
@@ -9,26 +11,40 @@ import { SEO } from "astro-seo";
     title="Le Bouillon des Eaux Vives | Restaurant brasserie à Saint-Pierre de Boeuf"
   />
 
-  <main container mx-auto>
-    <p text-6>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos,
-      necessitatibus, excepturi iure harum voluptates a reprehenderit tempora
-      asperiores impedit odit placeat. Sit modi facilis harum nostrum est,
-      maxime dolorem inventore.
+  <main
+    grow
+    text="center secondary-blue"
+    bg-primary
+    flex="~ col"
+    items-center
+    justify-between
+    p="y-8 x-4"
+  >
+    <p w-50%>
+      <Logo />
     </p>
 
-    <p text-4 text-gray-4>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit,
-      quam quasi ducimus maxime porro quidem hic voluptate accusamus itaque
-      tenetur, beatae iure laudantium doloribus ex? Delectus omnis excepturi
-      iste.
+    <p text-5>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+      recusandae odit deleniti aspernatur pariatur, ut doloremque dicta
+      perferendis minus dolore aliquam numquam, quibusdam dolores reprehenderit
+      non tempore! Quo, repudiandae harum!
     </p>
 
-    <p text-4 text-gray-4>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit,
-      quam quasi ducimus maxime porro quidem hic voluptate accusamus itaque
-      tenetur, beatae iure laudantium doloribus ex? Delectus omnis excepturi
-      iste.
+    <p text-5>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+      recusandae odit deleniti aspernatur pariatur, ut doloremque dicta
+      perferendis minus dolore aliquam numquam, quibusdam dolores reprehenderit
+      non tempore! Quo, repudiandae harum!
     </p>
   </main>
+
+  <SideNav
+    showPresentationLink
+    showHoursLink
+    showMenuLink
+    showDayMenuLink
+    showProgramationLink
+    showContactLink
+  />
 </Layout>

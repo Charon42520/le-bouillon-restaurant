@@ -1,0 +1,43 @@
+---
+import SideNav from "@components/SideNav.astro";
+import Layout from "@layouts/Layout.astro";
+import { SEO } from "astro-seo";
+---
+
+<Layout title="Welcome to Astro.">
+  <SEO
+    slot="head"
+    title="Le Bouillon des Eaux Vives | Restaurant brasserie à Saint-Pierre de Boeuf"
+  />
+
+  <SideNav showIndexLink showPresentationLink />
+
+  <main h-full bg-secondary-yellow text-primary grow>
+    <h1 text-8>Horaires</h1>
+
+    <ul>
+      <li>Lundi <span>14h 18h</span></li>
+      <li>Mardi <span>14h 18h</span></li>
+      <li>Mercredi <span>14h 18h</span></li>
+      <li>Jeudi <span>14h 18h</span></li>
+      <li>Lundi <span>14h 18h</span></li>
+      <li>Lundi <span>14h 18h</span></li>
+      <li>Lundi <span>14h 18h</span></li>
+      <li>Lundi <span>14h 18h</span></li>
+    </ul>
+  </main>
+
+  <SideNav showMenuLink showDayMenuLink showProgramationLink showContactLink />
+</Layout>
+
+<style>
+  .nav-link {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    height: 100%;
+    padding: 1rem 0.625rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+  }
+</style>

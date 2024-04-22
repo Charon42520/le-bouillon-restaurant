@@ -1,27 +1,19 @@
 ---
-import Logo from "@components/Logo.astro";
-import NavBar from "@components/NavBar/NavBar.astro";
+import { ViewTransitions } from "astro:transitions";
 ---
 
 <!doctype html>
-<html lang="fr">
+<html lang="fr" h-full>
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    <ViewTransitions />
     <slot name="head" />
   </head>
-  <body font-sans font-normal text-gray-7>
-    <header text-primary flex justify-center>
-      <a href="/" my-4 w-50 sm:w-70 lg:w-120>
-        <Logo />
-      </a>
-    </header>
-
-    <NavBar />
-
+  <body font-sans font-normal text-gray-7 flex h-full>
     <slot />
   </body>
 </html>
