@@ -1,6 +1,7 @@
 ---
 import Logo from "@components/Logo.astro";
 import SideNav from "@components/SideNav.astro";
+import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { SEO } from "astro-seo";
 ---
@@ -10,6 +11,7 @@ import { SEO } from "astro-seo";
     slot="head"
     title="Le Bouillon des Eaux Vives | Restaurant brasserie à Saint-Pierre de Boeuf"
   />
+  <TopNav class="bg-primary text-secondary-blue" />
 
   <main
     grow
@@ -17,34 +19,34 @@ import { SEO } from "astro-seo";
     bg-primary
     flex="~ col"
     items-center
-    justify-between
-    p="y-8 x-4"
+    justify-evenly
+    px-4
   >
     <p w-50%>
       <Logo />
     </p>
 
-    <p text-5>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-      recusandae odit deleniti aspernatur pariatur, ut doloremque dicta
-      perferendis minus dolore aliquam numquam, quibusdam dolores reprehenderit
-      non tempore! Quo, repudiandae harum!
-    </p>
+    <h1 hidden>
+      Restaurant Le Bouillon des Eaux Vives à Saint Pierre de Boeuf
+    </h1>
+
+    <h2 text-7>Le terroir dans votre assiette</h2>
 
     <p text-5>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-      recusandae odit deleniti aspernatur pariatur, ut doloremque dicta
-      perferendis minus dolore aliquam numquam, quibusdam dolores reprehenderit
-      non tempore! Quo, repudiandae harum!
+      Bienvenue au Bouillon, nouveau lieu de restauration à
+      Saint-Pierre-de-Boeuf. La brasserie située sur la base nautique des
+      Eaux-Vives vous accueille sur sa terrasse ombragée de 120 couverts avec
+      salons extérieurs afin de profiter du bord de rivière dans un cadre
+      idyllique, au bruit du clapotis des vagues.
     </p>
   </main>
-
-  <SideNav
-    showPresentationLink
-    showHoursLink
-    showMenuLink
-    showDayMenuLink
-    showProgramationLink
-    showContactLink
-  />
 </Layout>
+
+<SideNav
+  showPresentationLink
+  showHoursLink
+  showMenuLink
+  showDayMenuLink
+  showProgramationLink
+  showContactLink
+/>

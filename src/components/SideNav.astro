@@ -1,4 +1,6 @@
 ---
+import LogoSmall from "./LogoSmall.astro";
+
 export interface Props {
   showIndexLink?: boolean;
   showPresentationLink?: boolean;
@@ -20,13 +22,21 @@ const {
 } = Astro.props;
 ---
 
-<aside h-full>
+<aside hidden md:block h-full>
   <ul h-full flex>
     {
       showIndexLink && (
         <li text-secondary-blue bg-primary>
-          <a href="/" class="nav-link">
-            Accueil
+          <a
+            href="/"
+            flex="~ col"
+            justify-between
+            items-center
+            class="nav-link"
+          >
+            <LogoSmall class="w-10 h-10 -translate-x-0.5" />
+
+            <span class="rotated-text">Accueil</span>
           </a>
         </li>
       )
@@ -35,7 +45,7 @@ const {
     {
       showPresentationLink && (
         <li text-primary bg-secondary-blue>
-          <a href="/presentation" class="nav-link">
+          <a href="/presentation" class="nav-link rotated-text">
             Présentation
           </a>
         </li>
@@ -45,7 +55,7 @@ const {
     {
       showHoursLink && (
         <li text-primary bg-secondary-yellow>
-          <a href="/horaires" class="nav-link">
+          <a href="/horaires" class="nav-link rotated-text">
             Horaires
           </a>
         </li>
@@ -55,7 +65,7 @@ const {
     {
       showMenuLink && (
         <li text-primary bg-secondary-gray>
-          <a href="/menu" class="nav-link">
+          <a href="/menu" class="nav-link rotated-text">
             Carte
           </a>
         </li>
@@ -65,7 +75,7 @@ const {
     {
       showDayMenuLink && (
         <li text-primary bg-secondary-beige>
-          <a href="/menu" class="nav-link">
+          <a href="/menu-du-jour" class="nav-link rotated-text">
             Menu du jour
           </a>
         </li>
@@ -75,7 +85,7 @@ const {
     {
       showProgramationLink && (
         <li text-primary bg-secondary-blue>
-          <a href="/programmation" class="nav-link">
+          <a href="/programmation" class="nav-link rotated-text">
             Programmation
           </a>
         </li>
@@ -85,7 +95,7 @@ const {
     {
       showContactLink && (
         <li text-primary bg-secondary-yellow>
-          <a href="/contact" class="nav-link">
+          <a href="/contact" class="nav-link rotated-text">
             Contact
           </a>
         </li>
@@ -95,13 +105,16 @@ const {
 </aside>
 
 <style>
-  .nav-link {
+  .rotated-text {
     writing-mode: vertical-rl;
     transform: rotate(-180deg);
-    height: 100%;
-    padding: 1rem 0.625rem;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 1.25rem;
+  }
+
+  .nav-link {
+    height: 100%;
+    padding: 1rem 0.625rem;
   }
 </style>

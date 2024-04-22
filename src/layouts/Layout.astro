@@ -13,7 +13,14 @@ import { ViewTransitions } from "astro:transitions";
     <ViewTransitions />
     <slot name="head" />
   </head>
-  <body font-sans font-normal text-gray-7 flex h-full>
+  <body
+    font-sans
+    font-normal
+    text-gray-7
+    flex="~ col md:row"
+    min-h-full
+    md:h-full
+  >
     <slot />
   </body>
 </html>

@@ -6,14 +6,20 @@ import { SEO } from "astro-seo";
 ---
 
 <Layout title="Welcome to Astro.">
-  <SEO slot="head" title="Le Bouillon des Eaux Vives | La carte" />
+  <SEO slot="head" title="Le Bouillon des Eaux Vives | Programmation" />
 
-  <TopNav class="bg-secondary-gray text-primary" />
+  <TopNav class="bg-secondary-blue text-primary" />
 
-  <SideNav showIndexLink showPresentationLink showHoursLink />
+  <SideNav
+    showIndexLink
+    showPresentationLink
+    showHoursLink
+    showMenuLink
+    showDayMenuLink
+  />
 
-  <main h-full bg-secondary-gray text-primary grow p-8>
-    <h1 text-8 uppercase>La carte</h1>
+  <main h-full bg-secondary-blue text-primary grow p-8>
+    <h1 text-8 uppercase>Programmation</h1>
 
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi impedit
@@ -23,5 +29,5 @@ import { SEO } from "astro-seo";
     </p>
   </main>
 
-  <SideNav showDayMenuLink showProgramationLink showContactLink />
+  <SideNav showContactLink />
 </Layout>

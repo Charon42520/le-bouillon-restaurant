@@ -1,0 +1,67 @@
+---
+import LogoSmall from "./LogoSmall.astro";
+
+const { class: className } = Astro.props;
+---
+
+<aside block text-center class="md:hidden">
+  <ul>
+    <li p-2 flex justify-between items-center class={className}>
+      <a href="/" block>
+        <LogoSmall class="w-10 h-10" />
+      </a>
+
+      <button type="button" onclick="this.closest('ul').dataset.open = ''">
+        <i i-carbon-menu block w-8 h-8></i>
+      </button>
+    </li>
+
+    <li hidden py-1 text-secondary-blue bg-primary relative>
+      <a href="/" uppercase text-5> Accueil </a>
+
+      <button
+        type="button"
+        onclick="delete this.closest('ul').dataset.open"
+        absolute
+        right-2
+        class="top-50% -translate-y-50%"
+      >
+        <i i-carbon-close block w-6 h-6></i>
+      </button>
+    </li>
+
+    <li hidden py-1 text-primary bg-secondary-blue>
+      <a href="/presentation" uppercase text-5> Présentation </a>
+    </li>
+
+    <li hidden py-1 text-primary bg-secondary-yellow>
+      <a href="/horaires" uppercase text-5> Horaires </a>
+    </li>
+
+    <li hidden py-1 text-primary bg-secondary-gray>
+      <a href="/menu" uppercase text-5> Carte </a>
+    </li>
+
+    <li hidden py-1 text-primary bg-secondary-beige>
+      <a href="/menu-du-jour" uppercase text-5> Menu du jour </a>
+    </li>
+
+    <li hidden py-1 text-primary bg-secondary-blue>
+      <a href="/programmation" uppercase text-5> Programmation </a>
+    </li>
+
+    <li hidden py-1 text-primary bg-secondary-yellow>
+      <a href="/contact" uppercase text-5> Contact </a>
+    </li>
+  </ul>
+</aside>
+
+<style>
+  ul[data-open] li:not(:first-child) {
+    display: block;
+  }
+
+  ul[data-open] li:first-child {
+    display: none;
+  }
+</style>

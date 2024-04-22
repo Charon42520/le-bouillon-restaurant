@@ -1,4 +1,6 @@
 ---
+import SideNav from "@components/SideNav.astro";
+import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { SEO } from "astro-seo";
 ---
@@ -6,7 +8,20 @@ import { SEO } from "astro-seo";
 <Layout title="Welcome to Astro.">
   <SEO slot="head" title="Le Bouillon des Eaux Vives | Contact" />
 
-  <main container mx-auto>
+  <TopNav class="bg-secondary-yellow text-primary" />
+
+  <SideNav
+    showIndexLink
+    showPresentationLink
+    showHoursLink
+    showMenuLink
+    showDayMenuLink
+    showProgramationLink
+  />
+
+  <main h-full bg-secondary-yellow text-primary grow p-8>
+    <h1 text-8 uppercase>Contact</h1>
+
     <ul max-w-50 mx-auto mt-12>
       <li flex items-center gap-4 mt-4>
         <i block shrink-0 i-carbon-phone-filled w-6 h-6 text-primary></i>
