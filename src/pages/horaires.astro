@@ -1,4 +1,5 @@
 ---
+import MainContent from "@components/MainContent.astro";
 import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
@@ -15,9 +16,7 @@ import { SEO } from "astro-seo";
 
   <SideNav showIndexLink showPresentationLink />
 
-  <main h-full bg-secondary-yellow text-primary grow p-8 overflow-y-auto>
-    <h1 text-8 uppercase>Horaires</h1>
-
+  <MainContent title="Horaires" class="bg-secondary-yellow">
     <ul>
       <li>Lundi <span>14h 18h</span></li>
       <li>Mardi <span>14h 18h</span></li>
@@ -28,7 +27,7 @@ import { SEO } from "astro-seo";
       <li>Lundi <span>14h 18h</span></li>
       <li>Lundi <span>14h 18h</span></li>
     </ul>
-  </main>
+  </MainContent>
 
   <SideNav showMenuLink showDayMenuLink showProgramationLink showContactLink />
 </Layout>

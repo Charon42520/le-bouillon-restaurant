@@ -1,4 +1,5 @@
 ---
+import MainContent from "@components/MainContent.astro";
 import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
@@ -12,16 +13,14 @@ import { SEO } from "astro-seo";
 
   <SideNav showIndexLink showPresentationLink showHoursLink showMenuLink />
 
-  <main h-full bg-secondary-beige text-primary grow p-8 overflow-y-auto>
-    <h1 text-8 uppercase>Le menu du jour</h1>
-
+  <MainContent title="Le menu du jour" class="bg-secondary-beige">
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi impedit
       aperiam iusto. Aperiam, aspernatur voluptates tenetur ex ullam distinctio.
       Pariatur architecto fugit corporis. Magnam, quod alias! Ipsam laboriosam
       dolores at?
     </p>
-  </main>
+  </MainContent>
 
   <SideNav showProgramationLink showContactLink />
 </Layout>

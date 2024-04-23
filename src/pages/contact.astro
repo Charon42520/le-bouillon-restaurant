@@ -1,4 +1,5 @@
 ---
+import MainContent from "@components/MainContent.astro";
 import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
@@ -19,21 +20,19 @@ import { SEO } from "astro-seo";
     showProgramationLink
   />
 
-  <main h-full bg-secondary-yellow text-primary grow p-8 overflow-y-auto>
-    <h1 text-8 uppercase>Contact</h1>
-
+  <MainContent title="Contact" class="bg-secondary-yellow">
     <ul max-w-50 mx-auto mt-12>
       <li flex items-center gap-4 mt-4>
-        <i block shrink-0 i-carbon-phone-filled w-6 h-6 text-primary></i>
+        <i block shrink-0 i-carbon-phone-filled w-6 h-6></i>
 
         <a href="tel:+33631146119">+33 (0) 6 31 14 61 19</a>
       </li>
 
       <li flex items-center gap-4 mt-4>
-        <i block shrink-0 i-carbon-email w-6 h-6 text-primary></i>
+        <i block shrink-0 i-carbon-email w-6 h-6></i>
 
         <a href="mailto:nicolas.rio42@gmail.com">nicolas.rio42@gmail.com</a>
       </li>
     </ul>
-  </main>
+  </MainContent>
 </Layout>
