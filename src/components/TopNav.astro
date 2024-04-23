@@ -5,7 +5,7 @@ const { class: className } = Astro.props;
 ---
 
 <aside block text-center relative class="md:hidden">
-  <div p-2 flex justify-between items-center class={className}>
+  <div p-2 flex justify-between items-center relative z-2 class={className}>
     <a href="/" block>
       <LogoSmall class="w-10 h-10" />
     </a>
@@ -45,8 +45,17 @@ const { class: className } = Astro.props;
     </button>
   </div>
 
-  <ul absolute top-100% left-0 right-0 z-1 max-h-0 overflow-y-hidden>
-    <li p="t-2 b-1.5" text-primary bg-secondary-blue>
+  <ul
+    absolute
+    left-0
+    right-0
+    z-1
+    max-h-0
+    overflow-y-hidden
+    shadow
+    class="top-[calc(100%-2px)]"
+  >
+    <li p="t-[calc(0.5rem+2px)] b-1.5" text-primary bg-secondary-blue>
       <a href="/presentation" uppercase block text-5 font-display w-full>
         Présentation
       </a>
