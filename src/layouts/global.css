@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "youth";
+  src: url("./youth-medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "youth";
+  src: url("./youth-bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "qanelas";
+  src: url("./qanelas-medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "qanelas";
+  src: url("./qanelas-semi-bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}

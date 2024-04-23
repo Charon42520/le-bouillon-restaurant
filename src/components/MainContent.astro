@@ -8,7 +8,9 @@ const { title, class: className } = Astro.props;
 ---
 
 <main h-full text-gray-800 grow p-8 overflow-y-auto class={className}>
-  <h1 text="8 md:center" uppercase>{title}</h1>
+  <div max-w-120 m-x-auto>
+    <h1 text="8 md:center" uppercase font-display font-normal>{title}</h1>
 
-  <slot />
+    <slot />
+  </div>
 </main>

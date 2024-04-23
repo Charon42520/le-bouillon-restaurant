@@ -1,3 +1,11 @@
+---
+import youthMedium from "./youth-medium.otf";
+import youthBold from "./youth-medium.otf";
+import qanelasMedium from "./qanelas-medium.otf";
+import qanelasSemiBold from "./qanelas-semi-bold.otf";
+import "./global.css";
+---
+
 <!doctype html>
 <html lang="fr" h-full md:overflow-y-hidden>
   <head>
@@ -6,10 +14,43 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+
+    <link
+      rel="preload"
+      href={youthMedium}
+      as="font"
+      type="font/otf"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      href={youthBold}
+      as="font"
+      type="font/otf"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      href={qanelasMedium}
+      as="font"
+      type="font/otf"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      href={qanelasSemiBold}
+      as="font"
+      type="font/otf"
+      crossorigin
+    />
+
     <slot name="head" />
   </head>
   <body
-    font-sans
+    font-body
     font-normal
     text-gray-7
     flex="~ col md:row"
