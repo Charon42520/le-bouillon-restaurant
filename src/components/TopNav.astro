@@ -4,67 +4,117 @@ import LogoSmall from "./LogoSmall.astro";
 const { class: className } = Astro.props;
 ---
 
-<aside block text-center class="md:hidden">
-  <ul>
-    <li p-2 flex justify-between items-center class={className}>
-      <a href="/" block>
-        <LogoSmall class="w-10 h-10" />
-      </a>
+<aside block text-center relative class="md:hidden">
+  <div p-2 flex justify-between items-center class={className}>
+    <a href="/" block>
+      <LogoSmall class="w-10 h-10" />
+    </a>
 
-      <button
-        type="button"
-        onclick="this.closest('ul').classList.toggle('open')"
-      >
-        <i i-carbon-menu block w-8 h-8></i>
-      </button>
-    </li>
+    <a href="/" uppercase text-5 font-display class="index-link"> Accueil </a>
 
-    <li hidden p="t-1 b-0.5" text-secondary-blue bg-primary relative>
-      <a href="/" uppercase text-5> Accueil </a>
-
-      <button
-        type="button"
-        onclick="this.closest('ul').classList.toggle('open')"
+    <button
+      type="button"
+      relative
+      w-12
+      h-12
+      onclick="this.closest('aside').classList.toggle('menu-opened')"
+    >
+      <i
+        i-carbon-menu
+        block
+        w-8
+        h-8
         absolute
+        top-2
+        left-2
         right-2
-        class="top-50% -translate-y-50%"
-      >
-        <i i-carbon-close block w-6 h-6></i>
-      </button>
+        bottom-2
+        class="menu-icon"></i>
+
+      <i
+        i-carbon-close
+        block
+        w-8
+        h-8
+        absolute
+        top-2
+        left-2
+        right-2
+        bottom-2
+        class="close-icon"></i>
+    </button>
+  </div>
+
+  <ul absolute top-100% left-0 right-0 z-1 max-h-0 overflow-y-hidden>
+    <li p="t-1 b-0.5" text-primary bg-secondary-blue>
+      <a href="/presentation" uppercase block text-5 font-display w-full>
+        Présentation
+      </a>
     </li>
 
-    <li hidden p="t-1 b-0.5" text-primary bg-secondary-blue>
-      <a href="/presentation" uppercase text-5> Présentation </a>
+    <li p="t-1 b-0.5" text-primary bg-secondary-yellow>
+      <a href="/menu" uppercase block text-5 font-display w-full> Carte </a>
     </li>
 
-    <li hidden p="t-1 b-0.5" text-primary bg-secondary-yellow>
-      <a href="/horaires" uppercase text-5> Horaires </a>
+    <li p="t-1 b-0.5" text-primary bg-secondary-gray>
+      <a href="/menu-du-jour" uppercase block text-5 font-display w-full>
+        Menu du jour
+      </a>
     </li>
 
-    <li hidden p="t-1 b-0.5" text-primary bg-secondary-gray>
-      <a href="/menu" uppercase text-5> Carte </a>
+    <li p="t-1 b-0.5" text-primary bg-secondary-beige>
+      <a href="/programmation" uppercase block text-5 font-display w-full>
+        Programmation
+      </a>
     </li>
 
-    <li hidden p="t-1 b-0.5" text-primary bg-secondary-beige>
-      <a href="/menu-du-jour" uppercase text-5> Menu du jour </a>
-    </li>
-
-    <li hidden p="t-1 b-0.5" text-primary bg-secondary-blue>
-      <a href="/programmation" uppercase text-5> Programmation </a>
-    </li>
-
-    <li hidden p="t-1 b-0.5" text-primary bg-secondary-yellow>
-      <a href="/contact" uppercase text-5> Contact </a>
+    <li p="t-1 b-0.5" text-primary bg-secondary-blue>
+      <a href="/contact-et-horaires" uppercase block text-5 font-display w-full>
+        Contact et horaires
+      </a>
     </li>
   </ul>
 </aside>
 
 <style>
-  ul.open li:not(:first-child) {
-    display: block;
+  ul {
+    transition: max-height 0.5s;
   }
 
-  ul.open li:first-child {
-    display: none;
+  .index-link {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .menu-icon {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+
+  .close-icon {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  aside.menu-opened {
+    ul {
+      max-height: 20rem;
+      transition: max-height 0.5s;
+    }
+
+    .index-link {
+      opacity: 1;
+      transition: opacity 0.5s;
+    }
+
+    .menu-icon {
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+
+    .close-icon {
+      opacity: 1;
+      transition: opacity 0.5s;
+    }
   }
 </style>

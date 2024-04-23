@@ -4,7 +4,6 @@ import LogoSmall from "./LogoSmall.astro";
 export interface Props {
   showIndexLink?: boolean;
   showPresentationLink?: boolean;
-  showHoursLink?: boolean;
   showMenuLink?: boolean;
   showDayMenuLink?: boolean;
   showProgramationLink?: boolean;
@@ -14,7 +13,6 @@ export interface Props {
 const {
   showIndexLink,
   showPresentationLink,
-  showHoursLink,
   showMenuLink,
   showDayMenuLink,
   showProgramationLink,
@@ -54,18 +52,8 @@ const {
     }
 
     {
-      showHoursLink && (
-        <li text-primary bg-secondary-yellow>
-          <a href="/horaires" font-display class="nav-link rotated-text">
-            Horaires
-          </a>
-        </li>
-      )
-    }
-
-    {
       showMenuLink && (
-        <li text-primary bg-secondary-gray>
+        <li text-primary bg-secondary-yellow>
           <a href="/menu" font-display class="nav-link rotated-text">
             Carte
           </a>
@@ -75,7 +63,7 @@ const {
 
     {
       showDayMenuLink && (
-        <li text-primary bg-secondary-beige>
+        <li text-primary bg-secondary-gray>
           <a href="/menu-du-jour" font-display class="nav-link rotated-text">
             Menu du jour
           </a>
@@ -85,7 +73,7 @@ const {
 
     {
       showProgramationLink && (
-        <li text-primary bg-secondary-blue>
+        <li text-primary bg-secondary-beige>
           <a href="/programmation" font-display class="nav-link rotated-text">
             Programmation
           </a>
@@ -95,9 +83,13 @@ const {
 
     {
       showContactLink && (
-        <li text-primary bg-secondary-yellow>
-          <a href="/contact" font-display class="nav-link rotated-text">
-            Contact
+        <li text-primary bg-secondary-blue>
+          <a
+            href="/contact-et-horaires"
+            font-display
+            class="nav-link rotated-text"
+          >
+            Contact et horaires
           </a>
         </li>
       )
