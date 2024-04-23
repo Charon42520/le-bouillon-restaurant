@@ -14,13 +14,61 @@ import { SEO } from "astro-seo";
   <SideNav showIndexLink showPresentationLink showMenuLink />
 
   <MainContent title="Le menu du jour" class="bg-secondary-gray">
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi impedit
-      aperiam iusto. Aperiam, aspernatur voluptates tenetur ex ullam distinctio.
-      Pariatur architecto fugit corporis. Magnam, quod alias! Ipsam laboriosam
-      dolores at?
-    </p>
+    <div mt-6 class="markdown">
+      <p>
+        Les midis en semaine, Le Bouillon des Eaux Vives vous propose un menu
+        varié et savoureux.
+      </p>
+
+      <p>À la carte le {new Date().toLocaleDateString()} :</p>
+
+      <p>Entrées</p>
+
+      <ul>
+        <li>Salade lyonaise</li>
+
+        <li>Une autre entrée super bonne</li>
+      </ul>
+
+      <p>Plats</p>
+
+      <ul>
+        <li>Burger de gros viandard</li>
+
+        <li>Recette au graine pour les écolos bobos</li>
+      </ul>
+
+      <p>Dessert</p>
+
+      <ul>
+        <li>Bananas split</li>
+
+        <li>Muffins façon Charon</li>
+      </ul>
+
+      <p>Prix</p>
+
+      <ul>
+        <li>Entrée + plat <strong>20€</strong></li>
+        <li>Plat + dessert <strong>20€</strong></li>
+        <li>Entrée + plat + dessert <strong>30€</strong></li>
+      </ul>
+    </div>
   </MainContent>
 
   <SideNav showProgramationLink showContactLink />
 </Layout>
+
+<style>
+  .markdown :global(p:not(:first-child)) {
+    margin-top: 1rem;
+  }
+
+  .markdown :global(ul) {
+    list-style: inside;
+  }
+
+  .markdown :global(strong) {
+    font-weight: bold;
+  }
+</style>

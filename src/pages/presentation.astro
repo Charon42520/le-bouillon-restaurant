@@ -25,7 +25,7 @@ import { SEO } from "astro-seo";
         guinguette en bord de rivière.
       </p>
 
-      <p mt-4>
+      <p>
         Originaire de Bourgogne, nous avons grandi dans la <strong
           >gastronomie française</strong
         >
@@ -34,7 +34,7 @@ import { SEO } from "astro-seo";
         bourguignonne ou le traditionnel poireau vinaigrette.
       </p>
 
-      <p mt-4>
+      <p>
         Tous nos plats sont préparés <strong>sur place</strong> à partir de produits
         bruts - fait maison et au maximum avec des produits locaux. Nous sélectionnons
         nos produits pour leur qualité et aussi les <strong
@@ -42,7 +42,7 @@ import { SEO } from "astro-seo";
         > de chaque fournisseur.
       </p>
 
-      <p mt-4>
+      <p>
         Pendant que Yoann sera au fourneau toute la journée à vous raviver les
         papilles, ne soyez pas surpris de croiser Simon sur un raft ou le soir
         au service, c’est bien le même il n’a pas de jumeau ! Il a juste troqué
@@ -57,6 +57,10 @@ import { SEO } from "astro-seo";
 </Layout>
 
 <style>
+  .markdown :global(p:not(:first-child)) {
+    margin-top: 1rem;
+  }
+
   .markdown :global(strong) {
     font-weight: bold;
   }
