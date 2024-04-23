@@ -5,12 +5,12 @@
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: "youth";
   src: url("./youth-bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
-}
+} */
 
 @font-face {
   font-family: "qanelas";
@@ -19,9 +19,16 @@
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: "qanelas";
   src: url("./qanelas-semi-bold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: "qanelas";
+  src: url("./qanelas-bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
 }
