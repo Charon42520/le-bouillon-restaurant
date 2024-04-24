@@ -4,13 +4,16 @@ import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { SEO } from "astro-seo";
+import { getEntry } from "astro:content";
+
+const { data, render } = await getEntry("index-page", "index");
+
+const { Content } = await render();
 ---
 
 <Layout title="Welcome to Astro.">
-  <SEO
-    slot="head"
-    title="Le Bouillon des Eaux Vives | Restaurant brasserie à Saint-Pierre de Boeuf"
-  />
+  <SEO slot="head" title={data.seoTitle} description={data.seoDescription} />
+
   <TopNav />
 
   <main
@@ -31,20 +34,14 @@ import { SEO } from "astro-seo";
     </p>
 
     <h1 hidden>
-      Restaurant Le Bouillon des Eaux Vives à Saint Pierre de Boeuf
+      {data.seoTitle}
     </h1>
 
-    <h2 text-7 font-display>Restaurant brasserie à Saint-Pierre-de-Boeuf</h2>
+    <h2 text-7 font-display>{data.headline}</h2>
 
-    <p text-5>
-      Bienvenue au Bouillon, nouveau lieu de restauration à
-      Saint-Pierre-de-Boeuf. La brasserie est située sur la <strong font-bold
-        >base nautique des Eaux-Vives</strong
-      >. Elle vous accueille sur sa terrasse ombragée de 120 couverts avec
-      salons extérieurs. Vous pourrez profiter du bord de rivière dans un <strong
-        >cadre idyllique</strong
-      >, au bruit du clapotis des vagues.
-    </p>
+    <div>
+      <Content />
+    </div>
   </main>
 </Layout>
 
@@ -57,7 +54,7 @@ import { SEO } from "astro-seo";
 />
 
 <style>
-  main *::selection {
+  main :global(*::selection) {
     background-color: var(--secondary-blue);
     color: var(--primary);
   }

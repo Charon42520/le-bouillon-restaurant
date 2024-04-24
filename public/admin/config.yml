@@ -15,7 +15,9 @@ collections:
     files:
       - label: "Page d'accueil"
         name: "index"
-        file: "src/content/pages/index.json"
+        file: "src/content/index-page/index.md"
         fields:
-          - { label: Titre, name: title, widget: string }
-          - { label: Description, name: description, widget: string }
+          - { label: Titre SEO, name: seoTitle, widget: string }
+          - { label: Description SEO, name: seoDescription, widget: string }
+          - { label: Titre, name: headline, widget: string }
+          - { label: Contenu, name: body, widget: markdown }
