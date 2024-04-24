@@ -64,7 +64,8 @@ import page7 from "./menu-page-7.svg";
           right-0
           overflow-hidden
           bg-background-gray
-          text="right nowrap"
+          text="right nowrap 6"
+          z-1
         >
           <li>
             <a href="#boissons">Boissons</a>
@@ -118,5 +119,17 @@ import page7 from "./menu-page-7.svg";
 
   #menu-checkbox:checked + label .close-icon {
     display: block;
+  }
+
+  #menu-checkbox:checked + label::before {
+    display: block;
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    inset: 0;
+    background: 0 0;
+    content: "";
+    cursor: default;
   }
 </style>
