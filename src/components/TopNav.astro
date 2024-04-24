@@ -1,11 +1,18 @@
 ---
 import LogoSmall from "./LogoSmall.astro";
-
-const { class: className } = Astro.props;
 ---
 
 <aside block text-center relative class="md:hidden">
-  <div p-2 flex justify-between items-center relative z-2 class={className}>
+  <div
+    p-2
+    flex
+    justify-between
+    items-center
+    relative
+    z-2
+    bg-primary
+    text-background-gray
+  >
     <a href="/" block>
       <LogoSmall class="w-10 h-10" />
     </a>
