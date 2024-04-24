@@ -1,0 +1,58 @@
+---
+import SideNav from "@components/SideNav.astro";
+import TopNav from "@components/TopNav.astro";
+import Layout from "@layouts/Layout.astro";
+import { SEO } from "astro-seo";
+import { Image } from "astro:assets";
+
+import page1 from "./menu-page-1.svg";
+---
+
+<Layout title="Welcome to Astro.">
+  <SEO slot="head" title="Le Bouillon des Eaux Vives | La carte" />
+
+  <TopNav>La carte</TopNav>
+
+  <SideNav showIndexLink showPresentationLink />
+
+  <main h-full text-gray-800 grow p-y-8 overflow-y-auto bg-background-gray>
+    <h1 hidden md:block text="8 md:center" uppercase font-display font-normal>
+      La carte
+    </h1>
+
+    <Image src={page1} alt="" class="w-full" />
+  </main>
+
+  <SideNav showDayMenuLink showProgramationLink showContactLink />
+</Layout>
+
+<style>
+  .markdown :global(h2),
+  .markdown :global(h3),
+  .markdown :global(h4) {
+    font-family: var(--font-display);
+  }
+
+  .markdown :global(h2) {
+    font-size: 2rem;
+    color: var(--primary);
+  }
+
+  .markdown :global(h3) {
+    font-size: 1.5rem;
+    color: var(--primary);
+  }
+
+  .markdown :global(p:not(:first-child)) {
+    margin-top: 1rem;
+  }
+
+  .markdown :global(strong) {
+    font-weight: bold;
+  }
+
+  main :global(*::selection) {
+    background-color: var(--primary);
+    color: var(--background-gray);
+  }
+</style>

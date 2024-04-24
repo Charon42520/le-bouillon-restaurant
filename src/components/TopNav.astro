@@ -7,17 +7,25 @@ import LogoSmall from "./LogoSmall.astro";
     p-2
     flex
     justify-between
-    items-center
+    items-stretch
     relative
     z-2
     bg-primary
     text-background-gray
   >
-    <a href="/" block>
+    <a href="/" block flex justify-center items-center>
       <LogoSmall class="w-10 h-10" />
     </a>
 
-    <a href="/" uppercase text-5 font-display class="index-link"> Accueil </a>
+    <span grow relative uppercase text-6 font-display>
+      <span absolute top-50% left-50% -translate-50% class="slot-content">
+        <slot />
+      </span>
+
+      <a href="/" absolute top-50% left-50% -translate-50% class="index-link">
+        Accueil
+      </a>
+    </span>
 
     <button
       type="button"
@@ -97,17 +105,14 @@ import LogoSmall from "./LogoSmall.astro";
     transition: max-height 0.5s;
   }
 
-  .index-link {
-    opacity: 0;
-    transition: opacity 0.5s;
-  }
-
-  .menu-icon {
+  .menu-icon,
+  .slot-content {
     opacity: 1;
     transition: opacity 0.5s;
   }
 
-  .close-icon {
+  .close-icon,
+  .index-link {
     opacity: 0;
     transition: opacity 0.5s;
   }
@@ -118,17 +123,14 @@ import LogoSmall from "./LogoSmall.astro";
       transition: max-height 0.5s;
     }
 
-    .index-link {
-      opacity: 1;
-      transition: opacity 0.5s;
-    }
-
-    .menu-icon {
+    .menu-icon,
+    .slot-content {
       opacity: 0;
       transition: opacity 0.5s;
     }
 
-    .close-icon {
+    .close-icon,
+    .index-link {
       opacity: 1;
       transition: opacity 0.5s;
     }

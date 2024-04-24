@@ -40,4 +40,6 @@
   --secondary-gray: rgb(225, 223, 210);
   --secondary-yellow: rgb(242, 194, 72);
   --background-gray: #dadac7;
+  --font-display: youth, sans-sherif;
+  --font-body: qanelas, sans-sherif;
 }
