@@ -32,3 +32,12 @@
   font-weight: bold;
   font-style: normal;
 }
+
+:root {
+  --primary: rgb(234, 73, 0);
+  --secondary-beige: rgb(208, 182, 136);
+  --secondary-blue: rgb(176, 215, 229);
+  --secondary-gray: rgb(225, 223, 210);
+  --secondary-yellow: rgb(242, 194, 72);
+  --background-gray: #dadac7;
+}

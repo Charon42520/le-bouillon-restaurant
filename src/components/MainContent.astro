@@ -1,16 +1,22 @@
 ---
 export interface Props {
   title: string;
-  class: string;
 }
 
-const { title, class: className } = Astro.props;
+const { title } = Astro.props;
 ---
 
-<main h-full text-gray-800 grow p-8 overflow-y-auto class={className}>
+<main h-full text-gray-800 grow p-8 overflow-y-auto bg-background-gray>
   <div max-w-120 m-x-auto>
     <h1 text="8 md:center" uppercase font-display font-normal>{title}</h1>
 
     <slot />
   </div>
 </main>
+
+<style>
+  main :global(*::selection) {
+    background-color: var(--primary);
+    color: var(--background-gray);
+  }
+</style>

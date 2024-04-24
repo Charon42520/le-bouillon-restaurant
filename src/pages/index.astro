@@ -38,10 +38,12 @@ import { SEO } from "astro-seo";
 
     <p text-5>
       Bienvenue au Bouillon, nouveau lieu de restauration à
-      Saint-Pierre-de-Boeuf. La brasserie est située sur la base nautique des
-      Eaux-Vives. Elle vous accueille sur sa terrasse ombragée de 120 couverts
-      avec salons extérieurs. Vous pourrez profiter du bord de rivière dans un
-      cadre idyllique, au bruit du clapotis des vagues.
+      Saint-Pierre-de-Boeuf. La brasserie est située sur la <strong font-bold
+        >base nautique des Eaux-Vives</strong
+      >. Elle vous accueille sur sa terrasse ombragée de 120 couverts avec
+      salons extérieurs. Vous pourrez profiter du bord de rivière dans un <strong
+        >cadre idyllique</strong
+      >, au bruit du clapotis des vagues.
     </p>
   </main>
 </Layout>
@@ -53,3 +55,10 @@ import { SEO } from "astro-seo";
   showProgramationLink
   showContactLink
 />
+
+<style>
+  main *::selection {
+    background-color: var(--secondary-blue);
+    color: var(--primary);
+  }
+</style>

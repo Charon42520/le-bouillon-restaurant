@@ -9,15 +9,27 @@ export default defineConfig({
   presets: [presetAttributify(), presetUno(), presetIcons()],
   theme: {
     colors: {
-      primary: "rgb(234, 73, 0)",
-      "secondary-beige": "rgb(208, 182, 136)",
-      "secondary-blue": "rgb(176, 215, 229)",
-      "secondary-gray": "rgb(225, 223, 210)",
-      "secondary-yellow": "rgb(242, 194, 72)",
+      primary: "var(--primary)",
+      "secondary-beige": "var(--secondary-beige)",
+      "secondary-blue": "var(--secondary-blue)",
+      "secondary-gray": "var(--secondary-gray)",
+      "secondary-yellow": "var(--secondary-yellow)",
+      "background-gray": "var(--background-gray)",
     },
     fontFamily: {
       display: ["youth", "sans-serif"],
       body: ["qanelas", "sans-serif"],
     },
   },
+  variants: [
+    // selection
+    (matcher) => {
+      if (!matcher.startsWith("selection:")) return matcher;
+
+      return {
+        matcher: matcher.slice(10),
+        selector: (s) => `${s}::selection`,
+      };
+    },
+  ],
 });
