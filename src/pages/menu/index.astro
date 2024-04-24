@@ -20,23 +20,77 @@ import page7 from "./menu-page-7.svg";
 
   <SideNav showIndexLink showPresentationLink />
 
-  <main h-full text-gray-800 grow p-y-8 overflow-y-auto bg-background-gray>
+  <main
+    h-full
+    text-gray-800
+    grow
+    p-y-8
+    overflow-y-auto
+    bg-background-gray
+    scroll-smooth
+  >
     <div max-w-150 m-x-auto>
       <h1 hidden>La carte</h1>
 
-      <img {...page1} alt="" class="w-full" />
+      <img id="boissons" {...page1} alt="" class="w-full" />
 
       <img {...page2} alt="" class="w-full" />
 
-      <img {...page3} alt="" class="w-full" />
+      <img id="dejeuner" {...page3} alt="" class="w-full" />
 
-      <img {...page4} alt="" class="w-full" />
+      <img id="dessert" {...page4} alt="" class="w-full" />
 
-      <img {...page5} alt="" class="w-full" />
+      <img id="snacking-cuscre" {...page5} alt="" class="w-full" />
 
-      <img {...page6} alt="" class="w-full" />
+      <img id="snacking-sale" {...page6} alt="" class="w-full" />
 
-      <img {...page7} alt="" class="w-full" />
+      <img id="afterwork" {...page7} alt="" class="w-full" />
+    </div>
+
+    <div fixed right-4 md:right-42 bottom-4 text-primary>
+      <div relative>
+        <input id="menu-checkbox" type="checkbox" hidden />
+
+        <label for="menu-checkbox" cursor-pointer bg-background-gray>
+          <i i-carbon-menu block w-8 h-8 class="menu-icon"></i>
+
+          <i i-carbon-close hidden w-8 h-8 class="close-icon"></i>
+        </label>
+
+        <ul
+          max-h-0
+          absolute
+          bottom-full
+          right-0
+          overflow-hidden
+          bg-background-gray
+          text="right nowrap"
+        >
+          <li>
+            <a href="#boissons">Boissons</a>
+          </li>
+
+          <li>
+            <a href="#dejeuner">Déjeuner</a>
+          </li>
+
+          <li>
+            <a href="#dessert">Dessert</a>
+          </li>
+
+          <li>
+            <a href="#snacking-cuscre">Snacking sucré</a>
+          </li>
+
+          <li>
+            <a href="#snacking-sale">Snacking salé</a>
+          </li>
+
+          <li>
+            <a href="#afterwork">Afterwork</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </main>
 
@@ -44,32 +98,25 @@ import page7 from "./menu-page-7.svg";
 </Layout>
 
 <style>
-  .markdown :global(h2),
-  .markdown :global(h3),
-  .markdown :global(h4) {
-    font-family: var(--font-display);
-  }
-
-  .markdown :global(h2) {
-    font-size: 2rem;
-    color: var(--primary);
-  }
-
-  .markdown :global(h3) {
-    font-size: 1.5rem;
-    color: var(--primary);
-  }
-
-  .markdown :global(p:not(:first-child)) {
-    margin-top: 1rem;
-  }
-
-  .markdown :global(strong) {
-    font-weight: bold;
-  }
-
   main :global(*::selection) {
     background-color: var(--primary);
     color: var(--background-gray);
+  }
+
+  ul {
+    transition: max-height 0.5s;
+  }
+
+  #menu-checkbox:checked + label + ul {
+    max-height: 100rem;
+    transition: max-height 0.5s;
+  }
+
+  #menu-checkbox:checked + label .menu-icon {
+    display: none;
+  }
+
+  #menu-checkbox:checked + label .close-icon {
+    display: block;
   }
 </style>

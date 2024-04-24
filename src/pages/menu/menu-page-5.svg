@@ -25,7 +25,7 @@
      inkscape:deskcolor="#505050"
      inkscape:zoom="1.342245"
      inkscape:cx="203.7631"
-     inkscape:cy="26.820737"
+     inkscape:cy="146.02401"
      inkscape:window-width="1366"
      inkscape:window-height="704"
      inkscape:window-x="1920"
@@ -5893,29 +5893,4 @@
        d="m 149.632,554.81 h 60.419 v 46.156 h -60.42 z"
        id="path1070" />
   </clipPath>
-  <g
-     clip-path="url(#bv)"
-     id="g1072"
-     transform="translate(-86.999946,-37.499979)">
-    <filter
-       id="bw"
-       x="0"
-       y="0"
-       width="1"
-       height="1">
-      <feBlend
-         mode="multiply"
-         in2="BackgroundImage"
-         in="SourceGraphic"
-         id="feBlend1070" />
-    </filter>
-    <g
-       filter="url(#bw)"
-       id="g1071">
-      <path
-         d="m 159.302,239.16 c -9.67,-9.67 -9.67,-31.356 0,-41.027 h 41.078 c 9.67,9.67 9.67,31.357 0,41.028"
-         fill="#ffff00"
-         id="path1071" />
-    </g>
-  </g>
 </svg>
