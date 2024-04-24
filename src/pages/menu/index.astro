@@ -3,7 +3,6 @@ import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { SEO } from "astro-seo";
-import { Image } from "astro:assets";
 
 import page1 from "./menu-page-1.svg";
 ---
@@ -20,7 +19,7 @@ import page1 from "./menu-page-1.svg";
       La carte
     </h1>
 
-    <Image src={page1} alt="" class="w-full" />
+    <img {...page1} alt="" class="w-full" />
   </main>
 
   <SideNav showDayMenuLink showProgramationLink showContactLink />
