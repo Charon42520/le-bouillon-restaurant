@@ -1,6 +1,6 @@
 ---
-seoTitle: Restaurant Le Bouillon
-seoDescription: Restaurant snack à Saint-Pierre-de-Boeuf
+seoTitle: Le BOUILLON des Eaux-Vives
+seoDescription: Le BOUILLON des Eaux-Vives, restaurant brasserie à Saint-Pierre de Boeuf
 headline: Restaurant brasserie à Saint-Pierre-de-Boeuf
 ---
 

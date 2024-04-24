@@ -9,6 +9,15 @@ const indexPageCollection = defineCollection({
   }),
 });
 
+const presentationPageCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    seoTitle: z.string(),
+    seoDescription: z.string(),
+  }),
+});
+
 export const collections = {
   "index-page": indexPageCollection,
+  "presentation-page": presentationPageCollection,
 };

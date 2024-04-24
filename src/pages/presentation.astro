@@ -4,10 +4,15 @@ import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { SEO } from "astro-seo";
+import { getEntry } from "astro:content";
+
+const { data, render } = await getEntry("presentation-page", "presentation");
+
+const { Content } = await render();
 ---
 
 <Layout title="Welcome to Astro.">
-  <SEO slot="head" title="Le Bouillon des Eaux Vives | Présentation" />
+  <SEO slot="head" title={data.seoTitle} description={data.seoDescription} />
 
   <TopNav />
 
@@ -15,39 +20,7 @@ import { SEO } from "astro-seo";
 
   <MainContent title="Présentation">
     <div mt-6 class="markdown">
-      <p>
-        Le BOUILLON des Eaux-Vives, c'est <strong>deux frangins</strong>
-        qui ont décidé de se retrouver dans un projet commun. L'un est <strong
-          >chef cuisinier</strong
-        >
-        et l'autre <strong>guide d'eaux vives</strong>. Ce restaurant est un
-        lieu à notre image, <strong>convivial et familial</strong> dans un esprit
-        guinguette en bord de rivière.
-      </p>
-
-      <p>
-        Originaire de Bourgogne, nous avons grandi dans la <strong
-          >gastronomie française</strong
-        >
-        et le bon goût du produit. Le chef Yoann aura à cœur de vous faire déguster
-        des <strong>recettes traditionnelles</strong> comme les œufs pochés sauce
-        bourguignonne ou le traditionnel poireau vinaigrette.
-      </p>
-
-      <p>
-        Tous nos plats sont préparés <strong>sur place</strong> à partir de produits
-        bruts - fait maison et au maximum avec des produits locaux. Nous sélectionnons
-        nos produits pour leur qualité et aussi les <strong
-          >valeurs environnementales et humaines</strong
-        > de chaque fournisseur.
-      </p>
-
-      <p>
-        Pendant que Yoann sera au fourneau toute la journée à vous raviver les
-        papilles, ne soyez pas surpris de croiser Simon sur un raft ou le soir
-        au service, c'est bien le même il n'a pas de jumeau ! Il a juste troqué
-        l'olive de la pagaie contre l'olive de l'apéro.
-      </p>
+      <Content />
 
       <p mt-6 font-italic b-l="solid primary 2" pl-4>Yoann et Simon CHARON</p>
     </div>
