@@ -54,7 +54,18 @@ function slugify(input: string) {
       <div relative>
         <input id="menu-checkbox" type="checkbox" hidden />
 
-        <label for="menu-checkbox" cursor-pointer bg-background-gray>
+        <label
+          for="menu-checkbox"
+          cursor-pointer
+          bg-background-gray
+          flex
+          items-center
+          gap-2
+          text-6
+          backdrop-blur-1
+        >
+          Sur cette page
+
           <i i-carbon-menu block w-8 h-8 class="menu-icon"></i>
 
           <i i-carbon-close hidden w-8 h-8 class="close-icon"></i>
