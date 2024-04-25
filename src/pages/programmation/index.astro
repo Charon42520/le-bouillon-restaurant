@@ -15,7 +15,11 @@ const events = rawEvents.sort(
 ---
 
 <Layout title="Welcome to Astro.">
-  <SEO slot="head" title="Le Bouillon des Eaux Vives | Programmation" />
+  <SEO
+    slot="head"
+    title="Le Bouillon des Eaux Vives | Programmation"
+    description="Programmation des événements organisés au restaurant Le Bouillon des Eaux Vives"
+  />
 
   <TopNav>Programmation</TopNav>
 
@@ -70,7 +74,7 @@ const events = rawEvents.sort(
                   </div>
 
                   <div>
-                    {new Intl.DateTimeFormat("en-US", {
+                    {new Intl.DateTimeFormat("fr", {
                       month: "short",
                     }).format(event.data.date)}
                   </div>
@@ -95,7 +99,7 @@ const events = rawEvents.sort(
         events.length === 0 && (
           <p flex items-center gap-2 justify-center mt-16>
             <i i-carbon-calendar block w-6 h-6 />
-            Pas encore d'évennement prévu
+            Pas encore d'événement prévu
           </p>
         )
       }

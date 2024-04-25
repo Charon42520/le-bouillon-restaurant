@@ -1,0 +1,12 @@
+{
+  "pages": [
+    {
+      "title": "Boissons",
+      "image": "@assets/menu-page-1.svg"
+    },
+    {
+      "title": "Déjeuner",
+      "image": "@assets/menu-page-2.svg"
+    }
+  ]
+}

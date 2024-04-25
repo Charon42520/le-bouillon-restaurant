@@ -17,6 +17,11 @@ const presentationPageCollection = defineCollection({
   }),
 });
 
+const menuPageCollection = defineCollection({
+  type: "data",
+  schema: ({ image }) => z.object({ pages: z.array(z.string()) }),
+});
+
 const eventsCollection = defineCollection({
   type: "content",
   schema: ({ image }) =>
@@ -32,4 +37,5 @@ export const collections = {
   "index-page": indexPageCollection,
   "presentation-page": presentationPageCollection,
   events: eventsCollection,
+  "menu-page": menuPageCollection,
 };
