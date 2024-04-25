@@ -1,6 +1,6 @@
 ---
 title: Soirée coinche
-date: 2024-05-29T10:23:00.000Z
+date: 2024-04-29T10:23:00.000Z
 summary: Petite soirée coinche à l'ancienne
 image: "@assets/cartes.jpg"
 ---
