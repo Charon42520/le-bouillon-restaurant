@@ -25,6 +25,25 @@ const menuPageCollection = defineCollection({
     }),
 });
 
+const dish = z.object({ name: z.string(), description: z.string() });
+
+const dayMenuPageCollection = defineCollection({
+  type: "data",
+  schema: z.object({
+    text: z.string(),
+    date: z.string(),
+    starters: z.array(dish),
+    additionalTextStarters: z.string(),
+    mainDishes: z.array(dish),
+    additionalTextMainDishes: z.string(),
+    deserts: z.array(dish),
+    additionalTextDeserts: z.string(),
+    oneDishPrice: z.number(),
+    twoDishesPrice: z.number(),
+    threeDishesPrice: z.number(),
+  }),
+});
+
 const eventsCollection = defineCollection({
   type: "content",
   schema: ({ image }) =>
@@ -41,4 +60,5 @@ export const collections = {
   "presentation-page": presentationPageCollection,
   events: eventsCollection,
   "menu-page": menuPageCollection,
+  "day-menu-page": dayMenuPageCollection,
 };

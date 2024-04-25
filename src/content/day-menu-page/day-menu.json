@@ -1,0 +1,40 @@
+{
+  "text": "Les midis en semaine, Le Bouillon des Eaux Vives vous propose un menu varié et savoureux.",
+  "date": "2024-04-26T14:22:00.000Z",
+  "starters": [
+    {
+      "name": "Carpaccio de tomates, green zebra, orange queen, mozzarella, pesto",
+      "description": ""
+    },
+    {
+      "name": "Œuf croustillant, crème de maïs, légumes antipasti",
+      "description": ""
+    }
+  ],
+  "additionalTextStarters": "Version CHARONiard de nos entrées +2 €",
+  "mainDishes": [
+    {
+      "name": "Ballotines de volaille farcie à l'abricot, sauce au miel",
+      "description": ""
+    },
+    {
+      "name": "Burger du Pilat + frites",
+      "description": "Galette de légumes, œuf poché, crème aux herbes, condiments"
+    }
+  ],
+  "additionalTextMainDishes": "Tous nos plats sont accompagnés de féculents et légumes du jour selon arrivage",
+  "deserts": [
+    {
+      "name": "Fondant au chocolat",
+      "description": ""
+    },
+    {
+      "name": "Coupe glacée Crêt de la Perdrix",
+      "description": "sorbet pomme, sorbet poire, coulis de fruits exotiques, brisure de St-Michel, chantilly maison"
+    }
+  ],
+  "additionalTextDeserts": "La composition de nos desserts changent selon l'humeur du chef, nous consulter",
+  "oneDishPrice": 14,
+  "twoDishesPrice": 18,
+  "threeDishesPrice": 22
+}

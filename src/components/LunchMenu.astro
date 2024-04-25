@@ -1,0 +1,59 @@
+---
+export interface Props {
+  oneDishPrice: number;
+  twoDishesPrice: number;
+  threeDishesPrice: number;
+}
+
+const { oneDishPrice, threeDishesPrice, twoDishesPrice } = Astro.props;
+---
+
+<article grid="~ md:cols-3" items-stretch gap-4>
+  <div
+    flex="~ col"
+    items-center
+    justify-center
+    p="x-6 y-6 md-6"
+    gap-4
+    border="dotted 2 primary"
+    rounded-full
+  >
+    <p text="5 primary nowrap" font-display>Plat du jour</p>
+
+    <p text-5 font-700>{oneDishPrice} €</p>
+  </div>
+
+  <div
+    flex="~ col"
+    items-center
+    justify-center
+    p-6
+    border="dotted 2 primary"
+    rounded-16
+  >
+    <p text="5 primary nowrap" font-display>Entrée / Plat</p>
+
+    <p>ou</p>
+
+    <p text="5 primary nowrap" font-display>Plat / Dessert</p>
+
+    <p text-5 font-700>{twoDishesPrice} €</p>
+  </div>
+
+  <div
+    flex="~ col"
+    items-center
+    justify-center
+    p-6
+    border="dotted 2 primary"
+    rounded-8
+  >
+    <p text="5 primary nowrap" font-display>Entrée</p>
+
+    <p text="5 primary nowrap" font-display>Plat</p>
+
+    <p text="5 primary nowrap" font-display>Dessert</p>
+
+    <p text-5 font-700>{threeDishesPrice} €</p>
+  </div>
+</article>

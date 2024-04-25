@@ -1,0 +1,19 @@
+---
+type Toto = {
+  date: Date | string;
+  locale: Intl.LocalesArgument;
+  options?: Intl.DateTimeFormatOptions;
+  class?: string;
+};
+
+export type Props = Toto;
+
+const { date, locale, options, class: className } = Astro.props;
+
+const datetime = typeof date === "string" ? date : date.toISOString();
+const dateObject = typeof date === "string" ? new Date(date) : date;
+---
+
+<time {datetime} class={className}
+  >{new Intl.DateTimeFormat(locale, options).format(dateObject)}</time
+>
