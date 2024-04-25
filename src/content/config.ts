@@ -17,7 +17,19 @@ const presentationPageCollection = defineCollection({
   }),
 });
 
+const eventsCollection = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      date: z.date(),
+      summary: z.string(),
+      image: image(),
+    }),
+});
+
 export const collections = {
   "index-page": indexPageCollection,
   "presentation-page": presentationPageCollection,
+  events: eventsCollection,
 };

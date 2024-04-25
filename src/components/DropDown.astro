@@ -1,0 +1,66 @@
+---
+const { summary } = Astro.props;
+
+const id = crypto.randomUUID();
+---
+
+<div>
+  <input {id} type="checkbox" hidden />
+  <details open>
+    <summary>
+      <label
+        for={id}
+        cursor-pointer
+        flex
+        items-center
+        justify-center
+        gap-2
+        text="center primary"
+        onclick="event.stopPropagation()"
+      >
+        {summary}
+
+        <i i-carbon-chevron-right block w-5 h-5></i>
+      </label>
+    </summary>
+
+    <slot />
+  </details>
+</div>
+
+<style>
+  details > summary {
+    list-style: none;
+  }
+
+  details > summary::marker, /* Latest Chrome, Edge, Firefox */ 
+  details > summary::-webkit-details-marker /* Safari */ {
+    display: none;
+  }
+
+  details {
+    --transitions-duration: 400ms;
+  }
+
+  input + details {
+    max-height: 1.5rem;
+    overflow-y: hidden;
+    transition: max-height var(--transitions-duration);
+
+    i {
+      transition: transform var(--transitions-duration);
+    }
+  }
+
+  input:checked {
+    + details {
+      max-height: 500rem;
+      transition: max-height var(--transitions-duration);
+
+      i {
+        transform: rotate(90deg);
+        transition: transform var(--transitions-duration);
+      }
+    }
+  }
+</style>

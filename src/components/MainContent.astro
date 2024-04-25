@@ -15,10 +15,3 @@ const { title } = Astro.props;
     <slot />
   </div>
 </main>
-
-<style>
-  main :global(*::selection) {
-    background-color: var(--primary);
-    color: var(--background-gray);
-  }
-</style>
