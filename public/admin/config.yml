@@ -22,14 +22,14 @@ collections:
           - { label: Titre, name: headline, widget: string }
           - { label: Contenu, name: body, widget: markdown }
       - label: "Présentation"
-        name: "index"
+        name: "presentation"
         file: "src/content/presentation-page/presentation.md"
         fields:
           - { label: Titre SEO, name: seoTitle, widget: string }
           - { label: Description SEO, name: seoDescription, widget: string }
           - { label: Contenu, name: body, widget: markdown }
       - label: "La carte"
-        name: "index"
+        name: "menu"
         file: "src/content/menu-page/menu.json"
         fields:
           - {

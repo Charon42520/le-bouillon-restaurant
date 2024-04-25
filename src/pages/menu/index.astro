@@ -3,13 +3,20 @@ import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { SEO } from "astro-seo";
+import { getEntry } from "astro:content";
 
-import page1 from "./menu-page-1.svg";
-import page2 from "./menu-page-2.svg";
-import page3 from "./menu-page-3.svg";
-import page4 from "./menu-page-4.svg";
-import page5 from "./menu-page-5.svg";
-import page6 from "./menu-page-6.svg";
+const menuPages = await getEntry("menu-page", "menu");
+
+function slugify(input: string) {
+  return input
+    .toLowerCase()
+    .trim()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9\s-]/g, " ")
+    .trim()
+    .replace(/[\s-]+/g, "-");
+}
 ---
 
 <Layout title="Welcome to Astro.">
@@ -31,47 +38,16 @@ import page6 from "./menu-page-6.svg";
     <div max-w-150 m-x-auto>
       <h1 hidden>La carte</h1>
 
-      <img
-        id="boissons"
-        {...page1}
-        alt="Page 1 du menu du restaurant Le Bouillon des Eaux Vives"
-        class="w-full"
-      />
-
-      <img
-        id="dejeuner"
-        {...page2}
-        alt="Page 3 du menu du restaurant Le Bouillon des Eaux Vives"
-        class="w-full"
-      />
-
-      <img
-        id="dessert"
-        {...page3}
-        alt="Page 4 du menu du restaurant Le Bouillon des Eaux Vives"
-        class="w-full"
-      />
-
-      <img
-        id="snacking-sucre"
-        {...page4}
-        alt="Page 5 du menu du restaurant Le Bouillon des Eaux Vives"
-        class="w-full"
-      />
-
-      <img
-        id="snacking-sale"
-        {...page5}
-        alt="Page 6 du menu du restaurant Le Bouillon des Eaux Vives"
-        class="w-full"
-      />
-
-      <img
-        id="afterwork"
-        {...page6}
-        alt="Page 7 du menu du restaurant Le Bouillon des Eaux Vives"
-        class="w-full"
-      />
+      {
+        menuPages.data.pages.map((page) => (
+          <img
+            id={slugify(page.title)}
+            {...page.image}
+            alt="Page 1 du menu du restaurant Le Bouillon des Eaux Vives"
+            class="w-full"
+          />
+        ))
+      }
     </div>
 
     <div fixed right-4 md:right-42 bottom-4 text-primary>
@@ -96,29 +72,13 @@ import page6 from "./menu-page-6.svg";
           p-x-4
           onclick="document.getElementById('menu-checkbox').click()"
         >
-          <li mt-4>
-            <a href="#boissons">Boissons</a>
-          </li>
-
-          <li>
-            <a href="#dejeuner">Déjeuner</a>
-          </li>
-
-          <li>
-            <a href="#dessert">Dessert</a>
-          </li>
-
-          <li>
-            <a href="#snacking-sucre">Snacking sucré</a>
-          </li>
-
-          <li>
-            <a href="#snacking-sale">Snacking salé</a>
-          </li>
-
-          <li mb-4>
-            <a href="#afterwork">Afterwork</a>
-          </li>
+          {
+            menuPages.data.pages.map((page) => (
+              <li mt-4>
+                <a href={`#${slugify(page.title)}`}>{page.title}</a>
+              </li>
+            ))
+          }
         </ul>
       </div>
     </div>
