@@ -19,7 +19,10 @@ const presentationPageCollection = defineCollection({
 
 const menuPageCollection = defineCollection({
   type: "data",
-  schema: ({ image }) => z.object({ pages: z.array(z.string()) }),
+  schema: ({ image }) =>
+    z.object({
+      pages: z.array(z.object({ title: z.string(), image: image() })),
+    }),
 });
 
 const eventsCollection = defineCollection({
