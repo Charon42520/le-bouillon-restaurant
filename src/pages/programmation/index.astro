@@ -7,8 +7,6 @@ import { SEO } from "astro-seo";
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 
-import soccerPicture from "./_soccer.jpg";
-
 const rawEvents = await getCollection("events");
 
 const events = rawEvents.sort(
@@ -24,16 +22,8 @@ const events = rawEvents.sort(
   <SideNav showIndexLink showPresentationLink showMenuLink showDayMenuLink />
 
   <main h-full text-gray-800 grow p-8 overflow-y-auto bg-background-gray>
-    <div max-w-150 m-x-auto>
-      <h1
-        hidden
-        md:block
-        text="8 md:center"
-        uppercase
-        font-display
-        font-normal
-        mb-8
-      >
+    <div max-w-150 m-x-auto flex="~ col" gap-8 md:gap-12>
+      <h1 hidden md:block text="8 md:center" uppercase font-display font-normal>
         Programmation
       </h1>
 
@@ -42,7 +32,7 @@ const events = rawEvents.sort(
           const { Content } = await event.render();
 
           return (
-            <article shadow-xl rounded-xl flex="~ col" mt-8 overflow-hidden>
+            <article shadow-xl rounded-xl flex="~ col" overflow-hidden>
               <div relative>
                 <Image
                   src={event.data.image}
