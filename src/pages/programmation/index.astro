@@ -9,7 +9,11 @@ import { getCollection } from "astro:content";
 
 import soccerPicture from "./_soccer.jpg";
 
-const events = await getCollection("events");
+const rawEvents = await getCollection("events");
+
+const events = rawEvents.sort(
+  (e1, e2) => e1.data.date.getTime() - e2.data.date.getTime()
+);
 ---
 
 <Layout title="Welcome to Astro.">
@@ -38,12 +42,12 @@ const events = await getCollection("events");
           const { Content } = await event.render();
 
           return (
-            <article shadow-xl rounded flex="~ col" mt-8>
+            <article shadow-xl rounded-xl flex="~ col" mt-8 overflow-hidden>
               <div relative>
                 <Image
                   src={event.data.image}
                   alt="Football"
-                  class="w-full h-50 object-cover shrink-0 rounded-tl rounded-tr"
+                  class="w-full h-50 object-cover shrink-0"
                 />
 
                 <h2
@@ -70,7 +74,6 @@ const events = await getCollection("events");
                   p="x-2 y-1"
                   flex="~ col"
                   items-center
-                  rounded-tr
                 >
                   <div text-7 leading-7>
                     {event.data.date.getDate()}
