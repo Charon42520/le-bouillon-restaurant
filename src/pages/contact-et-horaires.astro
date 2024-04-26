@@ -21,45 +21,63 @@ import { SEO } from "astro-seo";
 
   <MainContent title="Contact et horaires">
     <ul mx-auto mt-12>
-      <li>
-        <a href="tel:+33631146119" flex items-center gap-4 mt-4>
-          <i block shrink-0 i-carbon-phone-filled w-6 h-6></i>
-
-          +33 (0) 6 31 14 61 19
-        </a>
-      </li>
-
-      <li>
+      <li text-primary>
         <a
-          href="mailto:cuisine.lebouillon@gmail.com"
+          href="tel:+33631146119"
+          underline="~ offset-2"
           flex
           items-center
-          gap-4
-          mt-4
+          mt-8
         >
-          <i block shrink-0 i-carbon-email w-6 h-6></i>
+          <i i-carbon-phone-filled block shrink-0 w-6 h-6 mr-4></i>
 
-          cuisine.lebouillon@gmail.com
+          <span>
+            +33 (0) 6 31 14 61 19
+
+            <i i-carbon-launch inline-block ml-1 translate-y-0.75></i>
+          </span>
         </a>
       </li>
 
-      <li>
+      <li text-primary>
+        <a
+          href="mailto:cuisine.lebouillon@gmail.com"
+          underline="~ offset-2"
+          flex
+          items-center
+          mt-8
+        >
+          <i i-carbon-email block shrink-0 w-6 h-6 mr-4></i>
+
+          <span>
+            cuisine.lebouillon@gmail.com
+
+            <i i-carbon-launch inline-block ml-1 translate-y-0.75></i>
+          </span>
+        </a>
+      </li>
+
+      <li text-primary>
         <a
           href="https://maps.app.goo.gl/7qAtAwBvfr87odiA6"
           target="_blank"
+          underline="~ offset-2"
           flex
           items-center
-          gap-4
-          mt-4
+          mt-8
         >
-          <i block shrink-0 i-carbon-location w-6 h-6></i>
+          <i i-carbon-location block shrink-0 w-6 h-6 mr-4></i>
 
-          Av. du Rhône, 42520 Saint-Pierre-de-Bœuf
+          <span>
+            Av. du Rhône, 42520 Saint-Pierre-de-Bœuf
+
+            <i i-carbon-launch inline-block ml-1 translate-y-0.75></i>
+          </span>
         </a>
       </li>
 
-      <li flex items-center gap-4 mt-4>
-        <i block shrink-0 i-carbon-calendar w-6 h-6></i>
+      <li flex items-center gap-4 mt-8>
+        <i i-carbon-calendar block shrink-0 w-6 h-6></i>
 
         Ouvert de 9h à 22h tous les jours (fin de service à 21h30)
       </li>
