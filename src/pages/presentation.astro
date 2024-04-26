@@ -12,7 +12,7 @@ const { Content } = await render();
 ---
 
 <Layout title="Welcome to Astro.">
-  <SEO slot="head" title={data.seoTitle} description={data.seoDescription} />
+  <SEO slot="head" title={data.seo.title} description={data.seo.description} />
 
   <TopNav>Présentation</TopNav>
 
@@ -22,7 +22,7 @@ const { Content } = await render();
     <div mt-6 class="markdown">
       <Content />
 
-      <p mt-6 font-italic b-l="solid primary 2" pl-4>Yoann et Simon CHARON</p>
+      <p mt-6 font-italic b-l="solid primary 2" pl-4>{data.signature}</p>
     </div>
   </MainContent>
 

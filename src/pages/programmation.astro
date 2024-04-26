@@ -4,7 +4,9 @@ import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { SEO } from "astro-seo";
-import { getCollection } from "astro:content";
+import { getCollection, getEntry } from "astro:content";
+
+const { data } = await getEntry("events-page", "events");
 
 const rawEvents = await getCollection("events");
 
@@ -22,11 +24,7 @@ for (let i = 0; i < events.length; i++) {
 ---
 
 <Layout title="Welcome to Astro.">
-  <SEO
-    slot="head"
-    title="Le Bouillon des Eaux Vives | Programmation"
-    description="Programmation des événements organisés au restaurant Le Bouillon des Eaux Vives"
-  />
+  <SEO slot="head" title={data.seo.title} description={data.seo.description} />
 
   <TopNav>Programmation</TopNav>
 

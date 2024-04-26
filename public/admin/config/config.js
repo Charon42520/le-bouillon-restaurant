@@ -1,6 +1,7 @@
 import { contactHoursPage } from "./contact-hours-page.js";
 import { dayMenuPage } from "./day-menu-page.js";
-import { eventsCollection } from "./eventsCollection.js";
+import { eventsCollection } from "./events-collection.js";
+import { eventsPage } from "./events-page.js";
 import { indexPage } from "./index-page.js";
 import { menuPage } from "./menu-page.js";
 import { presentationPage } from "./presentation-page.js";
@@ -35,6 +36,7 @@ export const config = {
         presentationPage,
         menuPage,
         dayMenuPage,
+        eventsPage,
         contactHoursPage,
       ],
     },

@@ -1,3 +1,5 @@
+import { seoField } from "./seo-field.js";
+
 const dishFields = [
   {
     label: "Nom",
@@ -17,6 +19,7 @@ export const dayMenuPage = {
   name: "day-menu",
   file: "src/content/day-menu-page/day-menu.json",
   fields: [
+    seoField,
     {
       label: "Introduction",
       name: "text",

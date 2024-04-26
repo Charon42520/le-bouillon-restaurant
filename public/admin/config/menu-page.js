@@ -1,8 +1,11 @@
+import { seoField } from "./seo-field.js";
+
 export const menuPage = {
   label: "La carte",
   name: "menu",
   file: "src/content/menu-page/menu.json",
   fields: [
+    seoField,
     {
       label: "Pages",
       name: "pages",

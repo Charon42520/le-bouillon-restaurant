@@ -12,7 +12,7 @@ const { Content } = await render();
 ---
 
 <Layout title="Welcome to Astro.">
-  <SEO slot="head" title={data.seoTitle} description={data.seoDescription} />
+  <SEO slot="head" title={data.seo.title} description={data.seo.description} />
 
   <TopNav />
 
@@ -34,7 +34,7 @@ const { Content } = await render();
     </p>
 
     <h1 hidden>
-      {data.seoTitle}
+      {data.seo.title}
     </h1>
 
     <h2 text-7 font-display>{data.headline}</h2>

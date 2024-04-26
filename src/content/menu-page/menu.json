@@ -24,5 +24,9 @@
       "title": "Afterwork",
       "image": "@assets/menu-page-6.svg"
     }
-  ]
+  ],
+  "seo": {
+    "description": "Carte du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf.",
+    "title": "Le Bouillon des Eaux Vives | La carte"
+  }
 }

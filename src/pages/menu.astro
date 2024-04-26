@@ -5,7 +5,7 @@ import Layout from "@layouts/Layout.astro";
 import { SEO } from "astro-seo";
 import { getEntry } from "astro:content";
 
-const menuPages = await getEntry("menu-page", "menu");
+const { data } = await getEntry("menu-page", "menu");
 
 function slugify(input: string) {
   return input
@@ -20,7 +20,7 @@ function slugify(input: string) {
 ---
 
 <Layout title="Welcome to Astro.">
-  <SEO slot="head" title="Le Bouillon des Eaux Vives | La carte" />
+  <SEO slot="head" title={data.seo.title} description={data.seo.description} />
 
   <TopNav>La carte</TopNav>
 
@@ -39,7 +39,7 @@ function slugify(input: string) {
       <h1 hidden>La carte</h1>
 
       {
-        menuPages.data.pages.map((page) => (
+        data.pages.map((page) => (
           <img
             id={slugify(page.title)}
             {...page.image}
@@ -83,10 +83,10 @@ function slugify(input: string) {
           text="right nowrap 6"
           z-1
           p-x-4
-          onclick="document.getElementById('menu-checkbox').click()"
+          onclick="document.getElementById('menu-checkbox')?.click()"
         >
           {
-            menuPages.data.pages.map((page) => (
+            data.pages.map((page) => (
               <li mt-4>
                 <a href={`#${slugify(page.title)}`}>{page.title}</a>
               </li>

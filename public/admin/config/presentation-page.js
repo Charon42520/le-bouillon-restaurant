@@ -1,22 +1,20 @@
+import { seoField } from "./seo-field.js";
+
 export const presentationPage = {
   label: "Présentation",
   name: "presentation",
   file: "src/content/presentation-page/presentation.md",
   fields: [
-    {
-      label: "Titre SEO",
-      name: "seoTitle",
-      widget: "string",
-    },
-    {
-      label: "Description SEO",
-      name: "seoDescription",
-      widget: "string",
-    },
+    seoField,
     {
       label: "Contenu",
       name: "body",
       widget: "markdown",
+    },
+    {
+      label: "Signature",
+      name: "signature",
+      widget: "string",
     },
   ],
 };

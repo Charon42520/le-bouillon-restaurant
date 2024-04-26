@@ -36,5 +36,9 @@
   "additionalTextDeserts": "La composition de nos desserts changent selon l'humeur du chef, nous consulter",
   "oneDishPrice": 14,
   "twoDishesPrice": 18,
-  "threeDishesPrice": 22
+  "threeDishesPrice": 22,
+  "seo": {
+    "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf.",
+    "title": "Le Bouillon des Eaux Vives | Menu du jour"
+  }
 }

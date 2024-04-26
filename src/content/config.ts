@@ -8,24 +8,21 @@ const seo = z.object({
 const indexPageCollection = defineCollection({
   type: "content",
   schema: z.object({
-    seoTitle: z.string(),
-    seoDescription: z.string(),
+    seo,
     headline: z.string(),
   }),
 });
 
 const presentationPageCollection = defineCollection({
   type: "content",
-  schema: z.object({
-    seoTitle: z.string(),
-    seoDescription: z.string(),
-  }),
+  schema: z.object({ seo, signature: z.string() }),
 });
 
 const menuPageCollection = defineCollection({
   type: "data",
   schema: ({ image }) =>
     z.object({
+      seo,
       pages: z.array(z.object({ title: z.string(), image: image() })),
     }),
 });
@@ -35,6 +32,7 @@ const dish = z.object({ name: z.string(), description: z.string() });
 const dayMenuPageCollection = defineCollection({
   type: "data",
   schema: z.object({
+    seo,
     text: z.string(),
     date: z.string(),
     starters: z.array(dish),
@@ -47,6 +45,11 @@ const dayMenuPageCollection = defineCollection({
     twoDishesPrice: z.number(),
     threeDishesPrice: z.number(),
   }),
+});
+
+const eventsPageCollection = defineCollection({
+  type: "data",
+  schema: z.object({ seo }),
 });
 
 const contactField = z.object({
@@ -79,8 +82,9 @@ const eventsCollection = defineCollection({
 export const collections = {
   "index-page": indexPageCollection,
   "presentation-page": presentationPageCollection,
-  events: eventsCollection,
   "menu-page": menuPageCollection,
   "day-menu-page": dayMenuPageCollection,
+  "events-page": eventsPageCollection,
+  events: eventsCollection,
   "contact-hours-page": contactHoursCollection,
 };

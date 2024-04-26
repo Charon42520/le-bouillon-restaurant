@@ -13,11 +13,7 @@ const { data } = await getEntry("day-menu-page", "day-menu");
 ---
 
 <Layout title="Welcome to Astro.">
-  <SEO
-    slot="head"
-    title="Le Bouillon des Eaux Vives | Menu du jour"
-    description="Menu du jour du restaurant Le Bouillon des Eaux Vives"
-  />
+  <SEO slot="head" title={data.seo.title} description={data.seo.description} />
 
   <TopNav>Menu du jour</TopNav>
 
