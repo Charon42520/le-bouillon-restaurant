@@ -1,5 +1,10 @@
 import { z, defineCollection } from "astro:content";
 
+const seo = z.object({
+  title: z.string(),
+  description: z.string(),
+});
+
 const indexPageCollection = defineCollection({
   type: "content",
   schema: z.object({
@@ -44,6 +49,22 @@ const dayMenuPageCollection = defineCollection({
   }),
 });
 
+const contactField = z.object({
+  displayedText: z.string(),
+  link: z.string(),
+});
+
+const contactHoursCollection = defineCollection({
+  type: "data",
+  schema: z.object({
+    seo,
+    phone: contactField,
+    email: contactField,
+    address: contactField,
+    hours: z.string(),
+  }),
+});
+
 const eventsCollection = defineCollection({
   type: "content",
   schema: ({ image }) =>
@@ -61,4 +82,5 @@ export const collections = {
   events: eventsCollection,
   "menu-page": menuPageCollection,
   "day-menu-page": dayMenuPageCollection,
+  "contact-hours-page": contactHoursCollection,
 };

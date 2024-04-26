@@ -1,0 +1,19 @@
+{
+  "seo": {
+    "title": "Le BOUILLON des Eaux-Vives | Contact et horaires",
+    "description": "Informations de contact et horaires du restaurant le BOUILLON des Eaux-Vives"
+  },
+  "phone": {
+    "displayedText": "+33 (0) 6 31 14 61 19",
+    "link": "+33631146119"
+  },
+  "email": {
+    "displayedText": "cuisine.lebouillon@gmail.com",
+    "link": "cuisine.lebouillon@gmail.com"
+  },
+  "address": {
+    "displayedText": "Av. du Rhône, 42520 Saint-Pierre-de-Bœuf",
+    "link": "https://maps.app.goo.gl/7qAtAwBvfr87odiA6"
+  },
+  "hours": "Ouvert de 9h à 22h tous les jours (fin de service à 21h30)"
+}

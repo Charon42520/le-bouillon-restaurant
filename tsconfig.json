@@ -3,10 +3,10 @@
   "compilerOptions": {
     "strictNullChecks": true,
     "allowJs": true,
+    "checkJs": true,
     "baseUrl": ".",
     "paths": {
       "@components/*": ["src/components/*"],
-      "@content/*": ["src/content/*"],
       "@assets/*": ["src/assets/*"],
       "@layouts/*": ["src/layouts/*"]
     }

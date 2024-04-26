@@ -4,10 +4,13 @@ import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { SEO } from "astro-seo";
+import { getEntry } from "astro:content";
+
+const { data } = await getEntry("contact-hours-page", "contact-hours");
 ---
 
 <Layout title="Welcome to Astro.">
-  <SEO slot="head" title="Le Bouillon des Eaux Vives | Contact" />
+  <SEO slot="head" title={data.seo.title} description={data.seo.description} />
 
   <TopNav>Contact et horaires</TopNav>
 
@@ -20,19 +23,18 @@ import { SEO } from "astro-seo";
   />
 
   <MainContent title="Contact et horaires">
-    <ul mx-auto mt-12>
+    <ul mx-auto mt-8>
       <li text-primary>
         <a
-          href="tel:+33631146119"
+          href={`tel:${data.phone.link}`}
           underline="~ offset-2"
           flex
           items-center
-          mt-8
         >
           <i i-carbon-phone-filled block shrink-0 w-6 h-6 mr-4></i>
 
           <span>
-            +33 (0) 6 31 14 61 19
+            {data.phone.displayedText}
 
             <i i-carbon-launch inline-block ml-1 translate-y-0.75></i>
           </span>
@@ -41,7 +43,7 @@ import { SEO } from "astro-seo";
 
       <li text-primary>
         <a
-          href="mailto:cuisine.lebouillon@gmail.com"
+          href={`mailto:${data.email.link}`}
           underline="~ offset-2"
           flex
           items-center
@@ -50,7 +52,7 @@ import { SEO } from "astro-seo";
           <i i-carbon-email block shrink-0 w-6 h-6 mr-4></i>
 
           <span>
-            cuisine.lebouillon@gmail.com
+            {data.email.displayedText}
 
             <i i-carbon-launch inline-block ml-1 translate-y-0.75></i>
           </span>
@@ -59,7 +61,7 @@ import { SEO } from "astro-seo";
 
       <li text-primary>
         <a
-          href="https://maps.app.goo.gl/7qAtAwBvfr87odiA6"
+          href={data.address.link}
           target="_blank"
           underline="~ offset-2"
           flex
@@ -69,7 +71,7 @@ import { SEO } from "astro-seo";
           <i i-carbon-location block shrink-0 w-6 h-6 mr-4></i>
 
           <span>
-            Av. du Rhône, 42520 Saint-Pierre-de-Bœuf
+            {data.address.displayedText}
 
             <i i-carbon-launch inline-block ml-1 translate-y-0.75></i>
           </span>
@@ -79,7 +81,7 @@ import { SEO } from "astro-seo";
       <li flex items-center gap-4 mt-8>
         <i i-carbon-calendar block shrink-0 w-6 h-6></i>
 
-        Ouvert de 9h à 22h tous les jours (fin de service à 21h30)
+        {data.hours}
       </li>
     </ul>
   </MainContent>

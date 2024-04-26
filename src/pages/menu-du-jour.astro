@@ -7,7 +7,6 @@ import Time from "@components/Time.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { SEO } from "astro-seo";
-import { date } from "astro/zod";
 import { getEntry } from "astro:content";
 
 const { data } = await getEntry("day-menu-page", "day-menu");
