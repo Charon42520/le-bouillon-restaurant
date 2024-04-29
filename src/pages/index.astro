@@ -47,30 +47,46 @@ const { Content } = await render();
       <Content />
     </div>
 
-    <div flex items-center justify-center gap-4>
-      <a href={`tel:${contactData.phone.link}`} target="_blank">
-        <i i-carbon-phone-filled block w-6 h-6></i>
-      </a>
+    <div>
+      <ul flex items-center justify-center gap-4>
+        <li>
+          <a href={`tel:${contactData.phone.link}`} target="_blank">
+            <i i-carbon-phone-filled block w-6 h-6></i>
+          </a>
+        </li>
 
-      <a href={`mailto:${contactData.email.link}`} target="_blank">
-        <i i-carbon-email block w-6 h-6></i>
-      </a>
+        <li>
+          <a href={`mailto:${contactData.email.link}`} target="_blank">
+            <i i-carbon-email block w-6 h-6></i>
+          </a>
+        </li>
 
-      <a href={contactData.address.link} target="_blank">
-        <i i-carbon-location block w-6 h-6></i>
-      </a>
+        <li>
+          <a href={contactData.address.link} target="_blank">
+            <i i-carbon-location block w-6 h-6></i>
+          </a>
+        </li>
 
-      <a href={contactData.instagram.link} target="_blank">
-        <i i-carbon-logo-instagram block w-6 h-6></i>
-      </a>
+        <li>
+          <a href={contactData.instagram.link} target="_blank">
+            <i i-carbon-logo-instagram block w-6 h-6></i>
+          </a>
+        </li>
 
-      <a href={contactData.facebook.link} target="_blank">
-        <i i-carbon-logo-facebook block w-6 h-6></i>
-      </a>
+        <li>
+          <a href={contactData.facebook.link} target="_blank">
+            <i i-carbon-logo-facebook block w-6 h-6></i>
+          </a>
+        </li>
 
-      <a href={contactData.linkedin.link} target="_blank">
-        <i i-carbon-logo-linkedin block w-6 h-6></i>
-      </a>
+        <li>
+          <a href={contactData.linkedin.link} target="_blank">
+            <i i-carbon-logo-linkedin block w-6 h-6></i>
+          </a>
+        </li>
+      </ul>
+
+      <p mt-4>{contactData.hours}</p>
     </div>
   </main>
 </Layout>

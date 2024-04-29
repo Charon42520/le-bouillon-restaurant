@@ -4,6 +4,8 @@ import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { SEO } from "astro-seo";
 import { getEntry } from "astro:content";
+import leaf from "@components/leaf.svg";
+import heart from "@components/heart.svg";
 
 const { data } = await getEntry("menu-page", "menu");
 
@@ -30,13 +32,27 @@ function slugify(input: string) {
     h-full
     text-gray-800
     grow
-    p="t-8 b-16"
+    p="t4 md:t-8 b-16"
     overflow-y-auto
     bg-background-gray
     scroll-smooth
   >
     <div max-w-150 m-x-auto>
-      <h1 hidden>La carte</h1>
+      <h1 hidden md:block text="8 md:center" uppercase font-display font-normal>
+        La carte
+      </h1>
+
+      <p m="t-4 x-4">
+        <img {...leaf} inline-block w-5 h-5 />
+
+        Plat végétarien
+      </p>
+
+      <p m-4>
+        <img {...heart} inline-block w-5 h-5 />
+
+        Coup de cœur du chef
+      </p>
 
       {
         data.pages.map((page) => (
