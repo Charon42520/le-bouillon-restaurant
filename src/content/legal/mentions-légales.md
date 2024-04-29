@@ -1,8 +1,17 @@
 ---
 title: Mentions légales
 ---
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae sint voluptas dicta saepe est debitis ex cum quis quia facere, unde tempore et vel quo, voluptates, eaque eligendi error?
+### **Brasserie - Le Bouillon des Eaux-Vives**
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae sint voluptas dicta saepe est debitis ex cum quis quia facere, unde tempore et vel quo, voluptates, eaque eligendi error?
+Avenue du Rhône, 42520 Saint-Pierre-de-Boeuf
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae sint voluptas dicta saepe est debitis ex cum quis quia facere, unde tempore et vel quo, voluptates, eaque eligendi error?
+SASU O'BROTHERS - capital social 1000€
+
+Grenoble B 984 598 672
+984598672
+FR43984598672
+
+69 avenue Zella Mehlis, 38400 Saint-Martin-d'Hères
+contact : brasserieobrothers[at]gmail.com
+
+Site hébergé par CLOUDFLARE
