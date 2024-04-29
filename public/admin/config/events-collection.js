@@ -17,7 +17,7 @@ export const eventsCollection = {
     {
       label: "Description",
       name: "summary",
-      widget: "string",
+      widget: "text",
     },
     {
       label: "Image",
