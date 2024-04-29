@@ -78,6 +78,63 @@ const { data } = await getEntry("contact-hours-page", "contact-hours");
         </a>
       </li>
 
+      <li text-primary>
+        <a
+          href={data.instagram.link}
+          target="_blank"
+          underline="~ offset-2"
+          flex
+          items-center
+          mt-8
+        >
+          <i i-carbon-logo-instagram block shrink-0 w-6 h-6 mr-4></i>
+
+          <span>
+            {data.instagram.displayedText}
+
+            <i i-carbon-launch inline-block ml-1 translate-y-0.75></i>
+          </span>
+        </a>
+      </li>
+
+      <li text-primary>
+        <a
+          href={data.facebook.link}
+          target="_blank"
+          underline="~ offset-2"
+          flex
+          items-center
+          mt-8
+        >
+          <i i-carbon-logo-facebook block shrink-0 w-6 h-6 mr-4></i>
+
+          <span>
+            {data.facebook.displayedText}
+
+            <i i-carbon-launch inline-block ml-1 translate-y-0.75></i>
+          </span>
+        </a>
+      </li>
+
+      <li text-primary>
+        <a
+          href={data.linkedin.link}
+          target="_blank"
+          underline="~ offset-2"
+          flex
+          items-center
+          mt-8
+        >
+          <i i-carbon-logo-linkedin block shrink-0 w-6 h-6 mr-4></i>
+
+          <span>
+            {data.address.displayedText}
+
+            <i i-carbon-launch inline-block ml-1 translate-y-0.75></i>
+          </span>
+        </a>
+      </li>
+
       <li flex items-center gap-4 mt-8>
         <i i-carbon-calendar block shrink-0 w-6 h-6></i>
 

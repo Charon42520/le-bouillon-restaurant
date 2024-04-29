@@ -64,6 +64,9 @@ const contactHoursCollection = defineCollection({
     phone: contactField,
     email: contactField,
     address: contactField,
+    instagram: contactField,
+    facebook: contactField,
+    linkedin: contactField,
     hours: z.string(),
   }),
 });

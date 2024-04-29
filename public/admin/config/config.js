@@ -26,7 +26,6 @@ export const config = {
   search: false,
   media_folder: "src/assets",
   public_folder: "@assets",
-  editor: { preview: false },
   collections: [
     {
       label: "Pages",

@@ -38,6 +38,24 @@ export const contactHoursPage = {
       fields: contactField,
     },
     {
+      label: "Instagram",
+      name: "instagram",
+      widget: "object",
+      fields: contactField,
+    },
+    {
+      label: "Facebook",
+      name: "facebook",
+      widget: "object",
+      fields: contactField,
+    },
+    {
+      label: "Linkedin",
+      name: "linkedin",
+      widget: "object",
+      fields: contactField,
+    },
+    {
       label: "Horaires",
       name: "hours",
       widget: "string",
