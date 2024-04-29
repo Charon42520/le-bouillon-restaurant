@@ -1,13 +1,14 @@
 ---
-import DropDown from "@components/DropDown.astro";
 import MainContent from "@components/MainContent.astro";
 import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { SEO } from "astro-seo";
+import { getCollection } from "astro:content";
 import { getEntry } from "astro:content";
 
-const { data } = await getEntry("contact-hours-page", "contact-hours");
+const legalSections = await getCollection("legal");
+const { data } = await getEntry("legal-page", "legal");
 ---
 
 <Layout title="Welcome to Astro.">
@@ -24,44 +25,52 @@ const { data } = await getEntry("contact-hours-page", "contact-hours");
   />
 
   <MainContent title="Infos légales">
-    <p>Charte graphique : Noémie Sardat</p>
+    <p md:mt-4>Charte graphique : Noémie Sardat</p>
 
-    <p>Réalisation du site web : Nicolas Rio</p>
+    <p mt-4>Réalisation du site web : Nicolas Rio</p>
 
-    <DropDown summary="Mentions légales">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae
-        sint voluptas dicta saepe est debitis ex cum quis quia facere, unde
-        tempore et vel quo, voluptates, eaque eligendi error?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae
-        sint voluptas dicta saepe est debitis ex cum quis quia facere, unde
-        tempore et vel quo, voluptates, eaque eligendi error?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae
-        sint voluptas dicta saepe est debitis ex cum quis quia facere, unde
-        tempore et vel quo, voluptates, eaque eligendi error?
-      </p>
-    </DropDown>
+    {
+      legalSections.map(async (section) => {
+        const { Content } = await section.render();
 
-    <DropDown summary="Politique de confidentialité">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae
-        sint voluptas dicta saepe est debitis ex cum quis quia facere, unde
-        tempore et vel quo, voluptates, eaque eligendi error?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae
-        sint voluptas dicta saepe est debitis ex cum quis quia facere, unde
-        tempore et vel quo, voluptates, eaque eligendi error?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae
-        sint voluptas dicta saepe est debitis ex cum quis quia facere, unde
-        tempore et vel quo, voluptates, eaque eligendi error?
-      </p>
-    </DropDown>
+        return (
+          <details>
+            <summary>
+              {section.data.title} <i i-carbon-chevron-right block w-5 h-5 />
+            </summary>
+
+            <div class="prose">
+              <Content />
+            </div>
+          </details>
+        );
+      })
+    }
   </MainContent>
 </Layout>
+
+<style>
+  details > summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  details summary i {
+    transition: transform 400ms;
+  }
+
+  details[open] summary i {
+    transform: rotate(90deg);
+    transition: transform 400ms;
+  }
+
+  details > summary::marker, /* Latest Chrome, Edge, Firefox */ 
+  details > summary::-webkit-details-marker /* Safari */ {
+    display: none;
+  }
+</style>

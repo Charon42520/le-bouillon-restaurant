@@ -75,6 +75,11 @@ const contactHoursCollection = defineCollection({
   }),
 });
 
+const legalPageCollection = defineCollection({
+  type: "data",
+  schema: z.object({ seo }),
+});
+
 const eventsCollection = defineCollection({
   type: "content",
   schema: ({ image }) =>
@@ -86,6 +91,11 @@ const eventsCollection = defineCollection({
     }),
 });
 
+const legalCollection = defineCollection({
+  type: "content",
+  schema: z.object({ title: z.string() }),
+});
+
 export const collections = {
   "index-page": indexPageCollection,
   "presentation-page": presentationPageCollection,
@@ -93,5 +103,7 @@ export const collections = {
   "day-menu-page": dayMenuPageCollection,
   "events-page": eventsPageCollection,
   events: eventsCollection,
+  "legal-page": legalPageCollection,
+  legal: legalCollection,
   "contact-hours-page": contactHoursCollection,
 };

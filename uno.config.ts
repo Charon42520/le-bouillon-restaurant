@@ -3,10 +3,16 @@ import {
   presetAttributify,
   presetIcons,
   presetUno,
+  presetTypography,
 } from "unocss";
 
 export default defineConfig({
-  presets: [presetAttributify(), presetUno(), presetIcons()],
+  presets: [
+    presetIcons(),
+    presetAttributify(),
+    presetTypography(),
+    presetUno(),
+  ],
   theme: {
     colors: {
       primary: "var(--primary)",

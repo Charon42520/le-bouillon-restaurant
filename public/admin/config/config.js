@@ -3,6 +3,8 @@ import { dayMenuPage } from "./day-menu-page.js";
 import { eventsCollection } from "./events-collection.js";
 import { eventsPage } from "./events-page.js";
 import { indexPage } from "./index-page.js";
+import { legalCollection } from "./legal-collection.js";
+import { legalPage } from "./legal-page copy.js";
 import { menuPage } from "./menu-page.js";
 import { presentationPage } from "./presentation-page.js";
 
@@ -37,8 +39,10 @@ export const config = {
         dayMenuPage,
         eventsPage,
         contactHoursPage,
+        legalPage,
       ],
     },
     eventsCollection,
+    legalCollection,
   ],
 };
