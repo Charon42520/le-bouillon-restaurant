@@ -1,5 +1,6 @@
 import { seoField } from "./seo-field.js";
 
+/** @type {import("decap-cms-core").CmsCollectionFile} */
 export const presentationPage = {
   label: "Présentation",
   name: "presentation",

@@ -1,3 +1,4 @@
+/** @type {import("decap-cms-core").CmsCollection} */
 export const eventsCollection = {
   label: "Evennements",
   name: "events",

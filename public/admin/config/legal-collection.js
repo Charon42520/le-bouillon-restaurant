@@ -1,3 +1,4 @@
+/** @type {import("decap-cms-core").CmsCollection} */
 export const legalCollection = {
   label: "Infos légales",
   name: "legal",

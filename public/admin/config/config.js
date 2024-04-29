@@ -4,17 +4,11 @@ import { eventsCollection } from "./events-collection.js";
 import { eventsPage } from "./events-page.js";
 import { indexPage } from "./index-page.js";
 import { legalCollection } from "./legal-collection.js";
-import { legalPage } from "./legal-page copy.js";
+import { legalPage } from "./legal-page.js";
 import { menuPage } from "./menu-page.js";
 import { presentationPage } from "./presentation-page.js";
 
-/**
- * @typedef {import('zod').z.infer<typeof import('../schema.js').schema>} DecapCmsConfig
- */
-
-/**
- * @type {DecapCmsConfig}
- */
+/** @type {import('decap-cms-core').CmsConfig} */
 export const config = {
   load_config_file: false,
   backend: {

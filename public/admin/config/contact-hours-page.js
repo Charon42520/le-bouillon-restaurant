@@ -13,6 +13,7 @@ const contactField = [
   },
 ];
 
+/** @type {import("decap-cms-core").CmsCollectionFile} */
 export const contactHoursPage = {
   label: "Contact et horaires",
   name: "contact-hours",

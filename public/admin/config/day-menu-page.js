@@ -14,6 +14,7 @@ const dishFields = [
   },
 ];
 
+/** @type {import("decap-cms-core").CmsCollectionFile} */
 export const dayMenuPage = {
   label: "Menu du jour",
   name: "day-menu",

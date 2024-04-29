@@ -1,3 +1,4 @@
+/** @type {import("decap-cms-core").CmsFieldObject} */
 export const seoField = {
   label: "Moteurs de recherche",
   name: "seo",

@@ -1,5 +1,6 @@
 import { seoField } from "./seo-field.js";
 
+/** @type {import("decap-cms-core").CmsCollectionFile} */
 export const indexPage = {
   label: "Accueil",
   name: "index",
