@@ -68,6 +68,10 @@ const contactHoursCollection = defineCollection({
     facebook: contactField,
     linkedin: contactField,
     hours: z.string(),
+    hiring: z.object({
+      displayedText: z.string(),
+      email: z.string(),
+    }),
   }),
 });
 

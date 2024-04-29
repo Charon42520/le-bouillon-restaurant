@@ -60,5 +60,22 @@ export const contactHoursPage = {
       name: "hours",
       widget: "string",
     },
+    {
+      label: "Recrutement",
+      name: "hiring",
+      widget: "object",
+      fields: [
+        {
+          label: "Texte",
+          name: "displayedText",
+          widget: "text",
+        },
+        {
+          label: "Adresse email",
+          name: "email",
+          widget: "string",
+        },
+      ],
+    },
   ],
 };
