@@ -27,7 +27,7 @@ const menuPageCollection = defineCollection({
     }),
 });
 
-const dish = z.object({ name: z.string(), description: z.string() });
+const dish = z.object({ name: z.string(), description: z.string().optional() });
 
 const dayMenuPageCollection = defineCollection({
   type: "data",
@@ -36,11 +36,11 @@ const dayMenuPageCollection = defineCollection({
     text: z.string(),
     date: z.string(),
     starters: z.array(dish),
-    additionalTextStarters: z.string(),
+    additionalTextStarters: z.string().optional(),
     mainDishes: z.array(dish),
-    additionalTextMainDishes: z.string(),
+    additionalTextMainDishes: z.string().optional(),
     deserts: z.array(dish),
-    additionalTextDeserts: z.string(),
+    additionalTextDeserts: z.string().optional(),
     oneDishPrice: z.number(),
     twoDishesPrice: z.number(),
     threeDishesPrice: z.number(),

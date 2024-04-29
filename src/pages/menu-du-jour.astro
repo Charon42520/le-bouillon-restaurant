@@ -43,11 +43,12 @@ const { data } = await getEntry("day-menu-page", "day-menu");
       </ul>
 
       {
-        data.additionalTextStarters.length !== 0 && (
-          <p mt-4 text="3.5 gray-500">
-            {data.additionalTextStarters}
-          </p>
-        )
+        data.additionalTextStarters &&
+          data.additionalTextStarters.length !== 0 && (
+            <p mt-4 text="3.5 gray-500">
+              {data.additionalTextStarters}
+            </p>
+          )
       }
 
       <h2 font="display bold" text="5 primary" mt-4>Plats</h2>
@@ -57,11 +58,12 @@ const { data } = await getEntry("day-menu-page", "day-menu");
       </ul>
 
       {
-        data.additionalTextMainDishes.length !== 0 && (
-          <p mt-4 text="3.5 gray-500">
-            {data.additionalTextMainDishes}
-          </p>
-        )
+        data.additionalTextMainDishes &&
+          data.additionalTextMainDishes.length !== 0 && (
+            <p mt-4 text="3.5 gray-500">
+              {data.additionalTextMainDishes}
+            </p>
+          )
       }
 
       <h2 font="display bold" text="5 primary" mt-4>Dessert</h2>
@@ -71,11 +73,12 @@ const { data } = await getEntry("day-menu-page", "day-menu");
       </ul>
 
       {
-        data.additionalTextDeserts.length !== 0 && (
-          <p mt-4 text="3.5 gray-500">
-            {data.additionalTextDeserts}
-          </p>
-        )
+        data.additionalTextDeserts &&
+          data.additionalTextDeserts.length !== 0 && (
+            <p mt-4 text="3.5 gray-500">
+              {data.additionalTextDeserts}
+            </p>
+          )
       }
     </div>
 
