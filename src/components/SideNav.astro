@@ -8,6 +8,7 @@ export interface Props {
   showDayMenuLink?: boolean;
   showProgramationLink?: boolean;
   showContactLink?: boolean;
+  showLegalLink?: boolean;
 }
 
 const {
@@ -17,6 +18,7 @@ const {
   showDayMenuLink,
   showProgramationLink,
   showContactLink,
+  showLegalLink,
 } = Astro.props;
 ---
 
@@ -90,6 +92,16 @@ const {
             class="nav-link rotated-text"
           >
             Contact et horaires
+          </a>
+        </li>
+      )
+    }
+
+    {
+      showLegalLink && (
+        <li text-primary bg-secondary-yellow>
+          <a href="/infos-legales" font-display class="nav-link rotated-text">
+            Infos légales
           </a>
         </li>
       )

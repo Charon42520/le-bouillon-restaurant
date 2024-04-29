@@ -1,0 +1,69 @@
+---
+import DropDown from "@components/DropDown.astro";
+import MainContent from "@components/MainContent.astro";
+import SideNav from "@components/SideNav.astro";
+import TopNav from "@components/TopNav.astro";
+import Layout from "@layouts/Layout.astro";
+import { SEO } from "astro-seo";
+import { getEntry } from "astro:content";
+
+const { data } = await getEntry("contact-hours-page", "contact-hours");
+---
+
+<Layout title="Welcome to Astro.">
+  <SEO slot="head" title={data.seo.title} description={data.seo.description} />
+
+  <TopNav>Infos légales</TopNav>
+
+  <SideNav
+    showIndexLink
+    showPresentationLink
+    showMenuLink
+    showDayMenuLink
+    showProgramationLink
+  />
+
+  <MainContent title="Infos légales">
+    <p>Charte graphique : Noémie Sardat</p>
+
+    <p>Réalisation du site web : Nicolas Rio</p>
+
+    <DropDown summary="Mentions légales">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae
+        sint voluptas dicta saepe est debitis ex cum quis quia facere, unde
+        tempore et vel quo, voluptates, eaque eligendi error?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae
+        sint voluptas dicta saepe est debitis ex cum quis quia facere, unde
+        tempore et vel quo, voluptates, eaque eligendi error?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae
+        sint voluptas dicta saepe est debitis ex cum quis quia facere, unde
+        tempore et vel quo, voluptates, eaque eligendi error?
+      </p>
+    </DropDown>
+
+    <DropDown summary="Politique de confidentialité">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae
+        sint voluptas dicta saepe est debitis ex cum quis quia facere, unde
+        tempore et vel quo, voluptates, eaque eligendi error?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae
+        sint voluptas dicta saepe est debitis ex cum quis quia facere, unde
+        tempore et vel quo, voluptates, eaque eligendi error?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae
+        sint voluptas dicta saepe est debitis ex cum quis quia facere, unde
+        tempore et vel quo, voluptates, eaque eligendi error?
+      </p>
+    </DropDown>
+  </MainContent>
+
+  <SideNav showLegalLink />
+</Layout>
