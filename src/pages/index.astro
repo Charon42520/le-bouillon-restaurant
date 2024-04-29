@@ -7,6 +7,10 @@ import { SEO } from "astro-seo";
 import { getEntry } from "astro:content";
 
 const { data, render } = await getEntry("index-page", "index");
+const { data: contactData } = await getEntry(
+  "contact-hours-page",
+  "contact-hours"
+);
 
 const { Content } = await render();
 ---
@@ -24,8 +28,8 @@ const { Content } = await render();
     flex="~ col"
     items-center
     justify-evenly
-    gap-12
-    py-12
+    gap-10
+    py-8
     px-4
     overflow-y-auto
   >
@@ -41,6 +45,32 @@ const { Content } = await render();
 
     <div>
       <Content />
+    </div>
+
+    <div flex items-center justify-center gap-4>
+      <a href={`tel:${contactData.phone.link}`} target="_blank">
+        <i i-carbon-phone-filled block w-6 h-6></i>
+      </a>
+
+      <a href={`mailto:${contactData.email.link}`} target="_blank">
+        <i i-carbon-email block w-6 h-6></i>
+      </a>
+
+      <a href={contactData.address.link} target="_blank">
+        <i i-carbon-location block w-6 h-6></i>
+      </a>
+
+      <a href={contactData.instagram.link} target="_blank">
+        <i i-carbon-logo-instagram block w-6 h-6></i>
+      </a>
+
+      <a href={contactData.facebook.link} target="_blank">
+        <i i-carbon-logo-facebook block w-6 h-6></i>
+      </a>
+
+      <a href={contactData.linkedin.link} target="_blank">
+        <i i-carbon-logo-linkedin block w-6 h-6></i>
+      </a>
     </div>
   </main>
 </Layout>
