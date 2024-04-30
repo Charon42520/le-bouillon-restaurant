@@ -1,4 +1,5 @@
 ---
+import CustomSeo from "@components/CustomSeo.astro";
 import Dish from "@components/Dish.astro";
 import LunchMenu from "@components/LunchMenu.astro";
 import MainContent from "@components/MainContent.astro";
@@ -6,14 +7,17 @@ import SideNav from "@components/SideNav.astro";
 import Time from "@components/Time.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
-import { SEO } from "astro-seo";
 import { getEntry } from "astro:content";
 
 const { data } = await getEntry("day-menu-page", "day-menu");
 ---
 
 <Layout title="Welcome to Astro.">
-  <SEO slot="head" title={data.seo.title} description={data.seo.description} />
+  <CustomSeo
+    slot="head"
+    title={data.seo.title}
+    description={data.seo.description}
+  />
 
   <TopNav>Menu du jour</TopNav>
 

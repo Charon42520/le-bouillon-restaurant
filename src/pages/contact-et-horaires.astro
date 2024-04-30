@@ -1,16 +1,20 @@
 ---
+import CustomSeo from "@components/CustomSeo.astro";
 import MainContent from "@components/MainContent.astro";
 import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
-import { SEO } from "astro-seo";
 import { getEntry } from "astro:content";
 
 const { data } = await getEntry("contact-hours-page", "contact-hours");
 ---
 
 <Layout title="Welcome to Astro.">
-  <SEO slot="head" title={data.seo.title} description={data.seo.description} />
+  <CustomSeo
+    slot="head"
+    title={data.seo.title}
+    description={data.seo.description}
+  />
 
   <TopNav>Contact et horaires</TopNav>
 

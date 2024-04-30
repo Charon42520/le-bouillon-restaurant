@@ -1,9 +1,9 @@
 ---
+import CustomSeo from "@components/CustomSeo.astro";
 import EventCard from "@components/EventCard.astro";
 import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
-import { SEO } from "astro-seo";
 import { getCollection, getEntry } from "astro:content";
 
 const { data } = await getEntry("events-page", "events");
@@ -24,7 +24,11 @@ for (let i = 0; i < events.length; i++) {
 ---
 
 <Layout title="Welcome to Astro.">
-  <SEO slot="head" title={data.seo.title} description={data.seo.description} />
+  <CustomSeo
+    slot="head"
+    title={data.seo.title}
+    description={data.seo.description}
+  />
 
   <TopNav>Programmation</TopNav>
 
