@@ -2,6 +2,7 @@
 import LogoSmall from "./LogoSmall.astro";
 ---
 
+<input type="checkbox" id="top-nav-checkbox" hidden />
 <aside block text-center relative class="md:hidden">
   <div
     p-2
@@ -34,13 +35,7 @@ import LogoSmall from "./LogoSmall.astro";
       </a>
     </span>
 
-    <button
-      type="button"
-      relative
-      w-12
-      h-12
-      onclick="this.closest('aside').classList.toggle('menu-opened')"
-    >
+    <label for="top-nav-checkbox" relative w-12 h-12 cursor-pointer>
       <i
         i-carbon-menu
         block
@@ -64,7 +59,7 @@ import LogoSmall from "./LogoSmall.astro";
         right-2
         bottom-2
         class="close-icon"></i>
-    </button>
+    </label>
   </div>
 
   <ul
@@ -130,7 +125,7 @@ import LogoSmall from "./LogoSmall.astro";
     transition: opacity 0.5s;
   }
 
-  aside.menu-opened {
+  input:checked + aside {
     ul {
       max-height: 20rem;
       transition: max-height 0.5s;
