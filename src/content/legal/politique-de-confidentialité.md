@@ -1,8 +1,4 @@
 ---
 title: Politique de confidentialité
 ---
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae sint voluptas dicta saepe est debitis ex cum quis quia facere, unde tempore et vel quo, voluptates, eaque eligendi error?
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae sint voluptas dicta saepe est debitis ex cum quis quia facere, unde tempore et vel quo, voluptates, eaque eligendi error?
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae sint voluptas dicta saepe est debitis ex cum quis quia facere, unde tempore et vel quo, voluptates, eaque eligendi error?
+Au Bouillon des Eaux-Vives, il n'y aucune politique de cookies à part ceux à manger en terrasse.
