@@ -1,27 +1,20 @@
 ---
 const { summary } = Astro.props;
-
-const id = crypto.randomUUID();
 ---
 
 <div>
-  <input {id} type="checkbox" hidden />
-  <details open>
-    <summary>
-      <label
-        for={id}
-        cursor-pointer
-        flex
-        items-center
-        justify-center
-        gap-2
-        text="center primary"
-        onclick="event?.stopPropagation()"
-      >
-        {summary}
+  <details>
+    <summary
+      cursor-pointer
+      flex
+      items-center
+      justify-center
+      gap-2
+      text="center primary"
+    >
+      {summary}
 
-        <i i-carbon-chevron-right block w-5 h-5></i>
-      </label>
+      <i i-carbon-chevron-right block w-5 h-5></i>
     </summary>
 
     <slot />
@@ -42,22 +35,11 @@ const id = crypto.randomUUID();
     --transitions-duration: 400ms;
   }
 
-  input + details {
-    max-height: 1.5rem;
-    overflow-y: hidden;
-    transition: max-height var(--transitions-duration);
-  }
-
-  input + details i {
+  details i {
     transition: transform var(--transitions-duration);
   }
 
-  input:checked + details {
-    max-height: 500rem;
-    transition: max-height var(--transitions-duration);
-  }
-
-  input:checked + details i {
+  details[open] i {
     transform: rotate(90deg);
     transition: transform var(--transitions-duration);
   }
