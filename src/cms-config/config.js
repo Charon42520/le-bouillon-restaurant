@@ -9,8 +9,7 @@ import { menuPage } from "./menu-page.js";
 import { presentationPage } from "./presentation-page.js";
 
 /** @type {import('decap-cms-core').CmsConfig} */
-export const config = {
-  load_config_file: false,
+export const cmsConfig = {
   backend: {
     name: "gitlab",
     branch: "develop",

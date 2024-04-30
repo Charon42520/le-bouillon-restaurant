@@ -3,6 +3,7 @@
   "compilerOptions": {
     "strictNullChecks": true,
     "allowJs": true,
+    "outDir": "dist",
     "baseUrl": ".",
     "paths": {
       "@components/*": ["src/components/*"],

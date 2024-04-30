@@ -13,6 +13,7 @@
     "@astrojs/check": "^0.5.10",
     "@iconify-json/carbon": "^1.1.31",
     "astro": "^4.5.14",
+    "astro-decap": "^0.0.2",
     "astro-seo": "^0.8.3",
     "typescript": "^5.4.3"
   },

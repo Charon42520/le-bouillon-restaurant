@@ -1,10 +1,17 @@
 import { defineConfig } from "astro/config";
-// import AstroDecapCms from "./src/astro-decap-cms/integration";
 import UnoCSS from "unocss/astro";
+import decapCms from "astro-decap";
+import { cmsConfig } from "./src/cms-config/config.js";
 
+// https://astro.build/config
 export default defineConfig({
   integrations: [
-    UnoCSS({ injectReset: true }),
-    // AstroDecapCms({ cmsConfig: { toto: "toto", titi: "tutu" } }),
+    UnoCSS({
+      injectReset: true,
+    }),
+    decapCms({
+      cmsConfig,
+      cmsScriptSrc: "https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js",
+    }),
   ],
 });
