@@ -49,7 +49,7 @@ const dayMenuPageCollection = defineCollection({
 
 const eventsPageCollection = defineCollection({
   type: "data",
-  schema: z.object({ seo }),
+  schema: z.object({ seo, noEventsText: z.string() }),
 });
 
 const contactField = z.object({

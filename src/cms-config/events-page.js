@@ -5,5 +5,12 @@ export const eventsPage = {
   label: "Programmation",
   name: "events-page",
   file: "src/content/events-page/events.json",
-  fields: [seoField],
+  fields: [
+    seoField,
+    {
+      label: "Texte affiché quand aucun événement prévu",
+      name: "noEventsText",
+      widget: "string",
+    },
+  ],
 };
