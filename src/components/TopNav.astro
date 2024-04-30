@@ -18,7 +18,7 @@ import LogoSmall from "./LogoSmall.astro";
       <LogoSmall class="w-10 h-10" />
     </a>
 
-    <span relative uppercase text="5 sm:6" font-display>
+    <span grow relative uppercase text="5 sm:6" font-display>
       <span
         absolute
         top-50%
@@ -35,7 +35,7 @@ import LogoSmall from "./LogoSmall.astro";
       </a>
     </span>
 
-    <label for="top-nav-checkbox" relative w-12 h-12 cursor-pointer block>
+    <label for="top-nav-checkbox" relative w-12 h-12 cursor-pointer>
       <i
         i-carbon-menu
         block
@@ -125,22 +125,20 @@ import LogoSmall from "./LogoSmall.astro";
     transition: opacity 0.5s;
   }
 
-  input:checked + aside {
-    ul {
-      max-height: 20rem;
-      transition: max-height 0.5s;
-    }
+  input:checked + aside ul {
+    max-height: 20rem;
+    transition: max-height 0.5s;
+  }
 
-    .menu-icon,
-    .slot-content {
-      opacity: 0;
-      transition: opacity 0.5s;
-    }
+  input:checked + aside .menu-icon,
+  input:checked + aside .slot-content {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
 
-    .close-icon,
-    .index-link {
-      opacity: 1;
-      transition: opacity 0.5s;
-    }
+  input:checked + aside .close-icon,
+  input:checked + aside .index-link {
+    opacity: 1;
+    transition: opacity 0.5s;
   }
 </style>
