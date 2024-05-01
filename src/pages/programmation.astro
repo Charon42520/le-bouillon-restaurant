@@ -10,9 +10,9 @@ const { data } = await getEntry("events-page", "events");
 
 const rawEvents = await getCollection("events");
 
-const events = rawEvents.sort(
-  (e1, e2) => e1.data.date.getTime() - e2.data.date.getTime()
-);
+const events = rawEvents
+  .sort((e1, e2) => e1.data.date.getTime() - e2.data.date.getTime())
+  .filter((e) => !e.id.includes("/"));
 
 const firstColumn: typeof events = [];
 const secondColumn: typeof events = [];
@@ -64,7 +64,7 @@ for (let i = 0; i < events.length; i++) {
       events.length === 0 && (
         <p flex items-center gap-2 justify-center mt-16>
           <i i-carbon-calendar block w-6 h-6 />
-          Pas encore d'événement prévu
+          {data.noEventsText}
         </p>
       )
     }
