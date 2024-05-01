@@ -6,7 +6,10 @@ import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { getCollection, getEntry } from "astro:content";
 
-const legalSections = await getCollection("legal");
+const legalSections = (await getCollection("legal")).filter(
+  (e) => !e.id.includes("/")
+);
+
 const { data } = await getEntry("legal-page", "legal");
 ---
 
