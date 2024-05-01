@@ -2,7 +2,7 @@
 export const eventsCollection = {
   label: "Evennements",
   name: "events",
-  folder: "src/content/events",
+  folder: "src/content/events/content",
   create: true,
   fields: [
     {
