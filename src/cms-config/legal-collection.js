@@ -2,7 +2,7 @@
 export const legalCollection = {
   label: "Infos légales",
   name: "legal",
-  folder: "src/content/legal",
+  folder: "src/content/legal/content",
   create: true,
   fields: [
     {
