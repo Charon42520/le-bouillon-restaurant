@@ -1,1 +1,1 @@
-export const WEBSITE_URL = "https://develop.le-bouillon-restaurant.pages.dev";
+export const WEBSITE_URL = "https://lebouillondeseauxvives.fr";
