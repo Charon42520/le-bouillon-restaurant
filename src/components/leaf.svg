@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2.270364mm"
+   height="2.61535mm"
+   viewBox="0 0 2.270364 2.61535"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
+   sodipodi:docname="leaf.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="14.367677"
+     inkscape:cx="6.2988611"
+     inkscape:cy="14.755343"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="1920"
+     inkscape:window-y="339"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-27.516631,-27.781214)">
+    <path
+       d="m 29.478704,29.011559 a 0.8043332,0.8043332 0 0 1 -0.382763,0.761647 1.0731498,1.0731498 0 0 1 -1.0795,0.03316 l -0.0018,-0.0011 c 0.165453,-0.709436 0.650522,-1.028347 0.676628,-1.044928 h -3.53e-4 a 0.13370276,0.13370276 0 0 0 -0.03916,-0.242005 0.13193887,0.13193887 0 0 0 -0.09913,0.01658 1.9953108,1.9953108 0 0 0 -0.769408,1.11372 c -0.174273,-0.163336 -0.364772,-0.471664 -0.208845,-0.985309 0.119945,-0.396875 0.492125,-0.726722 0.947208,-0.839611 a 1.4075831,1.4075831 0 0 1 1.265414,0.301625 c -0.153811,0.121709 -0.341489,0.376061 -0.308328,0.886178 z"
+       fill="#51ba69"
+       data-name="Artifact"
+       id="path8"
+       style="stroke-width:0.352778" />
+    <path
+       d="m 28.108163,30.396564 a 0.13828887,0.13828887 0 0 1 -0.137583,-0.13335 c -0.0035,-0.107597 0.0021,-0.216252 0.01764,-0.322791 0.0187,-0.130881 0.05186,-0.26035 0.09807,-0.384528 a 0.1380309,0.1380309 0 0 1 0.258586,0.09666 1.5677442,1.5677442 0 0 0 -0.09878,0.601486 0.13793609,0.13793609 0 0 1 -0.13335,0.142522 h -0.0046"
+       fill="#51ba69"
+       data-name="Artifact"
+       id="path9"
+       style="stroke-width:0.352778" />
+  </g>
+</svg>

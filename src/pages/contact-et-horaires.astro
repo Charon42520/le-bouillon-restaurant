@@ -1,0 +1,126 @@
+---
+import CustomSeo from "@components/CustomSeo.astro";
+import MainContent from "@components/MainContent.astro";
+import SideNav from "@components/SideNav.astro";
+import TopNav from "@components/TopNav.astro";
+import Layout from "@layouts/Layout.astro";
+import { getEntry } from "astro:content";
+
+const { data } = await getEntry("contact-hours-page", "contact-hours");
+---
+
+<Layout title="Welcome to Astro.">
+  <CustomSeo
+    slot="head"
+    title={data.seo.title}
+    description={data.seo.description}
+  />
+
+  <TopNav>Contact et horaires</TopNav>
+
+  <SideNav
+    showIndexLink
+    showPresentationLink
+    showMenuLink
+    showDayMenuLink
+    showProgramationLink
+  />
+
+  <MainContent title="Contact et horaires">
+    <ul mx-auto md:mt-8>
+      <li text-primary>
+        <a href={`tel:${data.phone.link}`} flex items-center>
+          <i i-carbon-phone-filled block shrink-0 w-6 h-6 mr-4></i>
+
+          <span>
+            {data.phone.displayedText}
+
+            <i i-carbon-launch inline-block ml-1 translate-y-0.75></i>
+          </span>
+        </a>
+      </li>
+
+      <li text-primary>
+        <a href={`mailto:${data.email.link}`} flex items-center mt-8>
+          <i i-carbon-email block shrink-0 w-6 h-6 mr-4></i>
+
+          <span>
+            {data.email.displayedText}
+
+            <i i-carbon-launch inline-block ml-1 translate-y-0.75></i>
+          </span>
+        </a>
+      </li>
+
+      <li text-primary>
+        <a href={data.address.link} target="_blank" flex items-center mt-8>
+          <i i-carbon-location block shrink-0 w-6 h-6 mr-4></i>
+
+          <span>
+            {data.address.displayedText}
+
+            <i i-carbon-launch inline-block ml-1 translate-y-0.75></i>
+          </span>
+        </a>
+      </li>
+
+      <li text-primary>
+        <a href={data.instagram.link} target="_blank" flex items-center mt-8>
+          <i i-carbon-logo-instagram block shrink-0 w-6 h-6 mr-4></i>
+
+          <span>
+            {data.instagram.displayedText}
+
+            <i i-carbon-launch inline-block ml-1 translate-y-0.75></i>
+          </span>
+        </a>
+      </li>
+
+      <li text-primary>
+        <a href={data.facebook.link} target="_blank" flex items-center mt-8>
+          <i i-carbon-logo-facebook block shrink-0 w-6 h-6 mr-4></i>
+
+          <span>
+            {data.facebook.displayedText}
+
+            <i i-carbon-launch inline-block ml-1 translate-y-0.75></i>
+          </span>
+        </a>
+      </li>
+
+      <li text-primary>
+        <a href={data.linkedin.link} target="_blank" flex items-center mt-8>
+          <i i-carbon-logo-linkedin block shrink-0 w-6 h-6 mr-4></i>
+
+          <span>
+            {data.linkedin.displayedText}
+
+            <i i-carbon-launch inline-block ml-1 translate-y-0.75></i>
+          </span>
+        </a>
+      </li>
+
+      <li flex items-center gap-4 mt-8>
+        <i i-carbon-calendar block shrink-0 w-6 h-6></i>
+
+        {data.hours}
+      </li>
+    </ul>
+
+    <h2 text="6 primary" font-display mt-8>Recrutement</h2>
+
+    <p mt-4>
+      {data.hiring.displayedText}&nbsp;:&nbsp;<a
+        href={`mailto:${data.hiring.email}`}
+        text-primary
+        >{data.hiring.email}<i
+          i-carbon-launch
+          inline-block
+          ml-1
+          translate-y-0.75></i></a
+      >
+    </p>
+  </MainContent>
+
+  <SideNav showLegalLink />
+</Layout>

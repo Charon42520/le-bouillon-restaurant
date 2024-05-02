@@ -1,0 +1,32 @@
+{
+  "pages": [
+    {
+      "title": "Boissons",
+      "image": "@assets/menu-page-1.svg"
+    },
+    {
+      "title": "Déjeuner",
+      "image": "@assets/menu-page-2.svg"
+    },
+    {
+      "title": "Dessert",
+      "image": "@assets/menu-page-3.svg"
+    },
+    {
+      "title": "Snacking sucré",
+      "image": "@assets/menu-page-4.svg"
+    },
+    {
+      "title": "Snacking salé",
+      "image": "@assets/menu-page-5.svg"
+    },
+    {
+      "title": "Afterwork",
+      "image": "@assets/menu-page-6.svg"
+    }
+  ],
+  "seo": {
+    "description": "Carte du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf.",
+    "title": "Le Bouillon des Eaux Vives | La carte"
+  }
+}

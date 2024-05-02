@@ -1,0 +1,74 @@
+---
+import CustomSeo from "@components/CustomSeo.astro";
+import EventCard from "@components/EventCard.astro";
+import SideNav from "@components/SideNav.astro";
+import TopNav from "@components/TopNav.astro";
+import Layout from "@layouts/Layout.astro";
+import { getCollection, getEntry } from "astro:content";
+
+const { data } = await getEntry("events-page", "events");
+
+const rawEvents = await getCollection("events");
+
+const events = rawEvents
+  .sort((e1, e2) => e1.data.date.getTime() - e2.data.date.getTime())
+  .filter((e) => e.id.startsWith("content"));
+
+const firstColumn: typeof events = [];
+const secondColumn: typeof events = [];
+
+for (let i = 0; i < events.length; i++) {
+  if (i % 2 === 0) firstColumn.push(events[i]);
+  else secondColumn.push(events[i]);
+}
+---
+
+<Layout title="Welcome to Astro.">
+  <CustomSeo
+    slot="head"
+    title={data.seo.title}
+    description={data.seo.description}
+  />
+
+  <TopNav>Programmation</TopNav>
+
+  <SideNav showIndexLink showPresentationLink showMenuLink showDayMenuLink />
+
+  <main
+    h-full
+    text-gray-800
+    grow
+    overflow-y-auto
+    bg-background-gray
+    class="p-y-8 p-x-4 md:p-x-8"
+  >
+    <h1 hidden md:block text="8 md:center" uppercase font-display font-normal>
+      Programmation
+    </h1>
+
+    <div hidden lg:grid cols-2 gap-8 mt-8 max-w-250 m-x-auto>
+      <div flex="~ col" gap-12>
+        {firstColumn.map((event) => <EventCard {event} />)}
+      </div>
+
+      <div flex="~ col" gap-12>
+        {secondColumn.map((event) => <EventCard {event} />)}
+      </div>
+    </div>
+
+    <div flex="~ col" gap-8 class="lg:hidden" max-w-250 m="x-auto md:t-8">
+      {events.map((event) => <EventCard {event} />)}
+    </div>
+
+    {
+      events.length === 0 && (
+        <p flex items-center gap-2 justify-center mt-16>
+          <i i-carbon-calendar block w-6 h-6 />
+          {data.noEventsText}
+        </p>
+      )
+    }
+  </main>
+
+  <SideNav showContactLink showLegalLink />
+</Layout>

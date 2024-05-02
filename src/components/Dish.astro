@@ -1,0 +1,20 @@
+---
+export interface Props {
+  name: string;
+  description?: string;
+}
+
+const { name, description } = Astro.props;
+---
+
+<li>
+  <p>{name}</p>
+
+  {
+    description && description.length !== 0 && (
+      <p class="text-3.5" font-italic>
+        {description}
+      </p>
+    )
+  }
+</li>

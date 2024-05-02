@@ -13,11 +13,15 @@
     "@astrojs/check": "^0.5.10",
     "@iconify-json/carbon": "^1.1.31",
     "astro": "^4.5.14",
+    "astro-decap": "^0.0.2",
     "astro-seo": "^0.8.3",
     "typescript": "^5.4.3"
   },
   "devDependencies": {
     "@unocss/reset": "0.59.0-beta.1",
-    "unocss": "0.59.0-beta.1"
+    "decap-cms-core": "^3.3.6",
+    "sharp": "^0.33.3",
+    "unocss": "0.59.0-beta.1",
+    "zod": "^3.23.4"
   }
 }

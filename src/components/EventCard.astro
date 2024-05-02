@@ -1,0 +1,70 @@
+---
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+import DropDown from "./DropDown.astro";
+
+export interface Props {
+  event: CollectionEntry<"events">;
+}
+
+const { event } = Astro.props;
+const { Content } = await event.render();
+---
+
+<article shadow-xl rounded-xl flex="~ col" overflow-hidden break-inside-avoid>
+  <div relative>
+    <Image
+      src={event.data.image}
+      alt="Football"
+      class="w-full h-50 object-cover shrink-0"
+    />
+
+    <h2
+      text="6 white center"
+      font-display
+      absolute
+      right-0
+      bottom-0
+      left-0
+      bg-gray-800
+      bg-op-50
+      p-y-2
+    >
+      {event.data.title}
+    </h2>
+
+    <time
+      datetime="2024-04-18"
+      bg-primary
+      text-white
+      absolute
+      top-0
+      right-0
+      p="x-2 y-1"
+      flex="~ col"
+      items-center
+    >
+      <div text-7 leading-7>
+        {event.data.date.getDate()}
+      </div>
+
+      <div>
+        {
+          new Intl.DateTimeFormat("fr", {
+            month: "short",
+          }).format(event.data.date)
+        }
+      </div>
+    </time>
+  </div>
+
+  <div flex="~ col" gap-4 p="4 md:8">
+    <p>{event.data.summary}</p>
+
+    <DropDown summary="En savoir plus">
+      <div class="prose" mt-4>
+        <Content />
+      </div>
+    </DropDown>
+  </div>
+</article>

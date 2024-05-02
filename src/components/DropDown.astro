@@ -1,0 +1,46 @@
+---
+const { summary } = Astro.props;
+---
+
+<div>
+  <details>
+    <summary
+      cursor-pointer
+      flex
+      items-center
+      justify-center
+      gap-2
+      text="center primary"
+    >
+      {summary}
+
+      <i i-carbon-chevron-right block w-5 h-5></i>
+    </summary>
+
+    <slot />
+  </details>
+</div>
+
+<style>
+  details > summary {
+    list-style: none;
+  }
+
+  details > summary::marker, /* Latest Chrome, Edge, Firefox */ 
+  details > summary::-webkit-details-marker /* Safari */ {
+    display: none;
+  }
+
+  details {
+    --transitions-duration: 400ms;
+  }
+
+  details i {
+    transition: transform var(--transitions-duration);
+  }
+
+  details[open] i {
+    transform: rotate(90deg);
+    transition: transform var(--transitions-duration);
+  }
+</style>

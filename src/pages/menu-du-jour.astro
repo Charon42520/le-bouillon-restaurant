@@ -1,0 +1,97 @@
+---
+import CustomSeo from "@components/CustomSeo.astro";
+import Dish from "@components/Dish.astro";
+import LunchMenu from "@components/LunchMenu.astro";
+import MainContent from "@components/MainContent.astro";
+import SideNav from "@components/SideNav.astro";
+import Time from "@components/Time.astro";
+import TopNav from "@components/TopNav.astro";
+import Layout from "@layouts/Layout.astro";
+import { getEntry } from "astro:content";
+
+const { data } = await getEntry("day-menu-page", "day-menu");
+---
+
+<Layout title="Welcome to Astro.">
+  <CustomSeo
+    slot="head"
+    title={data.seo.title}
+    description={data.seo.description}
+  />
+
+  <TopNav>Menu du jour</TopNav>
+
+  <SideNav showIndexLink showPresentationLink showMenuLink />
+
+  <MainContent title="Le menu du jour">
+    <div m-y-6>
+      <p>
+        {data.text}
+      </p>
+
+      <p mt-4>
+        À la carte le
+
+        <Time
+          date={data.date}
+          locale="fr"
+          options={{ dateStyle: "long" }}
+          class="text-primary"
+        />
+      </p>
+
+      <h2 font="display bold" text="5 primary" mt-4>Entrées</h2>
+
+      <ul flex="~ col" gap-4>
+        {data.starters.map((starter) => <Dish {...starter} />)}
+      </ul>
+
+      {
+        data.additionalTextStarters &&
+          data.additionalTextStarters.length !== 0 && (
+            <p mt-4 text="3.5 gray-500">
+              {data.additionalTextStarters}
+            </p>
+          )
+      }
+
+      <h2 font="display bold" text="5 primary" mt-4>Plats</h2>
+
+      <ul flex="~ col" gap-4>
+        {data.mainDishes.map((mainDish) => <Dish {...mainDish} />)}
+      </ul>
+
+      {
+        data.additionalTextMainDishes &&
+          data.additionalTextMainDishes.length !== 0 && (
+            <p mt-4 text="3.5 gray-500">
+              {data.additionalTextMainDishes}
+            </p>
+          )
+      }
+
+      <h2 font="display bold" text="5 primary" mt-4>Dessert</h2>
+
+      <ul flex="~ col" gap-4>
+        {data.deserts.map((desert) => <Dish {...desert} />)}
+      </ul>
+
+      {
+        data.additionalTextDeserts &&
+          data.additionalTextDeserts.length !== 0 && (
+            <p mt-4 text="3.5 gray-500">
+              {data.additionalTextDeserts}
+            </p>
+          )
+      }
+    </div>
+
+    <LunchMenu
+      oneDishPrice={data.oneDishPrice}
+      twoDishesPrice={data.twoDishesPrice}
+      threeDishesPrice={data.threeDishesPrice}
+    />
+  </MainContent>
+
+  <SideNav showProgramationLink showContactLink showLegalLink />
+</Layout>

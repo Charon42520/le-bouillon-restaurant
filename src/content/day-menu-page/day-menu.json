@@ -1,0 +1,32 @@
+{
+  "text": "Du lundi au vendredi, hors week-ends et jours fériés",
+  "date": "2024-04-29T21:09:00.000Z",
+  "starters": [
+    {
+      "name": "Carpaccio de tomates, green zebra, orange queen, mozzarella, pesto",
+      "description": ""
+    }
+  ],
+  "mainDishes": [
+    {
+      "name": "Ballotines de volaille farcie à l'abricot, sauce au miel",
+      "description": ""
+    }
+  ],
+  "deserts": [
+    {
+      "name": "Fondant au chocolat",
+      "description": ""
+    }
+  ],
+  "seo": {
+    "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf.",
+    "title": "Le Bouillon des Eaux Vives | Menu du jour"
+  },
+  "oneDishPrice": 14,
+  "twoDishesPrice": 18,
+  "threeDishesPrice": 22,
+  "additionalTextDeserts": "",
+  "additionalTextMainDishes": "",
+  "additionalTextStarters": ""
+}

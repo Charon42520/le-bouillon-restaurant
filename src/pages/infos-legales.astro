@@ -1,0 +1,82 @@
+---
+import CustomSeo from "@components/CustomSeo.astro";
+import MainContent from "@components/MainContent.astro";
+import SideNav from "@components/SideNav.astro";
+import TopNav from "@components/TopNav.astro";
+import Layout from "@layouts/Layout.astro";
+import { getCollection, getEntry } from "astro:content";
+
+const legalSections = (await getCollection("legal")).filter((e) =>
+  e.id.startsWith("content")
+);
+
+const { data } = await getEntry("legal-page", "legal");
+---
+
+<Layout title="Welcome to Astro.">
+  <CustomSeo
+    slot="head"
+    title={data.seo.title}
+    description={data.seo.description}
+  />
+
+  <TopNav>Infos légales</TopNav>
+
+  <SideNav
+    showIndexLink
+    showPresentationLink
+    showMenuLink
+    showDayMenuLink
+    showProgramationLink
+  />
+
+  <MainContent title="Infos légales">
+    <p md:mt-4>Charte graphique : Noémie Sardat</p>
+
+    <p mt-4>Réalisation du site web : Nicolas Rio</p>
+
+    {
+      legalSections.map(async (section) => {
+        const { Content } = await section.render();
+
+        return (
+          <details>
+            <summary>
+              {section.data.title} <i i-carbon-chevron-right block w-5 h-5 />
+            </summary>
+
+            <div class="prose">
+              <Content />
+            </div>
+          </details>
+        );
+      })
+    }
+  </MainContent>
+</Layout>
+
+<style>
+  details > summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  details summary i {
+    transition: transform 400ms;
+  }
+
+  details[open] summary i {
+    transform: rotate(90deg);
+    transition: transform 400ms;
+  }
+
+  details > summary::marker, /* Latest Chrome, Edge, Firefox */ 
+  details > summary::-webkit-details-marker /* Safari */ {
+    display: none;
+  }
+</style>

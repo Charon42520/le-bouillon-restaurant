@@ -1,0 +1,157 @@
+---
+import CustomSeo from "@components/CustomSeo.astro";
+import SideNav from "@components/SideNav.astro";
+import TopNav from "@components/TopNav.astro";
+import heart from "@components/heart.svg";
+import leaf from "@components/leaf.svg";
+import Layout from "@layouts/Layout.astro";
+import { getEntry } from "astro:content";
+
+const { data } = await getEntry("menu-page", "menu");
+
+function slugify(input: string) {
+  return input
+    .toLowerCase()
+    .trim()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9\s-]/g, " ")
+    .trim()
+    .replace(/[\s-]+/g, "-");
+}
+---
+
+<Layout title="Welcome to Astro.">
+  <CustomSeo
+    slot="head"
+    title={data.seo.title}
+    description={data.seo.description}
+  />
+
+  <TopNav>La carte</TopNav>
+
+  <SideNav showIndexLink showPresentationLink />
+
+  <main
+    h-full
+    text-gray-800
+    grow
+    p="t4 md:t-8 b-16"
+    overflow-y-auto
+    bg-background-gray
+    scroll-smooth
+  >
+    <div max-w-150 m-x-auto>
+      <h1 hidden md:block text="8 md:center" uppercase font-display font-normal>
+        La carte
+      </h1>
+
+      <p m="t-4 x-4">
+        <img {...leaf} inline-block w-5 h-5 />
+
+        Plat végétarien
+      </p>
+
+      <p m-4>
+        <img {...heart} inline-block w-5 h-5 />
+
+        Coup de cœur du chef
+      </p>
+
+      {
+        data.pages.map((page) => (
+          <img
+            id={slugify(page.title)}
+            {...page.image}
+            alt="Page 1 du menu du restaurant Le Bouillon des Eaux Vives"
+            class="w-full"
+          />
+        ))
+      }
+    </div>
+
+    <div fixed right-4 md:right-54 bottom-4 text-primary>
+      <div relative>
+        <input id="menu-checkbox" type="checkbox" hidden />
+
+        <label
+          for="menu-checkbox"
+          cursor-pointer
+          bg-background-gray
+          flex
+          items-center
+          gap-2
+          text-6
+          p="x-2 y-1"
+          border="solid 1 primary"
+          rounded
+        >
+          Sur cette page
+
+          <i i-carbon-menu block w-8 h-8 class="menu-icon"></i>
+
+          <i i-carbon-close hidden w-8 h-8 class="close-icon"></i>
+        </label>
+
+        <ul
+          max-h-0
+          absolute
+          bottom-full
+          -right-4
+          overflow-hidden
+          bg-background-gray
+          text="right nowrap 6"
+          z-1
+          p-x-4
+          onclick="document.getElementById('menu-checkbox')?.click()"
+        >
+          {
+            data.pages.map((page) => (
+              <li mt-4>
+                <a href={`#${slugify(page.title)}`}>{page.title}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <SideNav showDayMenuLink showProgramationLink showContactLink showLegalLink />
+</Layout>
+
+<style>
+  main :global(*::selection) {
+    background-color: var(--primary);
+    color: var(--background-gray);
+  }
+
+  ul {
+    transition: max-height 0.5s;
+  }
+
+  #menu-checkbox:checked + label + ul {
+    max-height: 100rem;
+    transition: max-height 0.5s;
+  }
+
+  #menu-checkbox:checked + label .menu-icon {
+    display: none;
+  }
+
+  #menu-checkbox:checked + label .close-icon {
+    display: block;
+  }
+
+  #menu-checkbox:checked + label::before {
+    display: block;
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    inset: 0;
+    background: 0 0;
+    content: "";
+    cursor: default;
+  }
+</style>

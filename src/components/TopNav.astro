@@ -1,0 +1,145 @@
+---
+import LogoSmall from "./LogoSmall.astro";
+---
+
+<input type="checkbox" id="top-nav-checkbox" hidden />
+<aside block text-center relative class="md:hidden">
+  <div
+    p-2
+    flex
+    justify-between
+    items-stretch
+    relative
+    z-2
+    bg-primary
+    text-background-gray
+  >
+    <a href="/" block flex justify-center items-center>
+      <LogoSmall class="w-10 h-10" />
+    </a>
+
+    <span grow relative uppercase text="5 sm:6" font-display>
+      <span
+        absolute
+        top-50%
+        left-50%
+        -translate-50%
+        text-nowrap
+        whitespace-nowrap
+        class="slot-content"
+      >
+        <slot />
+      </span>
+
+      <a href="/" absolute top-50% left-50% -translate-50% class="index-link">
+        Accueil
+      </a>
+    </span>
+
+    <label for="top-nav-checkbox" relative w-12 h-12 cursor-pointer>
+      <i
+        i-carbon-menu
+        block
+        w-8
+        h-8
+        absolute
+        top-2
+        left-2
+        right-2
+        bottom-2
+        class="menu-icon"></i>
+
+      <i
+        i-carbon-close
+        block
+        w-8
+        h-8
+        absolute
+        top-2
+        left-2
+        right-2
+        bottom-2
+        class="close-icon"></i>
+    </label>
+  </div>
+
+  <ul
+    absolute
+    left-0
+    right-0
+    z-1
+    max-h-0
+    overflow-y-hidden
+    shadow
+    class="top-[calc(100%-2px)]"
+  >
+    <li p="t-[calc(0.5rem+2px)] b-1.5" text-primary bg-secondary-blue>
+      <a href="/presentation" uppercase block text-5 font-display w-full>
+        Présentation
+      </a>
+    </li>
+
+    <li p="t-2 b-1.5" text-primary bg-secondary-yellow>
+      <a href="/menu" uppercase block text-5 font-display w-full> Carte </a>
+    </li>
+
+    <li p="t-2 b-1.5" text-primary bg-secondary-gray>
+      <a href="/menu-du-jour" uppercase block text-5 font-display w-full>
+        Menu du jour
+      </a>
+    </li>
+
+    <li p="t-2 b-1.5" text-primary bg-secondary-beige>
+      <a href="/programmation" uppercase block text-5 font-display w-full>
+        Programmation
+      </a>
+    </li>
+
+    <li p="t-2 b-1.5" text-primary bg-secondary-blue>
+      <a href="/contact-et-horaires" uppercase block text-5 font-display w-full>
+        Contact et horaires
+      </a>
+    </li>
+
+    <li p="t-2 b-1.5" text-primary bg-secondary-yellow>
+      <a href="/infos-legales" uppercase block text-5 font-display w-full>
+        Infos légales
+      </a>
+    </li>
+  </ul>
+</aside>
+
+<style>
+  ul {
+    transition: max-height 0.5s;
+  }
+
+  .menu-icon,
+  .slot-content {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+
+  .close-icon,
+  .index-link {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  input:checked + aside ul {
+    max-height: 20rem;
+    transition: max-height 0.5s;
+  }
+
+  input:checked + aside .menu-icon,
+  input:checked + aside .slot-content {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  input:checked + aside .close-icon,
+  input:checked + aside .index-link {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+</style>

@@ -1,0 +1,17 @@
+---
+export interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<main h-full text-gray-800 grow p-8 overflow-y-auto bg-background-gray>
+  <div max-w-120 m-x-auto>
+    <h1 hidden md:block text="8 md:center" uppercase font-display font-normal>
+      {title}
+    </h1>
+
+    <slot />
+  </div>
+</main>

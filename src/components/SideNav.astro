@@ -1,0 +1,124 @@
+---
+import LogoSmall from "./LogoSmall.astro";
+
+export interface Props {
+  showIndexLink?: boolean;
+  showPresentationLink?: boolean;
+  showMenuLink?: boolean;
+  showDayMenuLink?: boolean;
+  showProgramationLink?: boolean;
+  showContactLink?: boolean;
+  showLegalLink?: boolean;
+}
+
+const {
+  showIndexLink,
+  showPresentationLink,
+  showMenuLink,
+  showDayMenuLink,
+  showProgramationLink,
+  showContactLink,
+  showLegalLink,
+} = Astro.props;
+---
+
+<aside hidden md:block h-full>
+  <ul h-full flex>
+    {
+      showIndexLink && (
+        <li text-background-gray bg-primary block>
+          <a
+            href="/"
+            flex="~ col"
+            justify-between
+            items-center
+            font-display
+            class="nav-link"
+          >
+            <LogoSmall class="w-10 h-10 -translate-x-0.5" />
+
+            <span class="rotated-text">Accueil</span>
+          </a>
+        </li>
+      )
+    }
+
+    {
+      showPresentationLink && (
+        <li block w="12.5" text-primary bg-secondary-blue>
+          <a href="/presentation" font-display class="nav-link rotated-text">
+            Présentation
+          </a>
+        </li>
+      )
+    }
+
+    {
+      showMenuLink && (
+        <li block w="12.5" text-primary bg-secondary-yellow>
+          <a href="/menu" font-display class="nav-link rotated-text">
+            Carte
+          </a>
+        </li>
+      )
+    }
+
+    {
+      showDayMenuLink && (
+        <li block w="12.5" text-primary bg-secondary-gray>
+          <a href="/menu-du-jour" font-display class="nav-link rotated-text">
+            Menu du jour
+          </a>
+        </li>
+      )
+    }
+
+    {
+      showProgramationLink && (
+        <li block w="12.5" text-primary bg-secondary-beige>
+          <a href="/programmation" font-display class="nav-link rotated-text">
+            Programmation
+          </a>
+        </li>
+      )
+    }
+
+    {
+      showContactLink && (
+        <li block w="12.5" text-primary bg-secondary-blue>
+          <a
+            href="/contact-et-horaires"
+            font-display
+            class="nav-link rotated-text"
+          >
+            Contact et horaires
+          </a>
+        </li>
+      )
+    }
+
+    {
+      showLegalLink && (
+        <li block w="12.5" text-primary bg-secondary-yellow>
+          <a href="/infos-legales" font-display class="nav-link rotated-text">
+            Infos légales
+          </a>
+        </li>
+      )
+    }
+  </ul>
+</aside>
+
+<style>
+  .rotated-text {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    text-transform: uppercase;
+    font-size: 1.25rem;
+  }
+
+  .nav-link {
+    height: 100%;
+    padding: 1rem 0.625rem;
+  }
+</style>

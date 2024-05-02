@@ -1,0 +1,40 @@
+---
+import CustomSeo from "@components/CustomSeo.astro";
+import MainContent from "@components/MainContent.astro";
+import SideNav from "@components/SideNav.astro";
+import TopNav from "@components/TopNav.astro";
+import Layout from "@layouts/Layout.astro";
+import { getEntry } from "astro:content";
+
+const { data, render } = await getEntry("presentation-page", "presentation");
+
+const { Content } = await render();
+---
+
+<Layout title="Welcome to Astro.">
+  <CustomSeo
+    slot="head"
+    title={data.seo.title}
+    description={data.seo.description}
+  />
+
+  <TopNav>Présentation</TopNav>
+
+  <SideNav showIndexLink />
+
+  <MainContent title="Présentation">
+    <div mt-6 class="prose">
+      <Content />
+
+      <p mt-6 font-italic b-l="solid primary 2" pl-4>{data.signature}</p>
+    </div>
+  </MainContent>
+
+  <SideNav
+    showMenuLink
+    showDayMenuLink
+    showProgramationLink
+    showContactLink
+    showLegalLink
+  />
+</Layout>

@@ -1,34 +1,112 @@
 ---
+import CustomSeo from "@components/CustomSeo.astro";
+import Logo from "@components/Logo.astro";
+import SideNav from "@components/SideNav.astro";
+import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
-import { SEO } from "astro-seo";
+import { getEntry } from "astro:content";
+
+const { data, render } = await getEntry("index-page", "index");
+const { data: contactData } = await getEntry(
+  "contact-hours-page",
+  "contact-hours"
+);
+
+const { Content } = await render();
 ---
 
 <Layout title="Welcome to Astro.">
-  <SEO
+  <CustomSeo
     slot="head"
-    title="Le Bouillon des Eaux Vives | Restaurant brasserie à Saint-Pierre de Boeuf"
+    title={data.seo.title}
+    description={data.seo.description}
   />
 
-  <main container mx-auto>
-    <p text-6>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos,
-      necessitatibus, excepturi iure harum voluptates a reprehenderit tempora
-      asperiores impedit odit placeat. Sit modi facilis harum nostrum est,
-      maxime dolorem inventore.
+  <TopNav />
+
+  <main
+    grow
+    text="center background-gray"
+    bg-primary
+    block
+    flex="~ col"
+    items-center
+    justify-evenly
+    gap-10
+    py-8
+    px-4
+    overflow-y-auto
+  >
+    <p max-w-100 w-90% -translate-x-2>
+      <Logo />
     </p>
 
-    <p text-4 text-gray-4>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit,
-      quam quasi ducimus maxime porro quidem hic voluptate accusamus itaque
-      tenetur, beatae iure laudantium doloribus ex? Delectus omnis excepturi
-      iste.
-    </p>
+    <h1 hidden>
+      {data.seo.title}
+    </h1>
 
-    <p text-4 text-gray-4>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit,
-      quam quasi ducimus maxime porro quidem hic voluptate accusamus itaque
-      tenetur, beatae iure laudantium doloribus ex? Delectus omnis excepturi
-      iste.
-    </p>
+    <h2 text-7 font-display>{data.headline}</h2>
+
+    <div>
+      <Content />
+    </div>
+
+    <div>
+      <ul flex items-center justify-center gap-4>
+        <li>
+          <a href={`tel:${contactData.phone.link}`} target="_blank">
+            <i i-carbon-phone-filled block w-6 h-6></i>
+          </a>
+        </li>
+
+        <li>
+          <a href={`mailto:${contactData.email.link}`} target="_blank">
+            <i i-carbon-email block w-6 h-6></i>
+          </a>
+        </li>
+
+        <li>
+          <a href={contactData.address.link} target="_blank">
+            <i i-carbon-location block w-6 h-6></i>
+          </a>
+        </li>
+
+        <li>
+          <a href={contactData.instagram.link} target="_blank">
+            <i i-carbon-logo-instagram block w-6 h-6></i>
+          </a>
+        </li>
+
+        <li>
+          <a href={contactData.facebook.link} target="_blank">
+            <i i-carbon-logo-facebook block w-6 h-6></i>
+          </a>
+        </li>
+
+        <li>
+          <a href={contactData.linkedin.link} target="_blank">
+            <i i-carbon-logo-linkedin block w-6 h-6></i>
+          </a>
+        </li>
+      </ul>
+
+      <p mt-4>{contactData.hours}</p>
+    </div>
   </main>
 </Layout>
+
+<SideNav
+  showPresentationLink
+  showMenuLink
+  showDayMenuLink
+  showProgramationLink
+  showContactLink
+  showLegalLink
+/>
+
+<style>
+  main :global(*::selection) {
+    background-color: var(--secondary-blue);
+    color: var(--primary);
+  }
+</style>
