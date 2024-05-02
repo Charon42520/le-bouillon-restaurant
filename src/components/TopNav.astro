@@ -3,7 +3,7 @@ import LogoSmall from "./LogoSmall.astro";
 ---
 
 <input type="checkbox" id="top-nav-checkbox" hidden />
-<aside block text-center relative class="md:hidden">
+<nav block text-center relative class="md:hidden">
   <div
     p-2
     flex
@@ -82,7 +82,7 @@ import LogoSmall from "./LogoSmall.astro";
     <li p="t-2 b-1.5" text-primary bg-secondary-yellow>
       <a href="/menu" uppercase block text-5 font-display w-full> Carte </a>
     </li>
-
+    <!-- 
     <li p="t-2 b-1.5" text-primary bg-secondary-gray>
       <a href="/menu-du-jour" uppercase block text-5 font-display w-full>
         Menu du jour
@@ -105,9 +105,27 @@ import LogoSmall from "./LogoSmall.astro";
       <a href="/infos-legales" uppercase block text-5 font-display w-full>
         Infos légales
       </a>
+    </li> -->
+
+    <li p="t-2 b-1.5" text-primary bg-secondary-gray>
+      <a href="/programmation" uppercase block text-5 font-display w-full>
+        Programmation
+      </a>
+    </li>
+
+    <li p="t-2 b-1.5" text-primary bg-secondary-beige>
+      <a href="/contact-et-horaires" uppercase block text-5 font-display w-full>
+        Contact et horaires
+      </a>
+    </li>
+
+    <li p="t-2 b-1.5" text-primary bg-secondary-blue>
+      <a href="/infos-legales" uppercase block text-5 font-display w-full>
+        Infos légales
+      </a>
     </li>
   </ul>
-</aside>
+</nav>
 
 <style>
   ul {
@@ -126,19 +144,19 @@ import LogoSmall from "./LogoSmall.astro";
     transition: opacity 0.5s;
   }
 
-  input:checked + aside ul {
+  input:checked + nav ul {
     max-height: 20rem;
     transition: max-height 0.5s;
   }
 
-  input:checked + aside .menu-icon,
-  input:checked + aside .slot-content {
+  input:checked + nav .menu-icon,
+  input:checked + nav .slot-content {
     opacity: 0;
     transition: opacity 0.5s;
   }
 
-  input:checked + aside .close-icon,
-  input:checked + aside .index-link {
+  input:checked + nav .close-icon,
+  input:checked + nav .index-link {
     opacity: 1;
     transition: opacity 0.5s;
   }
