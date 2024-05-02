@@ -1,5 +1,5 @@
 {
-  "text": "Les midis en semaine, Le Bouillon des Eaux Vives vous propose un menu varié et savoureux.",
+  "text": "Du lundi au vendredi, hors week-ends et jours fériés",
   "date": "2024-04-29T21:09:00.000Z",
   "starters": [
     {
@@ -25,5 +25,8 @@
   },
   "oneDishPrice": 14,
   "twoDishesPrice": 18,
-  "threeDishesPrice": 22
+  "threeDishesPrice": 22,
+  "additionalTextDeserts": "",
+  "additionalTextMainDishes": "",
+  "additionalTextStarters": ""
 }
