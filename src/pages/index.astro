@@ -15,6 +15,48 @@ const { data: contactData } = await getEntry(
 const { Content } = await render();
 ---
 
+<dialog
+  open
+  z-3
+  fixed
+  inset-0
+  max-w-120
+  p-16
+  rounded
+  shadow
+  text-center
+  bg-background-gray
+>
+  <p text-primary flex items-center>
+    <img src="/logo-restaurant-le-bouillon.svg" alt="" />
+  </p>
+
+  <p mt-4>
+    Encore un peu de patience la brasserie est encore en travaux. Ouverture
+    prochainement.
+  </p>
+
+  <p mt-4 font-italic>L'équipe du Bouillon des Eaux-Vives</p>
+
+  <p mt-8>
+    <script>
+      document
+        .getElementById("close-modal-button")
+        ?.addEventListener("click", ({ currentTarget }) =>
+          (currentTarget as Element).closest("dialog")?.removeAttribute("open")
+        );
+    </script>
+    <button
+      id="close-modal-button"
+      type="button"
+      bg-primary
+      text-background-gray
+      p="x-6 y-4"
+      rounded>Découvrir le site</button
+    >
+  </p>
+</dialog>
+
 <Layout title="Welcome to Astro.">
   <CustomSeo
     slot="head"
