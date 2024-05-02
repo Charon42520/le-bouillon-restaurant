@@ -4,7 +4,7 @@ import NavBar from "@components/NavBar/NavBar.astro";
 ---
 
 <!doctype html>
-<html lang="fr" h-full>
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
@@ -13,7 +13,15 @@ import NavBar from "@components/NavBar/NavBar.astro";
     <meta name="generator" content={Astro.generator} />
     <slot name="head" />
   </head>
-  <body h-full font-sherif font-normal text-gray-7 bg="[#ecedda]">
+  <body font-sans font-normal text-gray-7>
+    <header text-primary flex justify-center>
+      <a href="/" my-4 w-50 sm:w-70 lg:w-120>
+        <Logo />
+      </a>
+    </header>
+
+    <NavBar />
+
     <slot />
   </body>
 </html>
