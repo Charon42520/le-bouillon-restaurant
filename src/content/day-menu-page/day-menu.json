@@ -9,8 +9,8 @@
   ],
   "mainDishes": [
     {
-      "name": "Échine de porcelets confits accompagnée de pomme de terre grenaille",
-      "description": ""
+      "name": "Échine de porcelets confits",
+      "description": "accompagnée de pomme de terre grenaille"
     }
   ],
   "deserts": [
@@ -25,5 +25,8 @@
   },
   "oneDishPrice": 14,
   "twoDishesPrice": 18,
-  "threeDishesPrice": 22
+  "threeDishesPrice": 22,
+  "additionalTextDeserts": "",
+  "additionalTextMainDishes": "",
+  "additionalTextStarters": ""
 }
