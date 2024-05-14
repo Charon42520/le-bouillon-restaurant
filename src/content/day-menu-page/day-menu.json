@@ -1,21 +1,21 @@
 {
-  "text": "Du lundi au vendredi, hors week-ends et jours fériés",
-  "date": "2024-04-29T21:09:00.000Z",
+  "text": "Découvrez le menu du jour",
+  "date": "2024-05-15T10:00",
   "starters": [
     {
-      "name": "Carpaccio de tomates, green zebra, orange queen, mozzarella, pesto",
+      "name": "Carpaccio de tomates anciennes, mozzarella au pesto",
       "description": ""
     }
   ],
   "mainDishes": [
     {
-      "name": "Ballotines de volaille farcie à l'abricot, sauce au miel",
+      "name": "Échine de porcelets confits accompagnée de pomme de terre grenaille",
       "description": ""
     }
   ],
   "deserts": [
     {
-      "name": "Fondant au chocolat",
+      "name": "Tiramisu au café",
       "description": ""
     }
   ],
@@ -25,8 +25,5 @@
   },
   "oneDishPrice": 14,
   "twoDishesPrice": 18,
-  "threeDishesPrice": 22,
-  "additionalTextDeserts": "",
-  "additionalTextMainDishes": "",
-  "additionalTextStarters": ""
+  "threeDishesPrice": 22
 }
