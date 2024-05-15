@@ -1,21 +1,21 @@
 {
   "text": "Découvrez le menu du jour",
-  "date": "2024-05-15T10:00",
+  "date": "2024-05-16T10:00",
   "starters": [
     {
-      "name": "Carpaccio de tomates anciennes, mozzarella au pesto",
+      "name": "Salade de gésiers, pickles de légumes",
       "description": ""
     }
   ],
   "mainDishes": [
     {
-      "name": "Échine de porcelets confits",
-      "description": "accompagnée de pommes de terre grenaille"
+      "name": "Suprême de poulet Gaston Gérard",
+      "description": "accompagnée de Ratatouille"
     }
   ],
   "deserts": [
     {
-      "name": "Tiramisu au café",
+      "name": "Fondant chocolat, sauce caramel",
       "description": ""
     }
   ],
