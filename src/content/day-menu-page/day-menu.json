@@ -15,10 +15,10 @@
   "mainDishes": [
     {
       "name": "Échine de porcelet confit",
-      "description": ""
+      "description": "Radiatori aux tomates marinées"
     }
   ],
-  "additionalTextMainDishes": "Radiatori aux tomates marinées",
+  "additionalTextMainDishes": "",
   "deserts": [
     {
       "name": "Crème brûlée à la vanille",
