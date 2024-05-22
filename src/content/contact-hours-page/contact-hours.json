@@ -4,32 +4,32 @@
     "description": "Informations de contact et horaires du restaurant le BOUILLON des Eaux-Vives"
   },
   "phone": {
-    "displayedText": "+33 (0)6 07 38 31 61",
-    "link": "+33607383161"
+    "link": "+33607383161",
+    "displayedText": "+33 (0)6 07 38 31 61"
   },
   "email": {
-    "displayedText": "cuisine.lebouillon@gmail.com",
-    "link": "cuisine.lebouillon@gmail.com"
+    "link": "cuisine.lebouillon@gmail.com",
+    "displayedText": "cuisine.lebouillon@gmail.com"
   },
   "address": {
-    "displayedText": "Av. du Rhône, 42520 Saint-Pierre-de-Bœuf",
-    "link": "https://maps.app.goo.gl/7qAtAwBvfr87odiA6"
+    "link": "https://maps.app.goo.gl/7qAtAwBvfr87odiA6",
+    "displayedText": "Av. du Rhône, 42520 Saint-Pierre-de-Bœuf"
   },
   "instagram": {
-    "displayedText": "Instagram",
-    "link": "https://www.instagram.com/brasserie_des_eaux_vives42/"
+    "link": "https://www.instagram.com/brasserie_des_eaux_vives42/",
+    "displayedText": "Instagram"
   },
   "facebook": {
-    "displayedText": "Facebook",
-    "link": "https://www.facebook.com/profile.php?id=61556297271850"
+    "link": "https://www.facebook.com/profile.php?id=61556297271850",
+    "displayedText": "Facebook"
   },
   "linkedin": {
-    "displayedText": "Linkedin",
-    "link": "https://www.linkedin.com/company/bouillon-brasserie-des-eaux-vives/"
+    "link": "https://www.linkedin.com/company/bouillon-brasserie-des-eaux-vives/",
+    "displayedText": "Linkedin"
   },
-  "hours": "Du 15 au 21 mai, ouvert du mardi au dimanche de 10h à 19h",
+  "hours": "En mai ouvert du mardi au dimanche de 10h à 19h",
   "hiring": {
-    "email": "brasserieobrothers@gmail.com",
-    "displayedText": "Vous êtes professionnel de la restauration et vous souhaitez rejoindre  l'aventure Le Bouillon des Eaux Vives ? Envoyez votre candidature par email à l'adresse"
+    "displayedText": "Vous êtes professionnel de la restauration et vous souhaitez rejoindre  l'aventure Le Bouillon des Eaux Vives ? Envoyez votre candidature par email à l'adresse",
+    "email": "brasserieobrothers@gmail.com"
   }
 }
