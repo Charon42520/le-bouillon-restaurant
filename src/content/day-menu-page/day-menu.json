@@ -3,42 +3,30 @@
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
     "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
   },
-  "text": "Découvrez le menu du jour - Spécial Fête des Mères",
-  "date": "2024-05-26T10:00",
+  "text": "Découvrez le menu du jour",
+  "date": "2024-05-27T10:00",
   "starters": [
     {
-      "name": "Oeuf poché crème de chou-fleur",
-      "description": "Ou"
-    },
-    {
-      "name": "Panier de légumes croquants",
+      "name": "Avocat au crabe, échalotes et condiments de tomates",
       "description": ""
     }
   ],
   "additionalTextStarters": "",
   "mainDishes": [
     {
-      "name": "Pavé de saumon au beurre blanc échalotes",
-      "description": "Ou"
-    },
-    {
-      "name": "Poitrine de porc confite au jus de viande",
-      "description": ""
+      "name": "Jambon grillé",
+      "description": "Accompagné d'un écrasé de pommes de terre"
     }
   ],
   "additionalTextMainDishes": "",
   "deserts": [
     {
-      "name": "Faisselle coulis de fruits rouges",
-      "description": "Ou"
-    },
-    {
-      "name": "Fondant au chocolat crème anglaise",
+      "name": "Mousse de fruits rouges et éclats de spéculoo",
       "description": ""
     }
   ],
   "additionalTextDeserts": "",
-  "oneDishPrice": 15,
-  "twoDishesPrice": 20,
-  "threeDishesPrice": 25
+  "oneDishPrice": 14,
+  "twoDishesPrice": 18,
+  "threeDishesPrice": 22
 }
