@@ -15,13 +15,13 @@
   "mainDishes": [
     {
       "name": "Brochette de porc aux poivrons",
-      "description": "Accompagnée de penne à la tomate"
+      "description": "Accompagnée de pennes à la tomate"
     }
   ],
   "additionalTextMainDishes": "",
   "deserts": [
     {
-      "name": "Tartelettes aux noix",
+      "name": "Tartelette aux noix",
       "description": ""
     }
   ],
