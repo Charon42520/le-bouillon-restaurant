@@ -31,9 +31,19 @@ const { data } = await getEntry("legal-page", "legal");
   />
 
   <MainContent title="Infos légales">
-    <p md:mt-4>Charte graphique : Noémie Sardat</p>
+    <p md:mt-4>
+      Charte graphique :
+      <a href="https://www.linkedin.com/company/no%C3%A9-design" target="_blank"
+        >Noémie Sardat
+      </a>
+    </p>
 
-    <p mt-4>Réalisation du site web : Nicolas Rio</p>
+    <p mt-4>
+      Réalisation du site web :
+      <a href="https://www.linkedin.com/in/nicolas-rio-4441741a2/">
+        Nicolas Rio
+      </a>
+    </p>
 
     {
       legalSections.map(async (section) => {
