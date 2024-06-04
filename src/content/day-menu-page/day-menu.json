@@ -7,25 +7,21 @@
   "date": "2024-06-04T10:00",
   "starters": [
     {
-      "name": "Salade de roquette  & buratta crémeuse et agrumes",
+      "name": "Melon & jambon cru",
       "description": ""
     }
   ],
   "additionalTextStarters": "",
   "mainDishes": [
     {
-      "name": "Sauté de porc",
-      "description": "Accompagnée de riz basmati"
-    },
-    {
-      "name": "Dos de lieu",
-      "description": "Accompagnée de riz basmati"
+      "name": "Sauté de veau Marengo",
+      "description": "Accompagnée de penne"
     }
   ],
   "additionalTextMainDishes": "",
   "deserts": [
     {
-      "name": "Tiramisu au café",
+      "name": "Millefeuille à la vanille de Madagascar",
       "description": ""
     }
   ],
