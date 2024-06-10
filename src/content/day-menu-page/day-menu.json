@@ -7,21 +7,21 @@
   "date": "2024-06-07T10:00",
   "starters": [
     {
-      "name": "Panier de légumes croquants",
+      "name": "Velouté de carottes, oeuf parfait",
       "description": ""
     }
   ],
   "additionalTextStarters": "",
   "mainDishes": [
     {
-      "name": "Dos de cabillaud sauce citronnée",
-      "description": "Accompagnée de roasty aux carottes"
+      "name": "Araignée de porc, jus de viande",
+      "description": "Accompagnée d'un écrasé de patates douces"
     }
   ],
   "additionalTextMainDishes": "",
   "deserts": [
     {
-      "name": "Minestrone de fruits frais",
+      "name": "Tartelettes à la nectarines",
       "description": ""
     }
   ],
