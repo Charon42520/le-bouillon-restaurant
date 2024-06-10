@@ -7,21 +7,21 @@
   "date": "2024-06-07T10:00",
   "starters": [
     {
-      "name": "Velouté de carottes, oeuf parfait",
+      "name": "Tomates mozzarella au pesto",
       "description": ""
     }
   ],
   "additionalTextStarters": "",
   "mainDishes": [
     {
-      "name": "Araignée de porc, jus de viande",
-      "description": "Accompagnée d'un écrasé de patates douces"
+      "name": "Filet de poulet",
+      "description": "Accompagnée de Risotto"
     }
   ],
   "additionalTextMainDishes": "",
   "deserts": [
     {
-      "name": "Tartelette à la nectarine",
+      "name": "Entremet à la framboise",
       "description": ""
     }
   ],
