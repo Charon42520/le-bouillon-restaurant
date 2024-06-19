@@ -9,3 +9,5 @@ En concert le 9 Août 2024 à 20h00 sur la terrasse du Bouillon - Brasserie des 
 Propre composition ambiance Rock
 
 Réservation conseillée 06.07.38.31.61
+
+Tarif : Prix Libre
