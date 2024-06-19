@@ -4,7 +4,7 @@ date: 2024-06-21T20:50
 summary: |-
   Venez visionner et encourager l'équipe de France contre le Pays-Bas. Match de phase de groupes D de l'EURO.
   Diffusion du Match à 21h00.
-image: /1444x920_24-equipes-se-disputent-le-titre-lors-de-l-euro-en-allemagne-du-14-juin-au-14-juillet.webp
+image: "@assets/1444x920_24-equipes-se-disputent-le-titre-lors-de-l-euro-en-allemagne-du-14-juin-au-14-juillet.webp"
 ---
 A la suite de la victoire contre l'Autriche  1-0 ,venez visionner et encourager l'équipe de France contre le Pays-Bas. Match de phase de groupes D de l'EURO.
 
