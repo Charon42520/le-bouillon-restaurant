@@ -8,21 +8,21 @@
   "starters": [
     {
       "name": "COMPLET",
-      "description": ""
+      "description": "Au vu de la météo annoncée et des réservations"
     }
   ],
   "additionalTextStarters": "",
   "mainDishes": [
     {
       "name": "COMPLET",
-      "description": ""
+      "description": "Au vu de la météo annoncée et des réservations"
     }
   ],
   "additionalTextMainDishes": "",
   "deserts": [
     {
       "name": "COMPLET",
-      "description": ""
+      "description": "Au vu de la météo annoncée et des réservations me"
     }
   ],
   "additionalTextDeserts": "",
