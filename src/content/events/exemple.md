@@ -1,6 +1,6 @@
 ---
 title: Toto
-date: 2024-05-01T18:05:00.000Z
+date: 2024-05-01T18:05
 summary: toto
 image: "./exemple.jpg"
 ---

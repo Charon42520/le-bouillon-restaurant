@@ -6,14 +6,15 @@ summary: |-
   Venez profitez de Carlotta et son ukulélé à partir de 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives.
 image: "@assets/434332_adae3ac6af1c4c9abd3f1d3f03641963~mv2.webp"
 ---
+
 Venez profitez de Carlotta et son ukulélé à partir de 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives.
 
-*"Sur des airs de ukulélé, la voix chaleureuse de Carlotta  réinterprète en toute intimité des chansons d'hier et d'aujourd'hui."*
+_"Sur des airs de ukulélé, la voix chaleureuse de Carlotta réinterprète en toute intimité des chansons d'hier et d'aujourd'hui."_
 
 Réservation conseillée 06.07.38.31.61
 
 Artiste Lyonnaise
 
-Carlotta musique *[https://youtu.be/dc11toxVJ38](https://youtu.be/dc11toxVJ38)*
+Carlotta musique _[https://youtu.be/dc11toxVJ38](https://youtu.be/dc11toxVJ38)_
 
 [Découvrir Carlotta](https://charlyonstage.wixsite.com/carlotta)

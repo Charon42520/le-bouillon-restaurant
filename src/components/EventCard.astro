@@ -9,6 +9,8 @@ export interface Props {
 
 const { event } = Astro.props;
 const { Content } = await event.render();
+
+const date = new Date(event.data.date);
 ---
 
 <article shadow-xl rounded-xl flex="~ col" overflow-hidden break-inside-avoid>
@@ -45,14 +47,14 @@ const { Content } = await event.render();
       items-center
     >
       <div text-7 leading-7>
-        {event.data.date.getDate()}
+        {date.getDate()}
       </div>
 
       <div>
         {
           new Intl.DateTimeFormat("fr", {
             month: "short",
-          }).format(event.data.date)
+          }).format(date)
         }
       </div>
     </time>

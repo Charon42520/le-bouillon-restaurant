@@ -11,7 +11,10 @@ const { data } = await getEntry("events-page", "events");
 const rawEvents = await getCollection("events");
 
 const events = rawEvents
-  .sort((e1, e2) => e1.data.date.getTime() - e2.data.date.getTime())
+  .sort(
+    (e1, e2) =>
+      new Date(e1.data.date).getTime() - new Date(e2.data.date).getTime()
+  )
   .filter((e) => e.id.startsWith("content"));
 
 const firstColumn: typeof events = [];
