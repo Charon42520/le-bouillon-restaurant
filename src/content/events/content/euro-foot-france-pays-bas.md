@@ -1,5 +1,5 @@
 ---
-title: EURO FOOT - FRANCE / Pays-Bas
+title: EURO FOOT - FRANCE / PAYS-BAS
 date: 2024-06-21T20:50
 summary: |-
   Venez visionner et encourager l'équipe de France contre le Pays-Bas. Match de phase de groupes D de l'EURO.
