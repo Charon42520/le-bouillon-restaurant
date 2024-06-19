@@ -1,5 +1,5 @@
 ---
-title: EURO FOOT - FRANCE / POLOGNE
+title: EURO FOOT - FRANCE / POLOGNE ⚽
 date: 2024-06-25T18:00
 summary: Venez visionner et encourager l'équipe de France contre la Pologne. Diffusion du Match à 18h00.
 image: "@assets/1444x920_24-equipes-se-disputent-le-titre-lors-de-l-euro-en-allemagne-du-14-juin-au-14-juillet.webp"
