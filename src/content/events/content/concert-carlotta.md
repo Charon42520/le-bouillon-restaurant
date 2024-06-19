@@ -12,6 +12,8 @@ Venez profiter de Carlotta et son ukulélé à partir de 20h00 sur la terrasse d
 
 Réservation conseillée 06.07.38.31.61
 
+Tarif : Prix Libre
+
 Artiste Lyonnaise
 
 Carlotta musique *[https://youtu.be/dc11toxVJ38](https://youtu.be/dc11toxVJ38)*
