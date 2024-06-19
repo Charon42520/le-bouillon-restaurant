@@ -1,5 +1,5 @@
 ---
-title: CONCERT - TWO FLOU
+title: CONCERT - TWO FLOU 🎶
 date: 2024-07-14T20:00
 summary: |-
   CONCERT - TWO FLOU
