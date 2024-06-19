@@ -12,6 +12,8 @@ Venez profiter de Willy et Linda dans un Duo Saxo & Guitare à partir de 20h00 s
 
 Réservation conseillée 06.07.38.31.61
 
+Tarif : Prix Libre
+
 Artistes locaux de Salaise sur Sanne
 
 **[Découvrir TWO FLOU](https://www.facebook.com/profile.php?id=61553977465506&locale=fr_FR)**
