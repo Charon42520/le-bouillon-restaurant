@@ -7,22 +7,22 @@
   "date": "2024-06-21T10:00",
   "starters": [
     {
-      "name": "COMPLET",
-      "description": "Au vu de la météo annoncée et des réservations"
+      "name": "Tartare de concombre & crème aux herbes",
+      "description": ""
     }
   ],
   "additionalTextStarters": "",
   "mainDishes": [
     {
-      "name": "COMPLET",
-      "description": "Au vu de la météo annoncée et des réservations"
+      "name": "Cuisse de poulet & jus de viande",
+      "description": "accompagnée de pennes"
     }
   ],
   "additionalTextMainDishes": "",
   "deserts": [
     {
-      "name": "COMPLET",
-      "description": "Au vu de la météo annoncée et des réservations me"
+      "name": "Tarte aux pommes",
+      "description": ""
     }
   ],
   "additionalTextDeserts": "",
