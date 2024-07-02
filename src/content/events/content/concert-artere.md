@@ -4,7 +4,7 @@ date: 2024-08-16T20:00
 summary: |-
   CONCERT - ARTERE
   Venez profiter du Duo ARTERE  à partir de 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives.
-image: "@assets/_MG_3270.JPG"
+image: "@assets/Photo-Live-1.jpg"
 ---
 Venez profiter du duo à partir de 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives.
 
