@@ -7,21 +7,21 @@
   "date": "2024-07-01T10:00",
   "starters": [
     {
-      "name": "Nori au saumon",
-      "description": ""
+      "name": "Toast de fourme",
+      "description": "& Salade"
     }
   ],
   "additionalTextStarters": "",
   "mainDishes": [
     {
-      "name": "Joue de boeuf",
-      "description": "accompagnée de pomme de terre grenaille"
+      "name": "Filet mignon de porc sauce moutarde à l'ancienne",
+      "description": "accompagnée de courgette rôti et semoule"
     }
   ],
   "additionalTextMainDishes": "",
   "deserts": [
     {
-      "name": "Panna cotta coulis de chocolat",
+      "name": "Tartelettes au pêche",
       "description": ""
     }
   ],
