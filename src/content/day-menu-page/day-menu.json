@@ -7,22 +7,22 @@
   "date": "2024-07-04T10:00",
   "starters": [
     {
-      "name": "Nous sommes complet MERCI de votre compréhension",
+      "name": "Risotto, caviar d'aubergine & tuile de parmesan",
       "description": ""
     }
   ],
   "additionalTextStarters": "",
   "mainDishes": [
     {
-      "name": "Nous sommes complet MERCI de votre compréhension",
-      "description": ""
+      "name": "Consommé de volaille",
+      "description": "accompagné de nouilles et légumes"
     }
   ],
   "additionalTextMainDishes": "",
   "deserts": [
     {
-      "name": "Nous sommes complet MERCI de votre compréhension",
-      "description": ""
+      "name": "Cervelle de Canut",
+      "description": "Spécialité fromagère typique de la cuisine lyonnaise"
     }
   ],
   "additionalTextDeserts": "",
