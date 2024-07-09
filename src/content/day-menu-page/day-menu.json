@@ -7,21 +7,21 @@
   "date": "2024-07-09T10:00",
   "starters": [
     {
-      "name": "Salade de gésiers de volaille",
+      "name": "Bun's parisien au cheddar",
       "description": ""
     }
   ],
   "additionalTextStarters": "",
   "mainDishes": [
     {
-      "name": "Pilons de poulet sauce barbecue",
-      "description": "accompagnés de pennes à la tomate"
+      "name": "Pièce de veau grillé",
+      "description": "accompagnée d'écrasé de pommes de terre"
     }
   ],
   "additionalTextMainDishes": "",
   "deserts": [
     {
-      "name": "Baba au rhum",
+      "name": "Coupe abricot cerise Amarena",
       "description": ""
     }
   ],
