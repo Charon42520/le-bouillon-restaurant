@@ -14,11 +14,11 @@
   "additionalTextStarters": "",
   "mainDishes": [
     {
-      "name": "Pilons de poulet",
+      "name": "Pilons de poulet*",
       "description": "accompagnés de pommes de terre grenaille"
     }
   ],
-  "additionalTextMainDishes": "",
+  "additionalTextMainDishes": "*Élevé aux grains",
   "deserts": [
     {
       "name": "Carpaccio d'ananas",
