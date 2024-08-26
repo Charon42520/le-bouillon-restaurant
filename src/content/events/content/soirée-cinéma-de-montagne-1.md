@@ -1,6 +1,6 @@
 ---
 title: "Soirée cinéma de montagne #1"
-date: 2024-08-29T20:00
+date: 2024-09-05T20:00
 summary: |-
   Soirée ciné au Bouillon des Eaux des Eaux-Vives
 
