@@ -16,6 +16,18 @@ Laurent : chant et guitare
 
 Romain : basse et contrebasse.
 
+**Cécyl**
+
+*Reprise Pop Rock de Vianney, Tryo, Stéphan Heicher, Renan Luce, Ben mazué... ainsi que 1 ou 2 compositions personnelles.* 
+
+2 musiciens, 2 guitaristes et 1 chanteur.
+
+**Thoree**
+
+*Composition*
+
+Eric au tambour/vocalises et Jessica à la flûte amérindienne.
+
 LA SCENE EST A VOUS !
 
 Inscriptions et contact par mail [cuisine.lebouillon@gmail.com](mailto:cuisine.lebouillon@gmail.com) avant le 30/08/2024
