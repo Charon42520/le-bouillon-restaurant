@@ -1,6 +1,6 @@
 ---
 title: "Soirée cinéma de montagne #2"
-date: 2024-09-05T20:00
+date: 2024-09-12T20:00
 summary: |-
   Soirée ciné au Bouillon des Eaux des Eaux-Vives
 
