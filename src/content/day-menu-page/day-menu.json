@@ -4,24 +4,24 @@
     "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
   },
   "text": "Découvrez le menu du jour",
-  "date": "2024-09-11T10:00",
+  "date": "2024-09-11T11:00",
   "starters": [
     {
-      "name": "Pâté en croute Richelieu",
+      "name": "Tarte fine aux poireaux",
       "description": ""
     }
   ],
   "additionalTextStarters": "",
   "mainDishes": [
     {
-      "name": "Echine de porcelet confite",
-      "description": "Accompagnée de pommes dauphine"
+      "name": "Saucisse de Morteau, sauce forestière",
+      "description": "Accompagnée de lentilles et légumes"
     }
   ],
   "additionalTextMainDishes": "",
   "deserts": [
     {
-      "name": "Poire pochée au vin rouge et cannelle",
+      "name": "Fondant chocolat",
       "description": ""
     }
   ],
