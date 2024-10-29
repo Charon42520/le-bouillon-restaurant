@@ -7,21 +7,21 @@
   "date": "2024-10-25T10:00:00",
   "starters": [
     {
-      "name": "Terrine au Porto",
+      "name": "Croc jambon blanc",
       "description": ""
     }
   ],
   "additionalTextStarters": "",
   "mainDishes": [
     {
-      "name": "Riz sottu mare",
+      "name": "Pilons de poulet",
       "description": ""
     }
   ],
-  "additionalTextMainDishes": "",
+  "additionalTextMainDishes": "Accompagnés de légumes antipasti, sauce napolitaine",
   "deserts": [
     {
-      "name": "Framboisier",
+      "name": "Tarte au coing, glace vanille",
       "description": ""
     }
   ],
