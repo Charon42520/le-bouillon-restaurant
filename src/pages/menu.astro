@@ -46,13 +46,13 @@ function slugify(input: string) {
         La carte
       </h1>
 
-      <p m="t-4 x-4">
+      <p m="t-4 x-4" flex gap-4 items-center>
         <img {...leaf} inline-block w-5 h-5 />
 
         Plat végétarien
       </p>
 
-      <p m-4>
+      <p m-4 flex gap-4 items-center>
         <img {...heart} inline-block w-5 h-5 />
 
         Coup de cœur du chef
@@ -64,7 +64,7 @@ function slugify(input: string) {
             id={slugify(page.title)}
             {...page.image}
             alt="Page 1 du menu du restaurant Le Bouillon des Eaux Vives"
-            class="w-full"
+            class="w-full mt-8"
           />
         ))
       }
