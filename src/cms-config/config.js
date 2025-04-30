@@ -17,6 +17,7 @@ export const cmsConfig = {
     auth_type: "pkce",
     app_id: "de3bf42d6990ad57f4ab8346eabdfc1e0798ae1d4518b57e0d3e07adde713e95",
   },
+  editor: { preview: false },
   locale: "fr",
   search: false,
   media_folder: "src/assets",
