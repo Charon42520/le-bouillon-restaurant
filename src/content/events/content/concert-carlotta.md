@@ -18,7 +18,7 @@ Le petit clin d'oeil de la musique Irlandaise car le chef Yoann à travailler du
 
 Réservation 06.07.38.31.61
 
-Tarif : 25€
+Tarif : 25€ incluant le menu unique ainsi que le concert (Le menu sera communiqué plus tard)
 
 Artiste de Saint Etienne (Loire 42)
 
