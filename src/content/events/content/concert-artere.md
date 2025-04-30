@@ -4,8 +4,9 @@ date: 2025-07-18T20:00:00
 summary: |-
   CONCERT - ARTERE
   Venez profiter du Duo ARTERE  à partir de 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives.
-image: '@assets/474949013_122214690434209909_954569922327234487_n.jpg'
+image: "@assets/474949013_122214690434209909_954569922327234487_n.jpg"
 ---
+
 Venez profiter du duo à partir de 20h00 et durant 1h30 sur la terrasse du Bouillon - Brasserie des Eaux-Vives.
 
 Un duo intimiste, simple et acoustique, lancé à l’été 2021, qui met en lumière la jeune chanteuse suisse Maïla Estoppey et le batteur français Victor Jarry.

@@ -1,9 +1,10 @@
 ---
 title: Concert - DJ Set Farkoner
-date: 2024-08-30T20:00
+date: 2024-08-30T20:00:00
 summary: DJ et producteur, Farkoner est un défenseur incontournable de la culture Bass music et soundsystem à Saint-Étienne et en France mais surtout un artiste complet et prometteur, et il compte bien le faire entendre.
 image: "@assets/2023_08_04_FATA_MORGANA-Romain-Guede-1921.jpeg"
 ---
+
 DJ et producteur, Farkoner est un défenseur incontournable de la culture Bass music et soundsystem à Saint-Étienne et en France mais surtout un artiste complet et prometteur, et il compte bien le faire entendre.
 
 Bien qu'il soit encore relativement discret, ses morceaux sont déjà bien appréciés par des piliers de la scène en France et même au Royaume-Uni (Pangaea, Papa Nugs, Kaval, Azamat B, Tim Karbon…).

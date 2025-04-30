@@ -85,7 +85,7 @@ const eventsCollection = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string(),
-      date: z.string(),
+      date: z.date(),
       summary: z.string(),
       image: image(),
     }),

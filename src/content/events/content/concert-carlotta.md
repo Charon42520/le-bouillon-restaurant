@@ -4,8 +4,9 @@ date: 2025-06-06T20:00:00
 summary: |-
   CONCERT - Superfly Irish Duo
   Venez profiter de Superfly Irish Duo à partir de 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives.
-image: '@assets/SuperFly%20Irish%20Duo%202.jpg'
+image: "@assets/SuperFly_Irish_Duo_2.jpg"
 ---
+
 Venez profiter de Superfly Irish Duo à partir de 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives.
 
 Superfly propose la musique irlandaise des pubs avec des airs lents, des reels et jigs énergiques et des chants traditionnels.

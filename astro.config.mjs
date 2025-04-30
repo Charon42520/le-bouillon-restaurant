@@ -11,7 +11,6 @@ export default defineConfig({
     }),
     decapCms({
       cmsConfig,
-      cmsScriptSrc: "https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js",
     }),
   ],
 });
