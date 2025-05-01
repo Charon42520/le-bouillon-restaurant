@@ -3,7 +3,7 @@ title: FÊTE DE LA MUSIQUE 2025 🎶
 date: 2025-06-21T20:00:00.000Z
 summary: Venez profiter de la terrasse et son esprit guinguette afin de danser,
   chanter au bord de l'eau et de fêter ensemble la fête de la musique 2025.
-image: "@assets/sunnyloulight.jpg"
+image: "@assets/sunnyloulight2.jpg"
 ---
 Venez profiter du Duo Lou & Sunny à partir de 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives afin de fêter la fête de la musique avec l'équipe du Bouillon.
 
