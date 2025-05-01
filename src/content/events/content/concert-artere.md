@@ -1,10 +1,11 @@
 ---
 title: CONCERT - ARTERE  🎶
 date: 2025-07-18T20:00:00
-summary: |-
+summary: >-
   CONCERT - ARTERE
+
   Venez profiter du Duo ARTERE  à partir de 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives.
-image: "@assets/474949013_122214690434209909_954569922327234487_n.jpg"
+image: "@assets/artère.jpg"
 ---
 
 Venez profiter du duo à partir de 20h00 et durant 1h30 sur la terrasse du Bouillon - Brasserie des Eaux-Vives.
