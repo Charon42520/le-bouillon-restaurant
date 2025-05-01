@@ -5,7 +5,7 @@ summary: >-
   CONCERT - TWO FLOU
 
   Venez profiter de Willy et Linda dans un Duo Saxo & Guitare à partir de 20h00 sur la terrasse du Bouillon des Eaux-Vives.
-image: "@assets/477306432_122217348494209909_124868604482647234_n.jpg"
+image: "@assets/twoflou.jpg"
 ---
 CONCERT - TWO FLOU
 
