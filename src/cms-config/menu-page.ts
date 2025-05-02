@@ -1,7 +1,7 @@
-import { seoField } from "./seo-field.js";
+import type { CmsCollectionFile } from "node_modules/astro-decap/types/types.js";
+import { seoField } from "./seo-field.ts";
 
-/** @type {import("decap-cms-core").CmsCollectionFile} */
-export const menuPage = {
+export const menuPage: CmsCollectionFile = {
   label: "La carte",
   name: "menu",
   file: "src/content/menu-page/menu.json",

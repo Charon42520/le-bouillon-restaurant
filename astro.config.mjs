@@ -1,7 +1,8 @@
+import cloudflare from "@astrojs/cloudflare";
+import decapCms from "astro-decap";
 import { defineConfig } from "astro/config";
 import UnoCSS from "unocss/astro";
-import decapCms from "astro-decap";
-import { cmsConfig } from "./src/cms-config/config.js";
+import { cmsConfig } from "./src/cms-config/config.ts";
 
 export default defineConfig({
   site: "https://lebouillondeseauxvives.fr",
@@ -11,6 +12,10 @@ export default defineConfig({
     }),
     decapCms({
       cmsConfig,
+      injectOAuthRoute: true,
+      getEnvObjectFromRequestContext: ({ locals }) => locals.runtime.env,
     }),
   ],
+  output: "static",
+  adapter: cloudflare(),
 });

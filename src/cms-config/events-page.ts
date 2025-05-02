@@ -1,7 +1,7 @@
-import { seoField } from "./seo-field.js";
+import type { CmsCollectionFile } from "node_modules/astro-decap/types/types.js";
+import { seoField } from "./seo-field.ts";
 
-/** @type {import("decap-cms-core").CmsCollectionFile} */
-export const eventsPage = {
+export const eventsPage: CmsCollectionFile = {
   label: "Programmation",
   name: "events-page",
   file: "src/content/events-page/events.json",

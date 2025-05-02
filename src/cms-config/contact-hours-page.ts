@@ -1,6 +1,7 @@
-import { seoField } from "./seo-field.js";
+import type { CmsCollectionFile, CmsField } from "node_modules/astro-decap/types/types";
+import { seoField } from "./seo-field.ts";
 
-const contactField = [
+const contactField: CmsField[] = [
   {
     label: "Lien",
     name: "link",
@@ -13,8 +14,7 @@ const contactField = [
   },
 ];
 
-/** @type {import("decap-cms-core").CmsCollectionFile} */
-export const contactHoursPage = {
+export const contactHoursPage: CmsCollectionFile = {
   label: "Contact et horaires",
   name: "contact-hours",
   file: "src/content/contact-hours-page/contact-hours.json",

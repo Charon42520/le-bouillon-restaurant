@@ -1,5 +1,6 @@
-/** @type {import("decap-cms-core").CmsFieldObject} */
-export const seoField = {
+import type { CmsFieldBase, CmsFieldObject } from "node_modules/astro-decap/types/types";
+
+export const seoField: CmsFieldBase & CmsFieldObject = {
   label: "Moteurs de recherche",
   name: "seo",
   widget: "object",

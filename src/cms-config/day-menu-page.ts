@@ -1,6 +1,7 @@
-import { seoField } from "./seo-field.js";
+import type { CmsCollectionFile, CmsField } from "node_modules/astro-decap/types/types.js";
+import { seoField } from "./seo-field.ts";
 
-const dishFields = [
+const dishFields: CmsField[] = [
   {
     label: "Nom",
     name: "name",
@@ -14,8 +15,7 @@ const dishFields = [
   },
 ];
 
-/** @type {import("decap-cms-core").CmsCollectionFile} */
-export const dayMenuPage = {
+export const dayMenuPage: CmsCollectionFile = {
   label: "Menu du jour",
   name: "day-menu",
   file: "src/content/day-menu-page/day-menu.json",

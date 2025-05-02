@@ -2,26 +2,32 @@
   "name": "le-bouillon-restaurant",
   "type": "module",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "dev": "astro dev",
+    "dev": "concurrently 'LOCAL_BACKEND=true bun dev:astro' 'bun dev:decap-server'",
+    "dev:astro": "astro dev",
+    "dev:decap-server": "decap-server",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.5.10",
-    "@iconify-json/carbon": "^1.1.31",
-    "astro": "^4.5.14",
+    "@astrojs/check": "^0.9.4",
+    "@iconify-json/carbon": "^1.2.8",
+    "astro": "^5.7.10",
     "astro-decap": "^0.3.0",
-    "astro-seo": "^0.8.3",
-    "typescript": "^5.4.3"
+    "astro-seo": "^0.8.4",
+    "typescript": "^5.8.3"
   },
   "devDependencies": {
-    "@unocss/reset": "0.59.0-beta.1",
-    "decap-cms-core": "^3.3.6",
-    "sharp": "^0.33.3",
-    "unocss": "0.59.0-beta.1",
-    "zod": "^3.23.4"
+    "@astrojs/cloudflare": "^12.5.2",
+    "@types/node": "^22.15.3",
+    "@unocss/reset": "^66.0.0",
+    "concurrently": "^9.1.2",
+    "decap-server": "^3.2.0",
+    "sharp": "^0.34.1",
+    "unocss": "^66.0.0",
+    "zod": "^3.24.3"
   }
 }

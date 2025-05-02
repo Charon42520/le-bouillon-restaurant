@@ -1,5 +1,6 @@
-/** @type {import("decap-cms-core").CmsCollection} */
-export const eventsCollection = {
+import type { CmsCollection } from "node_modules/astro-decap/types/types";
+
+export const eventsCollection: CmsCollection = {
   label: "Evennements",
   name: "events",
   folder: "src/content/events/content",

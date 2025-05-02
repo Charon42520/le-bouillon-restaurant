@@ -1,7 +1,7 @@
-import { seoField } from "./seo-field.js";
+import type { CmsCollectionFile } from "node_modules/astro-decap/types/types.js";
+import { seoField } from "./seo-field.ts";
 
-/** @type {import("decap-cms-core").CmsCollectionFile} */
-export const indexPage = {
+export const indexPage: CmsCollectionFile = {
   label: "Accueil",
   name: "index",
   file: "src/content/index-page/index.md",
