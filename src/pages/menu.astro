@@ -7,7 +7,13 @@ import leaf from "@components/leaf.svg";
 import Layout from "@layouts/Layout.astro";
 import { getEntry } from "astro:content";
 
-const { data } = await getEntry("menu-page", "menu");
+const entry = await getEntry("menu-page", "menu");
+
+if (entry === undefined) {
+  throw new Error("Entry not found");
+}
+
+const { data } = entry;
 
 function slugify(input: string) {
   return input

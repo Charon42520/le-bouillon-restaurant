@@ -1,10 +1,8 @@
 /// <reference path="../.astro/types.d.ts" />
 /// <reference types="astro/client" />
 
-import type { AttributifyAttributes } from "unocss/preset-attributify";
+type Runtime = import("@astrojs/cloudflare").Runtime<Env>;
 
-declare global {
-  namespace astroHTML.JSX {
-    interface HTMLAttributes extends AttributifyAttributes {}
-  }
+declare namespace App {
+  interface Locals extends Runtime { }
 }

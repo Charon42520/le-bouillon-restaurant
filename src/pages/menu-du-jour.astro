@@ -9,7 +9,13 @@ import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { getEntry } from "astro:content";
 
-const { data } = await getEntry("day-menu-page", "day-menu");
+const entry = await getEntry("day-menu-page", "day-menu");
+
+if (entry === undefined) {
+  throw new Error("Entry not found");
+}
+
+const { data } = entry;
 ---
 
 <Layout title="Welcome to Astro.">

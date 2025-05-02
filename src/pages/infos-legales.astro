@@ -10,7 +10,13 @@ const legalSections = (await getCollection("legal")).filter((e) =>
   e.id.startsWith("content")
 );
 
-const { data } = await getEntry("legal-page", "legal");
+const entry = await getEntry("legal-page", "legal");
+
+if (entry === undefined) {
+  throw new Error("Entry not found");
+}
+
+const { data } = entry;
 ---
 
 <Layout title="Welcome to Astro.">

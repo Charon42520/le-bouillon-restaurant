@@ -6,8 +6,13 @@ import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { getEntry } from "astro:content";
 
-const { data, render } = await getEntry("presentation-page", "presentation");
+const entry = await getEntry("presentation-page", "presentation");
 
+if (entry === undefined) {
+  throw new Error("Entry not found");
+}
+
+const { data, render } = entry;
 const { Content } = await render();
 ---
 

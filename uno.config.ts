@@ -2,7 +2,7 @@ import {
   defineConfig,
   presetAttributify,
   presetIcons,
-  presetUno,
+  presetWind3,
   presetTypography,
 } from "unocss";
 
@@ -11,7 +11,7 @@ export default defineConfig({
     presetIcons(),
     presetAttributify(),
     presetTypography(),
-    presetUno(),
+    presetWind3(),
   ],
   theme: {
     colors: {

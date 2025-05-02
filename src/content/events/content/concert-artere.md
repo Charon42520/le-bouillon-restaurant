@@ -5,7 +5,7 @@ summary: >-
   CONCERT - ARTERE
 
   Venez profiter du Duo ARTERE  à partir de 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives.
-image: "@assets/artère.jpg"
+image: "@assets/artère.webp"
 ---
 
 Venez profiter du duo à partir de 20h00 et durant 1h30 sur la terrasse du Bouillon - Brasserie des Eaux-Vives.

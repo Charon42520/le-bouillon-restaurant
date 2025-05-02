@@ -6,12 +6,21 @@ import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
 import { getEntry } from "astro:content";
 
-const { data, render } = await getEntry("index-page", "index");
-const { data: contactData } = await getEntry(
-  "contact-hours-page",
-  "contact-hours"
-);
+const indexEntry = await getEntry("index-page", "index");
 
+if (indexEntry === undefined) {
+  throw new Error("Entry not found");
+}
+
+const { data, render } = indexEntry;
+
+const contactEntry = await getEntry("contact-hours-page", "contact-hours");
+
+if (contactEntry === undefined) {
+  throw new Error("Entry not found");
+}
+
+const { data: contactData } = contactEntry;
 const { Content } = await render();
 ---
 
