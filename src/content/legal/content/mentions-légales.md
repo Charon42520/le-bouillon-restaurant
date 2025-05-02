@@ -15,4 +15,4 @@ SASU O'BROTHERS - capital social 1000€
 
 contact : brasserieobrothers\[at]gmail.com
 
-Site hébergé par CLOUDFLARE pages
+Site hébergé par CLOUDFLARE
