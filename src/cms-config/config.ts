@@ -25,7 +25,7 @@ function getBackend(): CmsBackend {
 
   return {
     name: "github",
-    repo: "finesandco/finesandco-website",
+    repo: "Charon42520/le-bouillon-restaurant",
     branch: "main",
     site_domain: url.hostname,
     base_url: WEBSITE_URL,

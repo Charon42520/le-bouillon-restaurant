@@ -23,12 +23,23 @@ const events = rawEvents
   )
   .filter((e) => e.id.startsWith("content"));
 
-const firstColumn: typeof events = [];
-const secondColumn: typeof events = [];
+const pastEvents = events.filter((e) => new Date(e.data.date) < new Date());
+const futureEvents = events.filter((e) => new Date(e.data.date) >= new Date());
 
-for (let i = 0; i < events.length; i++) {
-  if (i % 2 === 0) firstColumn.push(events[i]);
-  else secondColumn.push(events[i]);
+const futureEventsFirstColumn: typeof events = [];
+const futureEventsSecondColumn: typeof events = [];
+
+for (let i = 0; i < futureEvents.length; i++) {
+  if (i % 2 === 0) futureEventsFirstColumn.push(futureEvents[i]);
+  else futureEventsSecondColumn.push(futureEvents[i]);
+}
+
+const pastEventsFirstColumn: typeof events = [];
+const pastEventsSecondColumn: typeof events = [];
+
+for (let i = 0; i < pastEvents.length; i++) {
+  if (i % 2 === 0) pastEventsFirstColumn.push(pastEvents[i]);
+  else pastEventsSecondColumn.push(pastEvents[i]);
 }
 ---
 
@@ -57,24 +68,46 @@ for (let i = 0; i < events.length; i++) {
 
     <div hidden lg:grid cols-2 gap-8 mt-8 max-w-250 m-x-auto>
       <div flex="~ col" gap-12>
-        {firstColumn.map((event) => <EventCard {event} />)}
+        {futureEventsFirstColumn.map((event) => <EventCard {event} />)}
       </div>
 
       <div flex="~ col" gap-12>
-        {secondColumn.map((event) => <EventCard {event} />)}
+        {futureEventsSecondColumn.map((event) => <EventCard {event} />)}
       </div>
     </div>
 
     <div flex="~ col" gap-8 class="lg:hidden" max-w-250 m="x-auto md:t-8">
-      {events.map((event) => <EventCard {event} />)}
+      {futureEvents.map((event) => <EventCard {event} />)}
     </div>
 
     {
-      events.length === 0 && (
+      futureEvents.length === 0 && (
         <p flex items-center gap-2 justify-center mt-16>
           <i i-carbon-calendar block w-6 h-6 />
           {data.noEventsText}
         </p>
+      )
+    }
+
+    {
+      pastEvents.length !== 0 && (
+        <h2 text="6 md:center" uppercase font-display font-normal m="t-8 b-6 md:b-0">
+          Événements passés
+        </h2>
+
+        <div hidden lg:grid cols-2 gap-8 mt-8 max-w-250 m-x-auto>
+          <div flex="~ col" gap-12>
+            {pastEventsFirstColumn.map((event) => <EventCard {event} />)}
+          </div>
+
+          <div flex="~ col" gap-12>
+            {pastEventsSecondColumn.map((event) => <EventCard {event} />)}
+          </div>
+        </div>
+
+        <div flex="~ col" gap-8 class="lg:hidden" max-w-250 m="x-auto md:t-8">
+          {pastEvents.map((event) => <EventCard {event} />)}
+        </div>
       )
     }
   </main>
