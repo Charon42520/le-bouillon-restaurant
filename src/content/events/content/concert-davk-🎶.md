@@ -9,7 +9,12 @@ CONCERT - Dav'K Trio
 
 Venez profiter de Dav'K à partir de 20h00 sur la terrasse du Bouillon des Eaux-Vives.
 
-Des guitares, du chant, du rythme, chansons française festives, swing/rock/reggae, des  reprises d'artistes reconnus et d'autres moins, des compos envoyées et poétiques , Dav suit son karma fait son numéro de prestidigitateur pour nous conduire vers un ailleurs, un monde forcément meilleur
+Des guitares, du chant, du rythme, chansons française festives, swing/rock/reggae, des  reprises d'artistes reconnus et d'autres moins, des compos envoyées et poétiques , Dav suit son karma fait son numéro de prestidigitateur pour nous conduire vers un ailleurs, un monde forcément meilleur.
+
+
+Chant-guitare : David Kautzak
+Batterie : Benoit Rubet
+Basse : Olivier Perez
 
 Réservation 06.07.38.31.61
 
