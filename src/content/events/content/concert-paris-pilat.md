@@ -5,7 +5,7 @@ summary: En concert le 27 Juin 2025 sur la terrasse du Bouillon - Brasserie des
   Eaux-Vives, venez profiter des groupes locaux PARIS PILAT et TWO FLOU
 image: "@assets/capture-d’écran-2025-05-02-à-16.34.40.png"
 ---
-En concert le 27 Juin 2025 sur la terrasse du Bouillon - Brasserie des Eaux-Vives, venez profiter des groupes locaux PARIS PILAT et TWO FLOU
+Venez profiter de Paris Pilat et Two Flou pour lancer l'été à partir de 20h00 sur la terrasse du Bouillon des Eaux-Vives.
 
 Réservation 06.07.38.31.61
 
