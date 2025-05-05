@@ -1,21 +1,24 @@
 ---
-title: CONCERT - Magda & Gaëtan 🎶
-date: 2025-08-15T20:00:00.000Z
-summary: Venez profiter de Magda & Gaëtan à partir de 20h00 sur la terrasse du
+title: CONCERT - Easy Ride 🎶
+date: 2025-09-05T20:00:00.000Z
+summary: Venez profiter de Easy Ride à partir de 20h00 sur la terrasse du
   Bouillon - Brasserie des Eaux-Vives.
-image: "@assets/480556467_122106874178763096_5404907195592239797_n2.jpg"
+image: "@assets/469216216_122098406234667306_2546447858011853926_n.jpg"
 ---
-CONCERT - Magda & Gaëtan
+CONCERT - Easy Ride
 
-Venez profiter de Magda & Gaëtan à partir de 20h00 sur la terrasse du Bouillon des Eaux-Vives.
+Venez profiter de Easy Ride à partir de 20h00 sur la terrasse du Bouillon des Eaux-Vives.
 
-Magda (guitare voix) & Gaëtan (violon), un duo musical naissant pour apporter douceur et poésie.
+L'élégance épurée d'un piano voix, la chaleur d'une guitare ou les notes suaves d'un trombone.
+C'est la rencontre de deux touche-à-tout de la musique qui nous prennent par la main, pour nous emmener en balade sur des airs connus de tous.
+
+Et pour ceux qui voudraient s'essayer à la scène,  passez en mode Karaoké Live en fin de soirée avec plus de 300 titres .....
 
 Réservation 06.07.38.31.61
 
 Tarif : 25€ incluant le menu unique ainsi que le concert (Le menu sera communiqué plus tard)
 
-• Artistes locaux Pélussin (42)
+• Artistes locaux Lyonnais (69)
 
-[Découvrir Magda & Gaëtan](https://www.facebook.com/profile.php?id=61572892904726)
+[Découvrir EASY RIDE](https://www.facebook.com/profile.php?id=61570019191830)
 [](https://www.youtube.com/watch?v=g3Le50YDMw0&t=7s)
