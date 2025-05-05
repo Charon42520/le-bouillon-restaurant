@@ -9,7 +9,6 @@ Venez profiter du Duo Lou & Sunny à partir de 20h00 sur la terrasse du Bouillon
 
 Lou & Sunny, le duo guitare électrique-voix issu du groupe PLLouF' Band, pour une configuration réduite passe-partout et une atmosphère plus intimiste, mais toujours aussi frais !
 
-
 De la pop, du jazz, un peu de rock et une bonne dose de funk 
 
 Réservation 06.07.38.31.61
@@ -18,4 +17,4 @@ Tarif : 25€ incluant le menu unique ainsi que le concert (Le menu sera communi
 
 Artiste de Bourgoin (Isère 38)[](https://youtu.be/i3eamZgK7gQ?feature=shared)
 
-[Découvrir Lou & Sunny](https://loumusique.wixsite.com/lou-musique?fbclid=IwY2xjawKAcsxleHRuA2FlbQIxMABicmlkETF0N0FQV2pxeGZNOU1oaUZ3AR7x_ro5avH7ea_aOdPxMRna7L0SklrS5B7vcIWZn9LZhT3R8YbJfiUTQU9pqQ_aem_dJha8sKBhYSL6VLiwLpPuQ)
+[Découvrir Lou & Sunny](https://www.facebook.com/lousunnyduo/)
