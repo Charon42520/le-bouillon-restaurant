@@ -3,7 +3,7 @@ title: CONCERT - Dav'K 🎶
 date: 2025-07-11T20:00:00.000Z
 summary: Venez profiter de Dav'K Trio à partir de 20h00 sur la terrasse du
   Bouillon - Brasserie des Eaux-Vives.
-image: "@assets/484040582_122112494414770136_5277879090770319280_n.jpg"
+image: "@assets/484040582_122112494414770136_5277879090770319280_n2.jpg"
 ---
 CONCERT - Dav'K Trio
 
