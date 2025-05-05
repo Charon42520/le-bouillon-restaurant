@@ -1,14 +1,16 @@
 ---
-title: CONCERT - PARIS PILAT 🎶
-date: 2024-08-09T20:00:00
-summary: En concert le 9 Août 2024 sur la terrasse du Bouillon - Brasserie des Eaux-Vives, venez profiter du groupe local PARIS PILAT.
-image: "@assets/1000038991.jpg"
+title: CONCERT - PARIS PILAT & Two Flou  🎶
+date: 2025-06-27T20:00:00.000Z
+summary: En concert le 27 Juin 2025 sur la terrasse du Bouillon - Brasserie des
+  Eaux-Vives, venez profiter des groupes locaux PARIS PILAT et TWO FLOU
+image: "@assets/two-flou-et-paris-pilat-2-.png"
 ---
+En concert le 27 Juin 2025 sur la terrasse du Bouillon - Brasserie des Eaux-Vives, venez profiter des groupes locaux PARIS PILAT et TWO FLOU
 
-En concert le 9 Août 2024 à 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives, venez profiter du groupe local PARIS PILAT
+Réservation 06.07.38.31.61
 
-Propre composition ambiance Rock
+Tarif : 25€ incluant le menu unique ainsi que le concert (Le menu sera communiqué plus tard)
 
-Réservation conseillée 06.07.38.31.61
+TWO FLOU • Artistes locaux de Salaise sur Sanne • Duo Saxo & Guitare
 
-Tarif : Prix Libre
+PARIS PILAT • Artistes locaux de Maclas • Propre composition ambiance Rock
