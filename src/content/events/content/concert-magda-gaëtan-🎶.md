@@ -5,7 +5,7 @@ summary: Venez profiter de Magda & Gaëtan à partir de 20h00 sur la terrasse du
   Bouillon - Brasserie des Eaux-Vives.
 image: "@assets/480556467_122106874178763096_5404907195592239797_n2.jpg"
 ---
-CONCERT - Magda & Gaëtan
+CONCERT - Magda & GaëtaN
 
 Venez profiter de Magda & Gaëtan à partir de 20h00 sur la terrasse du Bouillon des Eaux-Vives.
 
