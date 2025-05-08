@@ -1,32 +1,30 @@
 {
+  "mainDishes": [
+    {
+      "name": "Sauté de veau aux légumes",
+      "description": "Accompagné de pennes "
+    }
+  ],
+  "threeDishesPrice": 22,
+  "starters": [
+    {
+      "name": "Œuf parfait, crème à la courgette"
+    }
+  ],
+  "oneDishPrice": 14,
+  "additionalTextDeserts": "",
+  "text": "Découvrez le menu du jour",
+  "date": "2025-05-09T09:00:00.000Z",
+  "twoDishesPrice": 18,
+  "additionalTextMainDishes": "* Plat végétarien possible *",
+  "additionalTextStarters": "",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
     "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
   },
-  "text": "Découvrez le menu du jour",
-  "date": "2025-04-30T09:00:00",
-  "starters": [
-    {
-      "name": "Salade César",
-      "description": "poulet, oeuf parfait et croûtons"
-    }
-  ],
-  "additionalTextStarters": "* Plat végétarien possible *",
-  "mainDishes": [
-    {
-      "name": "Andouillette, crème de moutarde",
-      "description": "accompagnée de pennes"
-    }
-  ],
-  "additionalTextMainDishes": "* Plat végétarien possible *",
   "deserts": [
     {
-      "name": "Tiramisu café et spéculoos",
-      "description": ""
+      "name": "Tartelette au citron meringuée"
     }
-  ],
-  "additionalTextDeserts": "",
-  "oneDishPrice": 14,
-  "twoDishesPrice": 18,
-  "threeDishesPrice": 22
+  ]
 }
