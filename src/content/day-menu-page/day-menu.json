@@ -1,21 +1,20 @@
 {
   "mainDishes": [
     {
-      "name": "Sauté de porc et veau à la tomate,",
-      "description": "Accompagné de pommes de terre fondantes "
+      "name": "Cuisse de poulet, sauce forestière",
+      "description": "accompagnée de polenta crémeuse"
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Crêpes jambon et fromage, salade ",
-      "description": "* Plat végétarien possible *"
+      "name": "Tomates mozzarella, pesto à l'ail des ours"
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-05-15T09:00:00.000Z",
+  "date": "2025-05-16T09:00:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "",
@@ -25,7 +24,7 @@
   },
   "deserts": [
     {
-      "name": "Crème brûlée à la vanille "
+      "name": "Coupe vanille & chantilly"
     }
   ]
 }
