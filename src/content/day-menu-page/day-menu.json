@@ -1,20 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Nori au saumon & sauce soja",
-      "description": "accompagné de nouilles chinoises "
+      "name": "Sauté de porc et veau à la tomate,",
+      "description": "Accompagné de pommes de terre fondantes "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Guacamole et croûtons, salade "
+      "name": "Crêpes jambon et fromage, salade ",
+      "description": "* Plat végétarien possible *"
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-05-14T09:00:00.000Z",
+  "date": "2025-05-15T09:00:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "",
@@ -24,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Crumble aux fruits "
+      "name": "Crème brûlée à la vanille "
     }
   ]
 }
