@@ -1,20 +1,20 @@
 {
   "mainDishes": [
     {
-      "name": "Cuisse de poulet, sauce forestière",
-      "description": "accompagnée de polenta crémeuse"
+      "name": "Ribs de porc laqué (origine Rhône Alpes)",
+      "description": "accompagné de pommes de terre fondantes à l'ail"
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Tomates mozzarella, pesto à l'ail des ours"
+      "name": "Salade de chèvre chaud & miel et noix "
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-05-16T09:00:00.000Z",
+  "date": "2025-05-21T10:49:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "",
@@ -24,7 +24,7 @@
   },
   "deserts": [
     {
-      "name": "Coupe vanille & chantilly"
+      "name": "Entremet au chocolat, éclat d'Oreo"
     }
   ]
 }
