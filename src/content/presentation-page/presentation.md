@@ -1,10 +1,12 @@
 ---
 seo:
-  description: Page de présentation du restaurant le BOUILLON des Eaux-Vives à Saint-Pierre-de-Bœuf.
+  description: Page de présentation du restaurant le BOUILLON des Eaux-Vives à
+    Saint-Pierre-de-Bœuf.
   title: Le BOUILLON des Eaux-Vives | Présentation
 banner:
   image: "@assets/simon-and-yoann.jpg"
-  alt: Photo de Simon et Yoann Charon avec le restaurant Le Bouillon des Eaux Vives en fond
+  alt: Photo de Simon et Yoann Charon avec le restaurant Le Bouillon des Eaux
+    Vives en fond
 signature: Yoann et Simon CHARON
 ---
 
