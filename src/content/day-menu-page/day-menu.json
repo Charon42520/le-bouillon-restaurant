@@ -1,21 +1,20 @@
 {
   "mainDishes": [
     {
-      "name": "Poire braisée",
-      "description": "Accompagnée de Pennes sauce échalotes "
+      "name": "Moules marinières",
+      "description": "Accompagnées de frites fraîches "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Meli Mélo",
-      "description": "Carottes, Concombres et Maïs"
+      "name": "Panier de légumes croquants, sauce satay "
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-05-23T11:02:00.000Z",
+  "date": "2025-05-28T00:24:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "",
@@ -25,7 +24,7 @@
   },
   "deserts": [
     {
-      "name": "Mousse Oreo, sauce chocolat"
+      "name": "Choux chantilly, sauce chocolat"
     }
   ]
 }
