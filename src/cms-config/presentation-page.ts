@@ -8,6 +8,23 @@ export const presentationPage: CmsCollectionFile = {
   fields: [
     seoField,
     {
+      label: "Image bannière",
+      name: "banner",
+      widget: "object",
+      fields: [
+        {
+          label: "Image",
+          name: "image",
+          widget: "image",
+        },
+        {
+          label: "Text alternatif",
+          name: "alt",
+          widget: "string",
+        },
+      ],
+    },
+    {
       label: "Contenu",
       name: "body",
       widget: "markdown",

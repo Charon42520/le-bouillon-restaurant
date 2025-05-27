@@ -2,8 +2,12 @@
 seo:
   description: Page de présentation du restaurant le BOUILLON des Eaux-Vives à Saint-Pierre-de-Bœuf.
   title: Le BOUILLON des Eaux-Vives | Présentation
+banner:
+  image: "@assets/simon-and-yoann.jpg"
+  alt: Photo de Simon et Yoann Charon avec le restaurant Le Bouillon des Eaux Vives en fond
 signature: Yoann et Simon CHARON
 ---
+
 Le BOUILLON des Eaux-Vives, c'est **deux frangins** qui ont décidé de se retrouver dans un projet commun. L'un est **chef cuisinier** et l'autre **guide d'eaux vives**. Ce restaurant est un lieu à notre image, **convivial et familial** dans un esprit guinguette en bord de rivière.
 
 Originaire de Bourgogne, nous avons grandi dans la **gastronomie française** et le bon goût du produit. Le chef Yoann aura à cœur de vous faire déguster des **recettes traditionnelles** comme les œufs pochés sauce bourguignonne ou le traditionnel poireau vinaigrette.

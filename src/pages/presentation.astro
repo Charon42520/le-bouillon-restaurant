@@ -4,6 +4,7 @@ import MainContent from "@components/MainContent.astro";
 import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
+import { Picture } from "astro:assets";
 import { getEntry } from "astro:content";
 
 const entry = await getEntry("presentation-page", "presentation");
@@ -28,18 +29,27 @@ const { Content } = await render();
   <SideNav showIndexLink />
 
   <MainContent title="Présentation">
+    <Picture
+      src={data.banner.image}
+      alt={data.banner.alt}
+      width={480}
+      class="md:mt-8"
+    />
+
     <div mt-6 class="prose">
       <Content />
 
-      <p mt-6 font-italic b-l="solid primary 2" pl-4>{data.signature}</p>
+      <p mt-6 font-italic b-l="solid primary 2" pl-4 text-gray-5>
+        {data.signature}
+      </p>
     </div>
   </MainContent>
-
-  <SideNav
-    showMenuLink
-    showDayMenuLink
-    showProgramationLink
-    showContactLink
-    showLegalLink
-  />
 </Layout>
+
+<SideNav
+  showMenuLink
+  showDayMenuLink
+  showProgramationLink
+  showContactLink
+  showLegalLink
+/>

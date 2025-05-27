@@ -15,7 +15,14 @@ const indexPageCollection = defineCollection({
 
 const presentationPageCollection = defineCollection({
   type: "content",
-  schema: z.object({ seo, signature: z.string() }),
+  schema: ({ image }) => z.object({
+    seo,
+    banner: z.object({
+      image: image(),
+      alt: z.string()
+    }),
+    signature: z.string()
+  }),
 });
 
 const menuPageCollection = defineCollection({
