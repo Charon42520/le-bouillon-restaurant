@@ -1,18 +1,18 @@
 {
-  "mainDishes": [
+  "mainDishes": [],
+  "threeDishesPrice": 22,
+  "starters": [
     {
       "name": "Jour férié - Uniquement à la carte",
       "description": "Seul le menu enfant reste possible "
     }
   ],
-  "threeDishesPrice": 22,
-  "starters": [],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
   "date": "2025-05-29T00:24:00.000Z",
   "twoDishesPrice": 18,
-  "additionalTextMainDishes": "",
+  "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
