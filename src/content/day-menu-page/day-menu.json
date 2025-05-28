@@ -1,30 +1,22 @@
 {
   "mainDishes": [
     {
-      "name": "Moules marinières",
-      "description": "Accompagnées de frites fraîches "
+      "name": "Jour férié - Uniquement à la carte",
+      "description": "Seul le menu enfant reste possible "
     }
   ],
   "threeDishesPrice": 22,
-  "starters": [
-    {
-      "name": "Panier de légumes croquants, sauce satay "
-    }
-  ],
+  "starters": [],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-05-28T00:24:00.000Z",
+  "date": "2025-05-29T00:24:00.000Z",
   "twoDishesPrice": 18,
-  "additionalTextMainDishes": "* Plat végétarien possible *",
+  "additionalTextMainDishes": "",
   "additionalTextStarters": "",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
     "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
   },
-  "deserts": [
-    {
-      "name": "Choux chantilly, sauce chocolat"
-    }
-  ]
+  "deserts": []
 }
