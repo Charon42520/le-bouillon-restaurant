@@ -1,16 +1,20 @@
 {
-  "mainDishes": [],
+  "mainDishes": [
+    {
+      "name": "Poulet sauce paprika fumé",
+      "description": "accompagné de pommes de terre fondantes et légumes marinés "
+    }
+  ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Jour férié - Uniquement à la carte",
-      "description": "Seul le menu enfant reste possible "
+      "name": "Brunoise de tomates au pesto, gressins "
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-05-29T00:24:00.000Z",
+  "date": "2025-05-30T00:24:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "",
@@ -18,5 +22,9 @@
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
     "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
   },
-  "deserts": []
+  "deserts": [
+    {
+      "name": "Panna cotta à la fraise"
+    }
+  ]
 }
