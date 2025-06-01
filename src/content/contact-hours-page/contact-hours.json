@@ -1,35 +1,35 @@
 {
-  "seo": {
-    "title": "Le BOUILLON des Eaux-Vives | Contact et horaires",
-    "description": "Informations de contact et horaires du restaurant le BOUILLON des Eaux-Vives"
+  "facebook": {
+    "link": "https://www.facebook.com/profile.php?id=61556297271850",
+    "displayedText": "Facebook"
   },
   "phone": {
     "link": "+33607383161",
     "displayedText": "+33 (0)6 07 38 31 61"
   },
-  "email": {
-    "link": "cuisine.lebouillon@gmail.com",
-    "displayedText": "cuisine.lebouillon@gmail.com"
-  },
-  "address": {
-    "link": "https://maps.app.goo.gl/7qAtAwBvfr87odiA6",
-    "displayedText": "Av. du Rhône, 42520 Saint-Pierre-de-Bœuf"
+  "hours": "Nos horaires en Juin 2025: Lundi fermé, de Mardi à Jeudi 9h30 à 19h, Vendredi à Samedi 9h30-22h et Dimanche 9h30-19h",
+  "hiring": {
+    "displayedText": "Vous êtes professionnel de la restauration et vous souhaitez rejoindre  l'aventure Le Bouillon des Eaux Vives ? Envoyez votre candidature par email à l'adresse",
+    "email": "brasserieobrothers@gmail.com"
   },
   "instagram": {
     "link": "https://www.instagram.com/brasserie_des_eaux_vives42/",
     "displayedText": "Instagram"
   },
-  "facebook": {
-    "link": "https://www.facebook.com/profile.php?id=61556297271850",
-    "displayedText": "Facebook"
+  "address": {
+    "link": "https://maps.app.goo.gl/7qAtAwBvfr87odiA6",
+    "displayedText": "Av. du Rhône, 42520 Saint-Pierre-de-Bœuf"
+  },
+  "email": {
+    "link": "cuisine.lebouillon@gmail.com",
+    "displayedText": "cuisine.lebouillon@gmail.com"
+  },
+  "seo": {
+    "title": "Le BOUILLON des Eaux-Vives | Contact et horaires",
+    "description": "Informations de contact et horaires du restaurant le BOUILLON des Eaux-Vives"
   },
   "linkedin": {
     "link": "https://www.linkedin.com/company/bouillon-brasserie-des-eaux-vives/",
     "displayedText": "Linkedin"
-  },
-  "hours": "Réouverture le 1er Avril 2025: Mercredi, Samedi et Dimanche 10h à 18h et Jeudi, Vendredi 10h à 16h",
-  "hiring": {
-    "displayedText": "Vous êtes professionnel de la restauration et vous souhaitez rejoindre  l'aventure Le Bouillon des Eaux Vives ? Envoyez votre candidature par email à l'adresse",
-    "email": "brasserieobrothers@gmail.com"
   }
 }
