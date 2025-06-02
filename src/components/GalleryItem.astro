@@ -27,7 +27,7 @@ const { image, alt } = Astro.props;
   max-h="[calc(100%-6em-6px)]"
   class="backdrop:bg-#e8eaedbf backdrop:backdrop-blur-md"
 >
-  <Picture src={image} {alt} class="max-h-full" />
+  <Picture src={image} {alt} class="picture" />
 
   <button
     type="button"
@@ -35,7 +35,26 @@ const { image, alt } = Astro.props;
     fixed
     top-4
     right-4
+    flex
+    items-center
+    justify-center
+    p="1.5"
+    outline="focus-visible:none"
   >
     <i i-carbon-close-large inline-block size-5></i>
   </button>
 </dialog>
+
+<style>
+  dialog :global(picture) {
+    display: contents;
+  }
+
+  .picture {
+    max-width: 100%;
+    max-height: calc(100vh - 6em - 6px);
+    height: auto;
+    width: auto;
+    object-fit: contain;
+  }
+</style>

@@ -31,19 +31,19 @@ const { data } = entry;
       Galerie
     </h1>
 
-    <h2 mt-8 text="6 center">
+    <h2 mt="0 md:6" text="6 center">
       {data.food.title}
     </h2>
 
-    <div flex="~ wrap" justify-center items-center gap-4 mt-4>
+    <div flex="~ wrap" justify-center items-center gap-4 mt-6>
       {data.food.images.map((image) => <GalleryItem {...image} />)}
     </div>
 
-    <h2 mt-8 text="6 center">
+    <h2 mt-12 text="6 center">
       {data.resort.title}
     </h2>
 
-    <div flex="~ wrap" justify-center items-center gap-4 mt-4>
+    <div flex="~ wrap" justify-center items-center gap-4 mt-6>
       {data.resort.images.map((image) => <GalleryItem {...image} />)}
     </div>
   </main>
