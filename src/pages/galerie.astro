@@ -4,14 +4,23 @@ import MainContent from "@components/MainContent.astro";
 import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
+import { getEntry } from "astro:content";
+
+const entry = await getEntry("gallery-page", "gallery");
+
+if (entry === undefined) {
+  throw new Error("Entry not found");
+}
+
+const { data } = entry;
 ---
 
 <Layout>
-  <!-- <CustomSeo
+  <CustomSeo
     slot="head"
     title={data.seo.title}
     description={data.seo.description}
-  /> -->
+  />
 
   <TopNav>Galerie</TopNav>
 

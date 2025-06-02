@@ -1,23 +1,25 @@
+import type {
+  CmsBackend,
+  CmsConfig,
+} from "node_modules/astro-decap/types/types";
+import { isLocalBackend, WEBSITE_URL } from "../lib/constants";
 import { contactHoursPage } from "./contact-hours-page.ts";
 import { dayMenuPage } from "./day-menu-page.ts";
 import { eventsCollection } from "./events-collection.ts";
 import { eventsPage } from "./events-page.ts";
+import { galleryPage } from "./gallery-page.ts";
 import { indexPage } from "./index-page.ts";
 import { legalCollection } from "./legal-collection.ts";
 import { legalPage } from "./legal-page.ts";
 import { menuPage } from "./menu-page.ts";
 import { presentationPage } from "./presentation-page.ts";
-import { isLocalBackend, WEBSITE_URL } from "../lib/constants";
-import type {
-  CmsBackend,
-  CmsConfig,
-} from "node_modules/astro-decap/types/types";
 
 function getBackend(): CmsBackend {
-  if (isLocalBackend) return {
-    "name": "proxy",
-    "proxy_url": "http://localhost:8081/api/v1"
-  };
+  if (isLocalBackend)
+    return {
+      name: "proxy",
+      proxy_url: "http://localhost:8081/api/v1",
+    };
 
   if (import.meta.env.DEV) return { name: "test-repo" };
 
@@ -46,6 +48,7 @@ export const cmsConfig: CmsConfig = {
       files: [
         indexPage,
         presentationPage,
+        galleryPage,
         menuPage,
         dayMenuPage,
         eventsPage,

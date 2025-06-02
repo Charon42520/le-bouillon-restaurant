@@ -18,7 +18,7 @@ export const presentationPage: CmsCollectionFile = {
           widget: "image",
         },
         {
-          label: "Text alternatif",
+          label: "Text alternatif (important pour le SEO)",
           name: "alt",
           widget: "string",
         },
