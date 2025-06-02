@@ -1,6 +1,6 @@
 ---
 import CustomSeo from "@components/CustomSeo.astro";
-import MainContent from "@components/MainContent.astro";
+import GalleryItem from "@components/GalleryItem.astro";
 import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
@@ -26,14 +26,27 @@ const { data } = entry;
 
   <SideNav showIndexLink showPresentationLink />
 
-  <MainContent title="Galerie">
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem
-      nesciunt doloribus nobis repudiandae odio, ad maxime dolores expedita
-      accusantium distinctio quasi error eaque consequatur? Ut et doloremque
-      tempore asperiores id?
-    </p>
-  </MainContent>
+  <main h-full text-gray-800 grow p-8 overflow-y-auto bg-background-gray>
+    <h1 hidden md:block text="8 md:center" uppercase font-display font-normal>
+      Galerie
+    </h1>
+
+    <h2 mt-8 text="6 center">
+      {data.food.title}
+    </h2>
+
+    <div flex="~ wrap" justify-center items-center gap-4 mt-4>
+      {data.food.images.map((image) => <GalleryItem {...image} />)}
+    </div>
+
+    <h2 mt-8 text="6 center">
+      {data.resort.title}
+    </h2>
+
+    <div flex="~ wrap" justify-center items-center gap-4 mt-4>
+      {data.resort.images.map((image) => <GalleryItem {...image} />)}
+    </div>
+  </main>
 
   <SideNav
     showMenuLink

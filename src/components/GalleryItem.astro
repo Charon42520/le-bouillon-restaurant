@@ -1,0 +1,41 @@
+---
+import { Picture } from "astro:assets";
+import type { ImageFunction } from "astro:content";
+import type { z } from "astro:content";
+
+export interface Props {
+  image: z.infer<ReturnType<ImageFunction>>;
+  alt: string;
+}
+
+const { image, alt } = Astro.props;
+---
+
+<button
+  type="button"
+  class="contents"
+  onclick="this.nextElementSibling?.showModal?.()"
+>
+  <Picture
+    src={image}
+    {alt}
+    class="max-w-50 hover:cursor-pointer hover:scale-105 transition-transform"
+  />
+</button>
+
+<dialog
+  max-h="[calc(100%-6em-6px)]"
+  class="backdrop:bg-#e8eaedbf backdrop:backdrop-blur-md"
+>
+  <Picture src={image} {alt} class="max-h-full" />
+
+  <button
+    type="button"
+    onclick="this.closest('dialog')?.close()"
+    fixed
+    top-4
+    right-4
+  >
+    <i i-carbon-close-large inline-block size-5></i>
+  </button>
+</dialog>
