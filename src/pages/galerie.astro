@@ -1,0 +1,36 @@
+---
+import CustomSeo from "@components/CustomSeo.astro";
+import MainContent from "@components/MainContent.astro";
+import SideNav from "@components/SideNav.astro";
+import TopNav from "@components/TopNav.astro";
+import Layout from "@layouts/Layout.astro";
+---
+
+<Layout>
+  <!-- <CustomSeo
+    slot="head"
+    title={data.seo.title}
+    description={data.seo.description}
+  /> -->
+
+  <TopNav>Galerie</TopNav>
+
+  <SideNav showIndexLink showPresentationLink />
+
+  <MainContent title="Galerie">
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem
+      nesciunt doloribus nobis repudiandae odio, ad maxime dolores expedita
+      accusantium distinctio quasi error eaque consequatur? Ut et doloremque
+      tempore asperiores id?
+    </p>
+  </MainContent>
+
+  <SideNav
+    showMenuLink
+    showDayMenuLink
+    showProgramationLink
+    showContactLink
+    showLegalLink
+  />
+</Layout>
