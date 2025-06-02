@@ -12,25 +12,19 @@ const galleryFields: CmsField[] = [
   },
   {
     label: "Images",
-    name: "alt",
+    name: "images",
     widget: "list",
+    collapsed: false,
     fields: [
       {
         label: "Image",
         name: "image",
-        widget: "object",
-        fields: [
-          {
-            label: "Image",
-            name: "image",
-            widget: "image",
-          },
-          {
-            label: "Text alternatif (important pour le SEO)",
-            name: "alt",
-            widget: "string",
-          },
-        ],
+        widget: "image",
+      },
+      {
+        label: "Text alternatif (important pour le SEO)",
+        name: "alt",
+        widget: "string",
       },
     ],
   },
