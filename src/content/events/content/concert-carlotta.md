@@ -7,7 +7,6 @@ summary: >-
   Venez profiter de Superfly Irish Duo à partir de 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives.
 image: "@assets/superfly-irish-duo-3.jpg"
 ---
-
 Venez profiter de Superfly Irish Duo à partir de 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives.
 
 Superfly propose la musique irlandaise des pubs avec des airs lents, des reels et jigs énergiques et des chants traditionnels.
@@ -20,7 +19,14 @@ Le petit clin d'oeil de la musique Irlandaise car le chef Yoann à travailler du
 
 Réservation 06.07.38.31.61
 
-Tarif : 25€ incluant le menu unique ainsi que le concert (Le menu sera communiqué plus tard)
+Tarif : 25€ incluant le menu unique ainsi que le concert :
+
+* Œuf parfait, crème de brie, roquette 
+* Onglet de bœuf (Angus) 
+* Compotée de choux rouge et carottes au vin rouge, frites fraîches 
+* Panna cotta au Baileys
+
+\* plat végétarien possible \*
 
 Artiste de Saint Etienne (Loire 42)
 
