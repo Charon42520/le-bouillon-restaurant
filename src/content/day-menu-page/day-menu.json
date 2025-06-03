@@ -1,21 +1,20 @@
 {
   "mainDishes": [
     {
-      "name": "Steak haché Maison (viande Auvergne/Rhône Alpes)",
-      "description": "accompagné de pennes, sauce Forestière"
+      "name": "Rôti d'échine de porc aux herbes et au miel (viande Auvergne/Rhône Alpes)",
+      "description": "accompagné de riz basmati aux herbes"
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Terrine de porc et volaille, salade et cornichons ",
-      "description": ""
+      "name": "Œuf poché, crème de carotte"
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-06-03T22:03:00.000Z",
+  "date": "2025-06-04T22:03:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "* Plat végétarien possible *",
@@ -25,7 +24,7 @@
   },
   "deserts": [
     {
-      "name": "Melon au porto, Chantilly"
+      "name": "Coupe de fraises, sauce chocolat"
     }
   ]
 }
