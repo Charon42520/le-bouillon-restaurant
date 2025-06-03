@@ -1,5 +1,5 @@
 ---
-import { Picture } from "astro:assets";
+import { Picture, Image } from "astro:assets";
 import type { ImageFunction } from "astro:content";
 import type { z } from "astro:content";
 
@@ -16,11 +16,15 @@ const { image, alt } = Astro.props;
   class="contents"
   onclick="this.nextElementSibling?.showModal?.()"
 >
-  <Picture
-    src={image}
-    {alt}
-    class="max-w-50 hover:cursor-pointer hover:scale-105 transition-transform"
-  />
+  <div
+    class="size-50 overflow-hidden hover:cursor-pointer hover:scale-105 transition-transform flex items-center justify-center"
+  >
+    <Image
+      src={image}
+      {alt}
+      class={image.width < image.height ? "w-full h-auto" : "h-full w-auto"}
+    />
+  </div>
 </button>
 
 <dialog
