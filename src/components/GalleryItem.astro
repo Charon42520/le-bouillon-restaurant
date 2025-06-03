@@ -1,7 +1,6 @@
 ---
-import { Picture, Image } from "astro:assets";
-import type { ImageFunction } from "astro:content";
-import type { z } from "astro:content";
+import { Picture } from "astro:assets";
+import type { ImageFunction, z } from "astro:content";
 
 export interface Props {
   image: z.infer<ReturnType<ImageFunction>>;
@@ -19,10 +18,13 @@ const { image, alt } = Astro.props;
   <div
     class="size-35 sm:size-40 md:size-50 overflow-hidden hover:cursor-pointer hover:scale-105 transition-transform flex items-center justify-center"
   >
-    <Image
+    <Picture
       src={image}
       {alt}
       class={image.width < image.height ? "w-full h-auto" : "h-full w-auto"}
+      widths={[
+        image.width < image.height ? 200 : (200 * image.width) / image.height,
+      ]}
     />
   </div>
 </button>
