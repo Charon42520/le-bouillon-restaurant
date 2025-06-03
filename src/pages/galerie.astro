@@ -27,11 +27,7 @@ const { data } = entry;
   <SideNav showIndexLink showPresentationLink />
 
   <main h-full text-gray-800 grow p-8 overflow-y-auto bg-background-gray>
-    <h1 hidden md:block text="8 md:center" uppercase font-display font-normal>
-      Galerie
-    </h1>
-
-    <h2 mt="0 md:6" text="6 center">
+    <h2 text="6 md:8 center" uppercase font="display normal">
       {data.food.title}
     </h2>
 
@@ -39,7 +35,7 @@ const { data } = entry;
       {data.food.images.map((image) => <GalleryItem {...image} />)}
     </div>
 
-    <h2 mt-12 text="6 center">
+    <h2 mt-12 text="6 md:8 center" uppercase font="display normal">
       {data.resort.title}
     </h2>
 
