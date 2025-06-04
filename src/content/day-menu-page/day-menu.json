@@ -1,30 +1,30 @@
 {
   "mainDishes": [
     {
-      "name": "Rôti d'échine de porc aux herbes et au miel (viande Auvergne/Rhône Alpes)",
-      "description": "accompagné de riz basmati aux herbes"
+      "name": "Tomates farcies ",
+      "description": "accompagnées de rösti aux légumes"
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Œuf poché, crème de carotte"
+      "name": "Brick de chèvre frais, vinaigre au miel "
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-06-04T22:03:00.000Z",
+  "date": "2025-06-05T22:03:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
-  "additionalTextStarters": "* Plat végétarien possible *",
+  "additionalTextStarters": "",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
     "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
   },
   "deserts": [
     {
-      "name": "Coupe de fraises, sauce chocolat"
+      "name": "Crème brûlée à la vanille"
     }
   ]
 }
