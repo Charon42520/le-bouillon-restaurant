@@ -16,7 +16,14 @@ const { image, alt } = Astro.props;
   onclick="this.nextElementSibling?.showModal?.()"
 >
   <div
-    class="size-35 sm:size-40 md:size-50 overflow-hidden hover:cursor-pointer hover:scale-105 transition-transform flex items-center justify-center"
+    size="35 ms:40 md:50"
+    overflow-hidden
+    cursor="hover:pointer"
+    transition-transform
+    flex
+    items-center
+    justify-center
+    class="hover:scale-105 thumbnail-container"
   >
     <Picture
       src={image}
@@ -33,7 +40,11 @@ const { image, alt } = Astro.props;
   max-h="[calc(100%-6em-6px)]"
   class="backdrop:bg-#e8eaedbf backdrop:backdrop-blur-md"
 >
-  <Picture src={image} {alt} class="picture" />
+  <Picture
+    src={image}
+    {alt}
+    class="max-w-full max-h-[100dvh_-_6em_-_6px] w-auto h-auto object-contain"
+  />
 
   <button
     type="button"
@@ -52,15 +63,8 @@ const { image, alt } = Astro.props;
 </dialog>
 
 <style>
-  dialog :global(picture) {
+  dialog :global(picture),
+  .thumbnail-container :global(picture) {
     display: contents;
-  }
-
-  .picture {
-    max-width: 100%;
-    max-height: calc(100vh - 6em - 6px);
-    height: auto;
-    width: auto;
-    object-fit: contain;
   }
 </style>
