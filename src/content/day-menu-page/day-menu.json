@@ -1,20 +1,20 @@
 {
   "mainDishes": [
     {
-      "name": "Tomates farcies ",
-      "description": "accompagnées de rösti aux légumes"
+      "name": "Poulet yassa",
+      "description": "accompagné de riz basmati "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Brick de chèvre frais, vinaigre au miel "
+      "name": "Feuilleté au jambon et mozzarella, salade "
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-06-05T22:03:00.000Z",
+  "date": "2025-06-06T22:03:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "",
@@ -24,7 +24,7 @@
   },
   "deserts": [
     {
-      "name": "Crème brûlée à la vanille"
+      "name": "Tiramisu café et spéculoos"
     }
   ]
 }
