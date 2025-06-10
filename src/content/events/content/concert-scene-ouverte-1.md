@@ -1,5 +1,5 @@
 ---
-title: CONCERT - SCENE OUVERTE 🎶
+title: CONCERT - SCENE OUVERTE + Son de Faamilia 🎶
 date: 2025-06-13T20:00:00.000Z
 summary: En solo, en duo ou avec tout votre groupe, venez performer sur la
   terrasse du Bouillon - Brasserie des Eaux-Vives le 13 juin 2025
