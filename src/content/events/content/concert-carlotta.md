@@ -1,6 +1,6 @@
 ---
 title: CONCERT - Superfly Irish Duo 🎶
-date: 2025-06-06T20:00:00
+date: 2025-06-20T20:00:00.000Z
 summary: >-
   CONCERT - Superfly Irish Duo
 
