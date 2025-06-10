@@ -10,7 +10,7 @@ En solo, en duo ou avec tout votre groupe venez performer sur la terrasse du Bou
 
 LA SCENE EST A VOUS ! (inscription close)
 
-A 19H00 le groupe "Sweet Pepper" (scène ouverte) et à partir de 20h "Son de Familia"
+A 19H00 le groupe "Sweet Pepper" (scène ouverte) et à partir de 20H00 "Son de Familia"
 
 Inscriptions et contact par mail [cuisine.lebouillon@gmail.com](mailto:cuisine.lebouillon@gmail.com) avant le 06/06/2025
 
