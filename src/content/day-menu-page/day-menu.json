@@ -1,20 +1,20 @@
 {
   "mainDishes": [
     {
-      "name": "Poulet yassa",
-      "description": "accompagné de riz basmati "
+      "name": "Cuisse de lapin",
+      "description": "accompagnée de légumes et jus aux herbes"
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Feuilleté au jambon et mozzarella, salade "
+      "name": "Ravioles gratinées, crème de courgettes et parmesan "
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-06-06T22:03:00.000Z",
+  "date": "2025-06-10T08:49:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "",
@@ -24,7 +24,7 @@
   },
   "deserts": [
     {
-      "name": "Tiramisu café et spéculoos"
+      "name": "Assiette de fromage"
     }
   ]
 }
