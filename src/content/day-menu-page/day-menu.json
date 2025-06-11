@@ -1,14 +1,14 @@
 {
   "mainDishes": [
     {
-      "name": "Basse côte de boeuf, jus au romarin accompagnée de frites fraîches ",
-      "description": "Origine viande AURA, cuisson 7h"
+      "name": "Filet de saumon, beurre blanc",
+      "description": "accompagné de riz basmati"
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Salade de gésiers de volaille, pickles d'oignon rouge, salade",
+      "name": "Terrine de porc et mâche ",
       "description": ""
     }
   ],
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Feuilleté aux pommes, glace vanille"
+      "name": "Mousse fruits rouge, brunoise de melon"
     }
   ]
 }
