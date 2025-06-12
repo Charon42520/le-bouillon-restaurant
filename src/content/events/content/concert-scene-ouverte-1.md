@@ -16,4 +16,14 @@ Inscriptions et contact par mail [cuisine.lebouillon@gmail.com](mailto:cuisine.l
 
 Réservation 06.07.38.31.61
 
-Tarif : 25€ incluant le menu unique ainsi que le concert (Le menu sera communiqué plus tard)
+Tarif : 25€ incluant le menu unique
+
+• Tarte fine à la tomate, crème balsamique et roquette 
+
+• Brochette de bœuf "tigre qui pleure"
+
+(sauce soja, ail, oignons bottes, sésame) 
+
+Accompagnée de riz basmati carottes glacées 
+
+• Nougat glacé, sauce caramel
