@@ -1,22 +1,22 @@
 {
   "mainDishes": [
     {
-      "name": "Lasagnes au bœuf",
-      "description": "accompagnées salades et croûtons"
+      "name": "Volaille (origine AURA), jus au romarin ",
+      "description": "accompagnée de pommes de terre grenaille "
     }
   ],
-  "threeDishesPrice": 22,
+  "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Tomates, crème de mozzarella & vinaigre balsamique",
+      "name": "Tartine de Brie, salade et noix  ",
       "description": ""
     }
   ],
-  "oneDishPrice": 14,
+  "oneDishPrice": 15,
   "additionalTextDeserts": "",
-  "text": "Découvrez le menu du jour",
-  "date": "2025-06-13T21:24:00.000Z",
-  "twoDishesPrice": 18,
+  "text": "Découvrez le menu du jour - Fête des Pères",
+  "date": "2025-06-14T21:24:00.000Z",
+  "twoDishesPrice": 20,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "",
   "seo": {
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Fondant chocolat, chantilly"
+      "name": "Crumble à l'abricot"
     }
   ]
 }
