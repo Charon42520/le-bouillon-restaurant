@@ -1,31 +1,31 @@
 {
   "mainDishes": [
     {
-      "name": "Volaille (origine AURA), jus au romarin ",
-      "description": "accompagnée de pommes de terre grenaille "
+      "name": "Steak haché maison, sauce au poivre",
+      "description": "accompagnée de frites fraiches"
     }
   ],
-  "threeDishesPrice": 25,
+  "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Tartine de Brie, salade et noix  ",
+      "name": "Croc monsieur, comte moutarde & salade ",
       "description": ""
     }
   ],
-  "oneDishPrice": 15,
+  "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour - Fête des Pères",
-  "date": "2025-06-15T21:24:00.000Z",
-  "twoDishesPrice": 20,
+  "date": "2025-06-17T21:24:00.000Z",
+  "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
-  "additionalTextStarters": "",
+  "additionalTextStarters": "* Plat végétarien possible *",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
     "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
   },
   "deserts": [
     {
-      "name": "Crumble à l'abricot"
+      "name": "Tiramisu au café"
     }
   ]
 }
