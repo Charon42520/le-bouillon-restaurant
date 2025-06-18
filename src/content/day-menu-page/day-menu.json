@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Steak haché maison, sauce au poivre",
-      "description": "accompagnée de frites fraiches"
+      "name": "Cuisse de poulet, jus au romarin",
+      "description": "accompagnée de pennes à la crème "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Croc monsieur, comte moutarde & salade ",
+      "name": "Tomates au pesto, salade & Lonzu",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-06-17T21:24:00.000Z",
+  "date": "2025-06-18T21:24:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "* Plat végétarien possible *",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Tiramisu au café"
+      "name": "Sabayon aux fraises"
     }
   ]
 }
