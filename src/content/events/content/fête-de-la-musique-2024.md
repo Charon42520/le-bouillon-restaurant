@@ -13,7 +13,11 @@ De la pop, du jazz, un peu de rock et une bonne dose de funk 
 
 Réservation 06.07.38.31.61
 
-Tarif : 25€ incluant le menu unique ainsi que le concert (Le menu sera communiqué plus tard)
+Tarif : entrée libre, menu unique à 25€
+
+* Tartare aux 2 saumons, avocat 
+* Echine de porc des Montagnes (origine AURA) cuisson lente et pomme de terre grenaille 
+* Profiteroles
 
 Artiste de Bourgoin (Isère 38)[](https://youtu.be/i3eamZgK7gQ?feature=shared)
 
