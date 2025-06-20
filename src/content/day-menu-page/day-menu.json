@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Cuisse de poulet, jus au romarin",
-      "description": "accompagnée de pennes à la crème "
+      "name": "Echine de porc des Montagnes (origine AURA)",
+      "description": "accompagnée de riz"
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Tomates au pesto, salade & Lonzu",
+      "name": "Terrine de porc maison, salade et pickles ",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-06-18T21:24:00.000Z",
+  "date": "2025-06-20T11:01:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "* Plat végétarien possible *",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Sabayon aux fraises"
+      "name": "Nougat Glacé "
     }
   ]
 }
