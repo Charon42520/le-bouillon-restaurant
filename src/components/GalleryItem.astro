@@ -10,11 +10,18 @@ export interface Props {
 const { image, alt } = Astro.props;
 ---
 
-<button
-  type="button"
-  class="contents"
-  onclick="this.nextElementSibling?.showModal?.()"
->
+<script>
+  document.querySelectorAll(".gallery-thumbnail-btn").forEach((element) => {
+    const src = element.querySelector("[src]")?.getAttribute("src") ?? null;
+    if (src === null) return;
+
+    element.addEventListener("click", () => {
+      dispatchEvent(new CustomEvent("open-gallery-dialog", { detail: src }));
+    });
+  });
+</script>
+
+<button type="button" class="contents gallery-thumbnail-btn">
   <div
     size="35 ms:40 md:50"
     overflow-hidden
@@ -36,34 +43,7 @@ const { image, alt } = Astro.props;
   </div>
 </button>
 
-<dialog
-  max-h="[calc(100%-6em-6px)]"
-  class="backdrop:bg-#e8eaedbf backdrop:backdrop-blur-md"
->
-  <Picture
-    src={image}
-    {alt}
-    class="max-w-full max-h-[calc(100dvh_-_6em_-_6px)] w-auto h-auto object-contain"
-  />
-
-  <button
-    type="button"
-    onclick="this.closest('dialog')?.close()"
-    fixed
-    top-4
-    right-4
-    flex
-    items-center
-    justify-center
-    p="1.5"
-    outline="focus-visible:none"
-  >
-    <i i-carbon-close-large inline-block size-5></i>
-  </button>
-</dialog>
-
 <style>
-  dialog :global(picture),
   .thumbnail-container :global(picture) {
     display: contents;
   }
