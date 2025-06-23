@@ -18,7 +18,7 @@ if (entry === undefined) {
 const { data } = entry;
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout>
   <CustomSeo
     slot="head"
     title={data.seo.title}
@@ -27,7 +27,7 @@ const { data } = entry;
 
   <TopNav>Menu du jour</TopNav>
 
-  <SideNav showIndexLink showPresentationLink showMenuLink />
+  <SideNav showIndexLink showPresentationLink showGallerieLink showMenuLink />
 
   <MainContent title="Le menu du jour">
     <div m-y-6>

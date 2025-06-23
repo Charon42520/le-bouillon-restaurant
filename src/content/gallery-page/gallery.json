@@ -1,0 +1,92 @@
+{
+  "seo": {
+    "title": "Le Bouillon des Eaux Vives | Galerie",
+    "description": "Page galerie photo du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
+  },
+  "food": {
+    "title": "Nos gourmandises",
+    "images": [
+      {
+        "image": "@assets/gallery-food-1.jpeg",
+        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-food-2.jpeg",
+        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-food-3.jpeg",
+        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-food-4.jpeg",
+        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-food-5.jpeg",
+        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-food-6.jpeg",
+        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-food-7.jpeg",
+        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-food-8.jpeg",
+        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-food-9.jpeg",
+        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-food-10.jpeg",
+        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-food-11.jpeg",
+        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-food-12.jpeg",
+        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-food-13.jpeg",
+        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
+      }
+    ]
+  },
+  "resort": {
+    "title": "Le restaurant",
+    "images": [
+      {
+        "image": "@assets/gallery-resort-1.jpeg",
+        "alt": "Photo du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-resort-2.jpeg",
+        "alt": "Photo du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-resort-3.jpeg",
+        "alt": "Photo du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-resort-4.jpeg",
+        "alt": "Photo du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-resort-5.jpeg",
+        "alt": "Photo du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-resort-6.jpeg",
+        "alt": "Photo du restaurant Le Bouillon des Eaux Vives"
+      }
+    ]
+  }
+}

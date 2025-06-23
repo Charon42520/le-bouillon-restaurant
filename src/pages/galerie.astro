@@ -1,0 +1,194 @@
+---
+import CustomSeo from "@components/CustomSeo.astro";
+import GalleryItem from "@components/GalleryItem.astro";
+import SideNav from "@components/SideNav.astro";
+import TopNav from "@components/TopNav.astro";
+import Layout from "@layouts/Layout.astro";
+import { getEntry } from "astro:content";
+import { Picture } from "astro:assets";
+
+const entry = await getEntry("gallery-page", "gallery");
+
+if (entry === undefined) {
+  throw new Error("Entry not found");
+}
+
+const { data } = entry;
+---
+
+<Layout>
+  <CustomSeo
+    slot="head"
+    title={data.seo.title}
+    description={data.seo.description}
+  />
+
+  <TopNav>Galerie</TopNav>
+
+  <SideNav showIndexLink showPresentationLink />
+
+  <main h-full text-gray-800 grow p-8 overflow-y-auto bg-background-gray>
+    <h2 text="6 md:8 center" uppercase font="display normal">
+      {data.food.title}
+    </h2>
+
+    <div flex="~ wrap" justify-center items-center gap-4 mt-6>
+      {data.food.images.map((image) => <GalleryItem {...image} />)}
+    </div>
+
+    <h2 mt-12 text="6 md:8 center" uppercase font="display normal">
+      {data.resort.title}
+    </h2>
+
+    <div flex="~ wrap" justify-center items-center gap-4 mt-6>
+      {data.resort.images.map((image) => <GalleryItem {...image} />)}
+    </div>
+  </main>
+
+  <SideNav
+    showMenuLink
+    showDayMenuLink
+    showProgramationLink
+    showContactLink
+    showLegalLink
+  />
+</Layout>
+
+<script>
+  function setup() {
+    const galleryDialog = document.getElementById("gallery-dialog");
+
+    const galleryPreviousButton = document.getElementById(
+      "gallery-previous-button"
+    );
+
+    const galleryNextButton = document.getElementById("gallery-next-button");
+
+    if (
+      !(galleryDialog instanceof HTMLDialogElement) ||
+      !(galleryPreviousButton instanceof HTMLButtonElement) ||
+      !(galleryNextButton instanceof HTMLButtonElement)
+    )
+      return;
+
+    let shownImage: HTMLImageElement | null = null;
+
+    // @ts-ignore
+    addEventListener("open-gallery-dialog", (event: CustomEvent) => {
+      if (typeof event.detail !== "string") return;
+
+      shownImage?.classList.add("hidden");
+
+      shownImage = galleryDialog.querySelector(
+        `[src=${CSS.escape(event.detail)}]`
+      );
+
+      shownImage?.classList.remove("hidden");
+      galleryDialog.showModal();
+    });
+
+    galleryPreviousButton.addEventListener("click", () => {
+      const previousImage =
+        shownImage
+          ?.closest("picture")
+          ?.previousElementSibling?.querySelector("img") ?? null;
+
+      if (previousImage === null) return;
+
+      shownImage?.classList.add("hidden");
+      shownImage = previousImage;
+      shownImage?.classList.remove("hidden");
+    });
+
+    galleryNextButton.addEventListener("click", () => {
+      const nextImage =
+        shownImage
+          ?.closest("picture")
+          ?.nextElementSibling?.querySelector("img") ?? null;
+
+      if (nextImage === null) return;
+
+      shownImage?.classList.add("hidden");
+      shownImage = nextImage;
+      shownImage?.classList.remove("hidden");
+    });
+  }
+
+  setup();
+</script>
+
+<dialog
+  id="gallery-dialog"
+  max-h="[calc(100%-6em-6px)]"
+  class="backdrop:bg-#e8eaedbf backdrop:backdrop-blur-md"
+>
+  {
+    [...data.food.images, ...data.resort.images].map((image) => (
+      <Picture
+        src={image.image}
+        alt={image.alt}
+        class="max-w-full max-h-[calc(100dvh_-_6em_-_6px)] w-auto h-auto object-contain hidden"
+      />
+    ))
+  }
+
+  <button
+    type="button"
+    onclick="this.closest('dialog')?.close()"
+    fixed
+    top-4
+    right-4
+    flex
+    items-center
+    justify-center
+    p-2
+    outline="focus-visible:none"
+  >
+    <i i-carbon-close-large inline-block size-5></i>
+  </button>
+
+  <button
+    id="gallery-previous-button"
+    type="button"
+    fixed
+    left-8
+    flex
+    items-center
+    justify-center
+    bg-gray-4
+    text-white
+    opacity-70
+    rounded-full
+    p-2
+    outline="focus-visible:none"
+    class="top-50% -translate-y-50%"
+  >
+    <i i-carbon-chevron-left inline-block size-5></i>
+  </button>
+
+  <button
+    id="gallery-next-button"
+    type="button"
+    fixed
+    right-8
+    flex
+    items-center
+    justify-center
+    p-2
+    bg-gray-4
+    text-white
+    opacity-70
+    rounded-full
+    outline="focus-visible:none"
+    class="top-50% -translate-y-50%"
+  >
+    <i i-carbon-chevron-right inline-block size-5></i>
+  </button>
+</dialog>
+
+<style>
+  dialog :global(picture),
+  .thumbnail-container :global(picture) {
+    display: contents;
+  }
+</style>

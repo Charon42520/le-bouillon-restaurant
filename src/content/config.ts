@@ -15,14 +15,41 @@ const indexPageCollection = defineCollection({
 
 const presentationPageCollection = defineCollection({
   type: "content",
-  schema: ({ image }) => z.object({
-    seo,
-    banner: z.object({
-      image: image(),
-      alt: z.string()
+  schema: ({ image }) =>
+    z.object({
+      seo,
+      banner: z.object({
+        image: image(),
+        alt: z.string(),
+      }),
+      signature: z.string(),
     }),
-    signature: z.string()
-  }),
+});
+
+const galleryPageCollection = defineCollection({
+  type: "data",
+  schema: ({ image }) =>
+    z.object({
+      seo,
+      food: z.object({
+        title: z.string(),
+        images: z
+          .object({
+            image: image(),
+            alt: z.string(),
+          })
+          .array(),
+      }),
+      resort: z.object({
+        title: z.string(),
+        images: z
+          .object({
+            image: image(),
+            alt: z.string(),
+          })
+          .array(),
+      }),
+    }),
 });
 
 const menuPageCollection = defineCollection({
@@ -106,6 +133,7 @@ const legalCollection = defineCollection({
 export const collections = {
   "index-page": indexPageCollection,
   "presentation-page": presentationPageCollection,
+  "gallery-page": galleryPageCollection,
   "menu-page": menuPageCollection,
   "day-menu-page": dayMenuPageCollection,
   "events-page": eventsPageCollection,

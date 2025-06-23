@@ -1,0 +1,50 @@
+---
+import { Picture } from "astro:assets";
+import type { ImageFunction, z } from "astro:content";
+
+export interface Props {
+  image: z.infer<ReturnType<ImageFunction>>;
+  alt: string;
+}
+
+const { image, alt } = Astro.props;
+---
+
+<script>
+  document.querySelectorAll(".gallery-thumbnail-btn").forEach((element) => {
+    const src = element.querySelector("[src]")?.getAttribute("src") ?? null;
+    if (src === null) return;
+
+    element.addEventListener("click", () => {
+      dispatchEvent(new CustomEvent("open-gallery-dialog", { detail: src }));
+    });
+  });
+</script>
+
+<button type="button" class="contents gallery-thumbnail-btn">
+  <div
+    size="35 ms:40 md:50"
+    overflow-hidden
+    cursor="hover:pointer"
+    transition-transform
+    flex
+    items-center
+    justify-center
+    class="hover:scale-105 thumbnail-container"
+  >
+    <Picture
+      src={image}
+      {alt}
+      class={image.width < image.height ? "w-full h-auto" : "h-full w-auto"}
+      widths={[
+        image.width < image.height ? 200 : (200 * image.width) / image.height,
+      ]}
+    />
+  </div>
+</button>
+
+<style>
+  .thumbnail-container :global(picture) {
+    display: contents;
+  }
+</style>

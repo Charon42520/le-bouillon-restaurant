@@ -5,13 +5,14 @@ import qanelasMedium from "./qanelas-medium.otf";
 // import qanelasSemiBold from "./qanelas-semi-bold.otf";
 import qanelasBold from "./qanelas-bold.otf";
 import "./global.css";
+
+export interface Props {}
 ---
 
 <!doctype html>
 <html lang="fr" h-full md:overflow-y-hidden>
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
@@ -58,6 +59,7 @@ import "./global.css";
 
     <slot name="head" />
   </head>
+
   <body
     font-body
     font-normal

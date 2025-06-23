@@ -17,7 +17,7 @@ const { data, render } = entry;
 const { Content } = await render();
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout>
   <CustomSeo
     slot="head"
     title={data.seo.title}
@@ -44,12 +44,13 @@ const { Content } = await render();
       </p>
     </div>
   </MainContent>
-</Layout>
 
-<SideNav
-  showMenuLink
-  showDayMenuLink
-  showProgramationLink
-  showContactLink
-  showLegalLink
-/>
+  <SideNav
+    showGallerieLink
+    showMenuLink
+    showDayMenuLink
+    showProgramationLink
+    showContactLink
+    showLegalLink
+  />
+</Layout>
