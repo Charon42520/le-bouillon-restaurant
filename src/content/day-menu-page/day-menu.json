@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Echine de porc des Montagnes (origine AURA)",
-      "description": "accompagnée de riz"
+      "name": "Volaille (origine AURA), sauce forestière",
+      "description": "accompagnée de riz basmati "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Terrine de porc maison, salade et pickles ",
+      "name": "Wrap saumon & salade ",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-06-20T11:01:00.000Z",
+  "date": "2025-06-24T11:27:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "* Plat végétarien possible *",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Nougat Glacé "
+      "name": "Coupe Vanille & sauce chocolat"
     }
   ]
 }
