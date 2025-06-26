@@ -1,15 +1,15 @@
 {
   "mainDishes": [
     {
-      "name": "Echine de porc ",
-      "description": "accompagnée de légumes marinés"
+      "name": "Haut de cuisse ",
+      "description": "accompagné d'un gratin de pommes de terre "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Jambon persillé, réduction balsamique & salade",
-      "description": ""
+      "name": "Salade de riz",
+      "description": "Tomates, maïs et œuf "
     }
   ],
   "oneDishPrice": 14,
@@ -18,14 +18,14 @@
   "date": "2025-06-25T11:33:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
-  "additionalTextStarters": "* Plat végétarien possible *",
+  "additionalTextStarters": "",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
     "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
   },
   "deserts": [
     {
-      "name": "Clafoutis aux cerises"
+      "name": "Assiette gourmande "
     }
   ]
 }
