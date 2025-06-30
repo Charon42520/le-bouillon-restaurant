@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Haut de cuisse ",
-      "description": "accompagné d'un gratin de pommes de terre "
+      "name": "Brochette de poulet & crème coco curry ",
+      "description": "accompagnée de pommes de terre grenaille"
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Salade de riz",
-      "description": "Tomates, maïs et œuf "
+      "name": "Gaspacho melon concombre et tomates ",
+      "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-06-26T11:30:00.000Z",
+  "date": "2025-07-01T11:30:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Assiette gourmande "
+      "name": "Coupe de fraises, chantilly"
     }
   ]
 }
