@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Brochette de poulet & crème coco curry ",
-      "description": "accompagnée de pommes de terre grenaille"
+      "name": "Poulet à la basquaise",
+      "description": "accompagné de riz aux pouvrons"
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Gaspacho melon concombre et tomates ",
+      "name": "Pâté en croûte, salade",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-07-01T11:30:00.000Z",
+  "date": "2025-07-03T11:47:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Coupe de fraises, chantilly"
+      "name": "Tiramisu aux fruits rouges, spéculoos"
     }
   ]
 }
