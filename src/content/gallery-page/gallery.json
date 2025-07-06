@@ -94,6 +94,10 @@
       {
         "image": "@assets/gallery-resort-6.jpeg",
         "alt": "Photo du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/a7406394.jpg",
+        "alt": "Photo concert Paris Pilat du restaurant Le Bouillon des Eaux Vives"
       }
     ]
   }
