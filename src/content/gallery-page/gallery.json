@@ -7,6 +7,18 @@
     "title": "Nos gourmandises",
     "images": [
       {
+        "image": "@assets/photo-restaurant-le-bouillon-brasserie-des-eaux-vives-27-.jpg",
+        "alt": "Photo brasserie du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/photo-restaurant-le-bouillon-brasserie-des-eaux-vives-1-.jpg",
+        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives",
+        "image": "@assets/photo-restaurant-le-bouillon-brasserie-des-eaux-vives-17-.jpg"
+      },
+      {
         "image": "@assets/gallery-food-2.jpeg",
         "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
       },
@@ -61,28 +73,12 @@
       {
         "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives",
         "image": "@assets/photo-restaurant-le-bouillon-brasserie-des-eaux-vives-15-.jpg"
-      },
-      {
-        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives",
-        "image": "@assets/photo-restaurant-le-bouillon-brasserie-des-eaux-vives-17-.jpg"
-      },
-      {
-        "image": "@assets/photo-restaurant-le-bouillon-brasserie-des-eaux-vives-1-.jpg",
-        "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives"
-      },
-      {
-        "image": "@assets/photo-restaurant-le-bouillon-brasserie-des-eaux-vives-27-.jpg",
-        "alt": "Photo brasserie du restaurant Le Bouillon des Eaux Vives"
       }
     ]
   },
   "resort": {
     "title": "Le restaurant",
     "images": [
-      {
-        "image": "@assets/gallery-resort-1.jpeg",
-        "alt": "Photo du restaurant Le Bouillon des Eaux Vives"
-      },
       {
         "image": "@assets/gallery-resort-2.jpeg",
         "alt": "Photo du restaurant Le Bouillon des Eaux Vives"
@@ -110,6 +106,14 @@
       {
         "image": "@assets/a7406427.jpg",
         "alt": "Photo concert Two Flou du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/gallery-resort-1.jpeg",
+        "alt": "Photo du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/photo-restaurant-le-bouillon-brasserie-des-eaux-vives-2-.jpg",
+        "alt": "Photo Yoann en cuisine restaurant Le Bouillon des Eaux Vives"
       }
     ]
   }
