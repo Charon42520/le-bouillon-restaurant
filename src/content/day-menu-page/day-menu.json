@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Poulet à la basquaise",
-      "description": "accompagné de riz aux pouvrons"
+      "name": "Blanquette de volaille à la Forestière",
+      "description": "accompagné de riz basmati "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Pâté en croûte, salade",
+      "name": "Feuilleté au fromage, salade",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-07-03T11:47:00.000Z",
+  "date": "2025-07-08T07:21:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Tiramisu aux fruits rouges, spéculoos"
+      "name": "Baba au rhum, chantilly"
     }
   ]
 }
