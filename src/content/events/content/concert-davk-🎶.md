@@ -17,7 +17,15 @@ Basse : Olivier Perez
 
 Réservation 06.07.38.31.61
 
-Tarif : 25€ incluant le menu unique ainsi que le concert (Le menu sera communiqué plus tard)
+Tarif : Entrée libre et menu unique à 25€
+
+Gratin de ravioles à la crème aux herbes 
+
+Brochette de boeuf mariné 
+
+Frites fraîches 
+
+Coupe Pêche melba
 
 • Artistes locaux Loire (42)
 
