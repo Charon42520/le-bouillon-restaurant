@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Filet de saumon",
-      "description": "accompagné de pdt et carottes sautées beurre blanc aneth et saumon fumé"
+      "name": "Sauté de porc à la tomate oignon rouge, olive verte",
+      "description": "accompagné riz basmati "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Salade de riz au maïs, comcombre et œuf dur",
+      "name": "Cake au chèvre et noix, salade ",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-07-09T07:21:00.000Z",
+  "date": "2025-07-10T08:07:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Fondant au chocolat, chantilly"
+      "name": "Mousse chocolat, Oreo"
     }
   ]
 }
