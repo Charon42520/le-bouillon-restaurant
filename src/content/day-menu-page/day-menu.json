@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Sauté de porc à la tomate oignon rouge, olive verte",
-      "description": "accompagné riz basmati "
+      "name": "Quenelle de Brochet,",
+      "description": "accompagnée d'une poêlé aux légumes de saison "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Cake au chèvre et noix, salade ",
+      "name": "Polenta fries, roquette & crème aux herbes ",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-07-10T08:07:00.000Z",
+  "date": "2025-07-11T08:17:00.000Z",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* Plat végétarien possible *",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Mousse chocolat, Oreo"
+      "name": "Minestrone de fruits frais"
     }
   ]
 }
