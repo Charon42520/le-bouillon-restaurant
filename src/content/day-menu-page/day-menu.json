@@ -1,31 +1,17 @@
 {
-  "mainDishes": [
-    {
-      "name": "Quenelle de Brochet,",
-      "description": "accompagnée d'une poêlé aux légumes de saison "
-    }
-  ],
+  "mainDishes": [],
   "threeDishesPrice": 22,
-  "starters": [
-    {
-      "name": "Polenta fries, roquette & crème aux herbes ",
-      "description": ""
-    }
-  ],
+  "starters": [],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-07-11T08:17:00.000Z",
+  "date": "2025-07-14T01:27:00.000Z",
   "twoDishesPrice": 18,
-  "additionalTextMainDishes": "* Plat végétarien possible *",
-  "additionalTextStarters": "",
+  "additionalTextMainDishes": "",
+  "additionalTextStarters": "Jour férié uniquement à la carte",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
     "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
   },
-  "deserts": [
-    {
-      "name": "Minestrone de fruits frais"
-    }
-  ]
+  "deserts": []
 }
