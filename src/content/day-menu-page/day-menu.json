@@ -1,17 +1,30 @@
 {
-  "mainDishes": [],
+  "mainDishes": [
+    {
+      "name": "Poulet yassa",
+      "description": "Accompagné de riz basmati "
+    }
+  ],
   "threeDishesPrice": 22,
-  "starters": [],
+  "starters": [
+    {
+      "name": "Rillettes de crabe et tourteau, salade"
+    }
+  ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-07-14T01:27:00.000Z",
+  "date": "2025-07-15T07:06:00.000Z",
   "twoDishesPrice": 18,
-  "additionalTextMainDishes": "",
-  "additionalTextStarters": "Jour férié uniquement à la carte",
+  "additionalTextMainDishes": "* plat végétarien possible *",
+  "additionalTextStarters": "* plat végétarien possible *",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
     "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
   },
-  "deserts": []
+  "deserts": [
+    {
+      "name": "Peche Melba"
+    }
+  ]
 }
