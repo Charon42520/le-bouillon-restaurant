@@ -1,20 +1,20 @@
 {
   "mainDishes": [
     {
-      "name": "Échine de porc, sauce Paprika",
-      "description": "Accompagné de pommes de terre fondantes "
+      "name": "Travers de porc confit ",
+      "description": "Accompagné de courgettes et tomates rôtis "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Pâté chaud, sauce marchand de vin "
+      "name": "Wraps au saumon fumé & crème aux herbes "
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-07-16T09:01:00.000+02:00",
+  "date": "2025-07-17T09:12:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "* plat végétarien possible *",
@@ -24,7 +24,7 @@
   },
   "deserts": [
     {
-      "name": "Tiramisu café"
+      "name": "Coupe de fruits frais & couli"
     }
   ]
 }
