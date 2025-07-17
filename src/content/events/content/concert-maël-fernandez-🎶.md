@@ -6,7 +6,7 @@ summary: >-
 
 
   Venez profiter de Maël Fernandez, musicien originaire de Pélussin (42) à partir de 20h00 sur la terrasse du Bouillon des Eaux-Vives.
-image: "@assets/photo-concert-saint-pierre-de-bœuf.jpg"
+image: "@assets/photo-concert-saint-pierre-de-bœuf-le-bouillon.jpg"
 ---
 Venez profiter de Maël Fernandez, musicien originaire de Pélussin (42) à partir de 20h00 sur la terrasse du Bouillon des Eaux-Vives.
 
