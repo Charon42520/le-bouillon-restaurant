@@ -1,20 +1,20 @@
 {
   "mainDishes": [
     {
-      "name": "Travers de porc confit ",
-      "description": "Accompagné de courgettes et tomates rôtis "
+      "name": "Cuisse de poulet, jus de viande",
+      "description": "Accompagnée de frites fraîches "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Wraps au saumon fumé & crème aux herbes "
+      "name": "Assiette de pâté en croûte et mortadelle "
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-07-17T09:12:00.000+02:00",
+  "date": "2025-07-21T11:18:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "* plat végétarien possible *",
@@ -24,7 +24,7 @@
   },
   "deserts": [
     {
-      "name": "Coupe de fruits frais & couli"
+      "name": "Panna cotta "
     }
   ]
 }
