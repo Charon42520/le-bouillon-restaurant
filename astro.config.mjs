@@ -12,6 +12,7 @@ export default defineConfig({
     }),
     decapCms({
       cmsConfig,
+      cmsScriptSrc: "https://unpkg.com/decap-cms@3.8.0/dist/decap-cms.js",
       injectOAuthRoute: true,
       getEnvObjectFromRequestContext: ({ locals }) => locals.runtime.env,
     }),
