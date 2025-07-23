@@ -1,20 +1,20 @@
 {
   "mainDishes": [
     {
-      "name": "Echine de porc, sauce forestière",
-      "description": "Accompagnée de riz basmati"
+      "name": "Filet de saumon, beurre blanc ",
+      "description": "Accompagné de légumes de saison "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Salade Libanaise"
+      "name": "Oeuf parfait, velouté à la truffe "
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-07-22T13:10:00.000+02:00",
+  "date": "2025-07-23T11:00:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "",
@@ -24,7 +24,7 @@
   },
   "deserts": [
     {
-      "name": "Coupe de fraises, chantilly"
+      "name": "Moelleux à la pêche "
     }
   ]
 }
