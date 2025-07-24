@@ -1,20 +1,20 @@
 {
   "mainDishes": [
     {
-      "name": "Filet de saumon, beurre blanc ",
-      "description": "Accompagné de légumes de saison "
+      "name": "Araignée de porc",
+      "description": "Accompagnée de pommes de terre sauce soja"
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Oeuf parfait, velouté à la truffe "
+      "name": "Salade de chèvre chaud, miel & noix"
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-07-23T11:00:00.000+02:00",
+  "date": "2025-07-24T09:47:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "",
@@ -24,7 +24,7 @@
   },
   "deserts": [
     {
-      "name": "Moelleux à la pêche "
+      "name": "Faisselle "
     }
   ]
 }
