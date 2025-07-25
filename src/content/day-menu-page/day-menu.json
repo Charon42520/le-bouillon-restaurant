@@ -1,20 +1,20 @@
 {
   "mainDishes": [
     {
-      "name": "Araignée de porc",
-      "description": "Accompagnée de pommes de terre sauce soja"
+      "name": "Sauté de porc & olive verte ",
+      "description": "Accompagnée de riz aux herbes "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Salade de chèvre chaud, miel & noix"
+      "name": "Tomates, mozarella "
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-07-24T09:47:00.000+02:00",
+  "date": "2025-07-25T09:52:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "",
@@ -24,7 +24,7 @@
   },
   "deserts": [
     {
-      "name": "Faisselle "
+      "name": "Tiramisu au café "
     }
   ]
 }
