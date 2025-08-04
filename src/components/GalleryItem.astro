@@ -47,4 +47,9 @@ const { image, alt } = Astro.props;
   .thumbnail-container :global(picture) {
     display: contents;
   }
+
+  /* Dont remove */
+  .thumbnail-container :global(img) {
+    max-width: none;
+  }
 </style>
