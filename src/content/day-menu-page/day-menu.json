@@ -1,20 +1,20 @@
 {
   "mainDishes": [
     {
-      "name": "Poulet rôti ",
-      "description": "Accompagné de riz aux poivrons"
+      "name": "Lomo de porc au piment d'Espelette ",
+      "description": "Accompagné d'un gratin dauphinois "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Accras de morue "
+      "name": "Tarte fine aux lardons & salade "
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-07-30T13:43:00.000+02:00",
+  "date": "2025-08-04T12:23:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "",
@@ -24,7 +24,7 @@
   },
   "deserts": [
     {
-      "name": "Salade de fruits frais"
+      "name": "Nougat glacé "
     }
   ]
 }
