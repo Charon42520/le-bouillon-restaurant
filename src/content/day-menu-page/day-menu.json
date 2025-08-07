@@ -1,20 +1,20 @@
 {
   "mainDishes": [
     {
-      "name": "Filet de saumon sauce bisque de homard ",
-      "description": "Accompagné de riz & pois gourmands "
+      "name": "Sauté de porc aux olives ",
+      "description": "Accompagné de riz basmati "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Tomates mozzarella au pesto "
+      "name": "Oeuf parfait avec crème de Brie"
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-08-05T11:10:00.000+02:00",
+  "date": "2025-08-07T10:49:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "",
@@ -24,7 +24,8 @@
   },
   "deserts": [
     {
-      "name": "Sabayon aux fruits rouges "
+      "name": "Coupe Oreo",
+      "description": "Glace vanille, chantilly et brisure d'oreo"
     }
   ]
 }
