@@ -1,20 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Sauté de porc aux olives ",
-      "description": "Accompagné de riz basmati "
+      "name": "Haut de cuisse de poulet ",
+      "description": "Accompagné de lasagnes courgettes - aubergines "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Oeuf parfait avec crème de Brie"
+      "name": "Terrine de porc au madère ",
+      "description": "* plat végétarien possible *"
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-08-07T10:49:00.000+02:00",
+  "date": "2025-08-08T12:06:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "",
@@ -24,8 +25,8 @@
   },
   "deserts": [
     {
-      "name": "Coupe Oreo",
-      "description": "Glace vanille, chantilly et brisure d'oreo"
+      "name": "Tiramisu au café ",
+      "description": ""
     }
   ]
 }
