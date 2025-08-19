@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Haut de cuisse de poulet, jus de romarin ",
-      "description": "Accompagné de pommes de terre rôties "
+      "name": "Filet de saumon (frais)",
+      "description": "Accompagné de pommes de terre vitelatte & sauce beurre blanc "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Crème de Burrata, tomates, roquette et pignons de pins ",
+      "name": "Salade de chèvre, miel & noix",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-08-18T13:58:00.000+02:00",
+  "date": "2025-08-19T11:05:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Pêche Melba, glace vanille et coulis de fruits rouges ",
+      "name": "Panacotta au colis",
       "description": ""
     }
   ]
