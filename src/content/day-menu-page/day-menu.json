@@ -1,14 +1,14 @@
 {
   "mainDishes": [
     {
-      "name": "Filet de saumon (frais)",
-      "description": "Accompagné de pommes de terre vitelatte & sauce beurre blanc "
+      "name": "Lomo de porc au piment d'Espelette ",
+      "description": "Accompagné de légumes marinés "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Salade de chèvre, miel & noix",
+      "name": "Œuf parfait & velouté de carottes ",
       "description": ""
     }
   ],
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Panacotta au colis",
+      "name": "Moelleux à la pêche",
       "description": ""
     }
   ]
