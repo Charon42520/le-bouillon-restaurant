@@ -15,7 +15,9 @@ DAWAC est le duo de DAV-K Trio qui jouera le 11 Juillet.
 
 Réservation 06.07.38.31.61
 
-Tarif : 25€ incluant le menu unique ainsi que le concert (Le menu sera communiqué plus tard)
+Tarif : Entrée libre et menu unique à 25€
+
+* Brochette melon pastèque et jambon cru Poulet coco accompagné de nouilles sautées Entremet praliné spéculoos
 
 • Artistes locaux Loire (42)
 
