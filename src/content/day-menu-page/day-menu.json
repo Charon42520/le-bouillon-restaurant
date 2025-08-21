@@ -1,31 +1,31 @@
 {
   "mainDishes": [
     {
-      "name": "Lomo de porc au piment d'Espelette ",
-      "description": "Accompagné de légumes marinés "
+      "name": "Poulet (haut de cuisse) ",
+      "description": "Accompagné de rosti aux légumes "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Œuf parfait & velouté de carottes ",
+      "name": "Assiette de charcuteries",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-08-19T11:05:00.000+02:00",
+  "date": "2025-08-21T12:08:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
-  "additionalTextStarters": "",
+  "additionalTextStarters": "* plat végétarien possible *",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
     "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
   },
   "deserts": [
     {
-      "name": "Moelleux à la pêche",
+      "name": "Tartelette crème citron & framboises",
       "description": ""
     }
   ]
