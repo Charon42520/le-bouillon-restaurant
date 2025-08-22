@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Poulet (haut de cuisse) ",
-      "description": "Accompagné de rosti aux légumes "
+      "name": "sautée de veau aux olives",
+      "description": "Accompagné de pommes de terre rissolées "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Assiette de charcuteries",
+      "name": "Croque Monsieur & salade ",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-08-21T12:08:00.000+02:00",
+  "date": "2025-08-22T12:24:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "* plat végétarien possible *",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Tartelette crème citron & framboises",
+      "name": "Crème brûlée vanille ",
       "description": ""
     }
   ]
