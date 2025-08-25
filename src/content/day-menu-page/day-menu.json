@@ -1,14 +1,14 @@
 {
   "mainDishes": [
     {
-      "name": "sautée de veau aux olives",
-      "description": "Accompagné de pommes de terre rissolées "
+      "name": "Cuisse de poulet, sauce aux champignons ",
+      "description": "Accompagné de pommes de terre "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Croque Monsieur & salade ",
+      "name": "Melon Pastèque jambon cru",
       "description": ""
     }
   ],
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Crème brûlée vanille ",
+      "name": "Sabayon de fraises ",
       "description": ""
     }
   ]
