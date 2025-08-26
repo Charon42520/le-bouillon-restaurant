@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Cuisse de poulet, sauce aux champignons ",
-      "description": "Accompagné de pommes de terre "
+      "name": "Tagliatelles carbonara ",
+      "description": ""
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Melon Pastèque jambon cru",
+      "name": "Wrap saumon fumé et roquette ",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-08-25T10:50:00.000+02:00",
+  "date": "2025-08-26T12:29:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "* plat végétarien possible *",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Sabayon de fraises ",
+      "name": "Tiramisu au café ",
       "description": ""
     }
   ]
