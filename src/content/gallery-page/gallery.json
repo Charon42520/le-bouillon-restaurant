@@ -154,6 +154,22 @@
       {
         "image": "@assets/gallery-resort-1.jpeg",
         "alt": "Photo du restaurant Le Bouillon des Eaux Vives"
+      },
+      {
+        "image": "@assets/1000073796.jpg",
+        "alt": "Photo soirée concert Magda et Gaëtan au Bouillon des Eaux-Vives "
+      },
+      {
+        "image": "@assets/1000073798.jpg",
+        "alt": "Soirée concert Paris Pilat au Bouillon des Eaux-Vives "
+      },
+      {
+        "image": "@assets/1000073797.jpg",
+        "alt": "Magda soirée terrasse Bouillon des Eaux-Vives "
+      },
+      {
+        "image": "@assets/1000073799.jpg",
+        "alt": "Soirée Two Flou au Bouillon des Eaux-Vives "
       }
     ]
   }
