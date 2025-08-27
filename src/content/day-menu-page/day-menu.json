@@ -1,31 +1,31 @@
 {
   "mainDishes": [
     {
-      "name": "Tagliatelles carbonara ",
-      "description": ""
+      "name": "Araignée de porc, sauce cheddar ",
+      "description": "accompagnée d'un gratin de tagliatelles "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Wrap saumon fumé et roquette ",
+      "name": "Œuf parfait & velouté de courgettes ",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-08-26T12:29:00.000+02:00",
+  "date": "2025-08-27T12:12:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
-  "additionalTextStarters": "* plat végétarien possible *",
+  "additionalTextStarters": "",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
     "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
   },
   "deserts": [
     {
-      "name": "Tiramisu au café ",
+      "name": "Coupe chocolat Suisse Oréo",
       "description": ""
     }
   ]
