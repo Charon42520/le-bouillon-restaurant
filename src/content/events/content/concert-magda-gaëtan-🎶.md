@@ -22,7 +22,7 @@ Arancini, salade 🥗
 
 Pilons de poulet marinés 🐔 et semoule épicée aux légumes 
 
-tarte aux chocolat et éclats de noix 🍫 
+Tarte au chocolat et éclats de noix 🍫 
 
 • Artistes locaux Lyonnais (69)
 
