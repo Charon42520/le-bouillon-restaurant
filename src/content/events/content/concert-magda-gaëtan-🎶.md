@@ -20,7 +20,7 @@ Tarif : Entrée libre, menu unique à 25€
 
 Arancini, salade 🥗 
 
-Pilons de poulet marinés 🐔 et semoule épicé aux légumes 
+Pilons de poulet marinés 🐔 et semoule épicée aux légumes 
 
 tarte aux chocolat et éclats de noix 🍫 
 
