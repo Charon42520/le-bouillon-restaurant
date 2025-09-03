@@ -1,31 +1,31 @@
 {
   "mainDishes": [
     {
-      "name": "Filet mignon de porc ",
-      "description": "accompagnée de lasagnes aux légumes "
+      "name": "Risotto aubergines champignons",
+      "description": ""
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Wrap au saumon fumé et roquette ",
+      "name": "Salade libanaise",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-09-02T10:58:00.000+02:00",
+  "date": "2025-09-03T09:51:00.000+02:00",
   "twoDishesPrice": 18,
-  "additionalTextMainDishes": "* plat végétarien possible *",
-  "additionalTextStarters": "* Plat végétarien possible *",
+  "additionalTextMainDishes": "",
+  "additionalTextStarters": "",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
     "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
   },
   "deserts": [
     {
-      "name": "Minestrone de fruits frais ",
+      "name": "Crème brûlée vanille ",
       "description": ""
     }
   ]
