@@ -16,7 +16,13 @@ Et pour ceux qui voudraient s'essayer à la scène,  passez en mode Karaoké Li
 
 Réservation 06.07.38.31.61
 
-Tarif : 25€ incluant le menu unique ainsi que le concert (Le menu sera communiqué plus tard)
+Tarif : Entrée libre, menu unique à 25€
+
+Arancini, salade 🥗 
+
+Pilons de poulet marinés 🐔 et semoule épicé aux légumes 
+
+tarte aux chocolat et éclats de noix 🍫 
 
 • Artistes locaux Lyonnais (69)
 
