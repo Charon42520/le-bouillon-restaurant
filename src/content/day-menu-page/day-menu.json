@@ -1,23 +1,23 @@
 {
   "mainDishes": [
     {
-      "name": "Risotto aubergines champignons",
-      "description": ""
+      "name": "Cuisse de poulet ",
+      "description": "accompagnée de polenta crémeuse à l'orange "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Salade libanaise",
+      "name": "Gratiné de Ravioles",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-09-03T09:51:00.000+02:00",
+  "date": "2025-09-04T10:18:00.000+02:00",
   "twoDishesPrice": 18,
-  "additionalTextMainDishes": "",
+  "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Crème brûlée vanille ",
+      "name": "Panna cotta au coulis ",
       "description": ""
     }
   ]
