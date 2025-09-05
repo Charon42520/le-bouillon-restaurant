@@ -1,7 +1,7 @@
 {
   "mainDishes": [
     {
-      "name": "Cuisse de poulet ",
+      "name": "Sauté de porc à la tomate ",
       "description": "accompagnée de polenta crémeuse à l'orange "
     }
   ],
@@ -15,7 +15,7 @@
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-09-04T10:18:00.000+02:00",
+  "date": "2025-09-05T11:05:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "",
