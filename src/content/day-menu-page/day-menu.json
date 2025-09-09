@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Sauté de porc à la tomate ",
-      "description": "accompagné de polenta crémeuse à l'orange "
+      "name": "Filet de mignon de porc, sauce tomate ",
+      "description": "accompagné de frites fraîches "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Gratiné de Ravioles au cheddar ",
+      "name": "Samoussa de saumon & salade ",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-09-05T11:05:00.000+02:00",
+  "date": "2025-09-09T12:09:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Panna cotta au coulis ",
+      "name": "Soufflé glacé aux fruits confits ",
       "description": ""
     }
   ]
