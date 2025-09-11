@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "  Quenelle sauce à l’aneth",
-      "description": "accompagnée de riz et légumes marinés "
+      "name": "Cuisse de canard, sauce aux fruits rouges",
+      "description": "accompagnée d'écraser de pommes de terre vitelotte "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Œuf parfait, crème de courgettes au cheddar",
-      "description": ""
+      "name": "Assiette de salami Golfetta et salade ",
+      "description": "Saucisson italien "
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-09-10T09:30:00.000+02:00",
+  "date": "2025-09-11T12:01:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Clafoutis aux cerises ",
+      "name": "Flan pâtissier ",
       "description": ""
     }
   ]
