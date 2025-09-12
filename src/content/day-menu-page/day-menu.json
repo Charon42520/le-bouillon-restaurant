@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Cuisse de canard, sauce aux fruits rouges",
-      "description": "accompagnée d'écraser de pommes de terre vitelotte "
+      "name": "Filet de saumon ",
+      "description": "accompagnée de pommes de terre grenaille aux herbes "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Assiette de salami Golfetta et salade ",
-      "description": "Saucisson italien "
+      "name": "Tartine de Brie, miel & noix ",
+      "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-09-11T12:01:00.000+02:00",
+  "date": "2025-09-12T11:58:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "",
@@ -25,8 +25,8 @@
   },
   "deserts": [
     {
-      "name": "Flan pâtissier ",
-      "description": ""
+      "name": "Assiette gourmande ",
+      "description": "Flan pâtissier, clafoutis, guimauve"
     }
   ]
 }
