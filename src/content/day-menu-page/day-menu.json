@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Filet de saumon ",
-      "description": "accompagnée de pommes de terre grenaille aux herbes "
+      "name": "Riz aux fruits de mer",
+      "description": ""
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Tartine de Brie, miel & noix ",
-      "description": ""
+      "name": "Salade Libanaise",
+      "description": "Quinoa, radis et concombre "
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-09-12T11:58:00.000+02:00",
+  "date": "2025-09-16T11:42:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "",
@@ -25,8 +25,8 @@
   },
   "deserts": [
     {
-      "name": "Assiette gourmande ",
-      "description": "Flan pâtissier, clafoutis, guimauve"
+      "name": "Sabayon aux fruits rouges ",
+      "description": ""
     }
   ]
 }
