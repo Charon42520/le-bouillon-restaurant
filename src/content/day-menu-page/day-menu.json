@@ -1,31 +1,31 @@
 {
   "mainDishes": [
     {
-      "name": "Riz aux fruits de mer",
-      "description": ""
+      "name": "Rôti de porc, jus de romarin ",
+      "description": "accompagnée de pommes de terre grenaille "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Salade Libanaise",
-      "description": "Quinoa, radis et concombre "
+      "name": "Bouché aux fruits de mer ",
+      "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-09-16T11:42:00.000+02:00",
+  "date": "2025-09-17T12:23:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
-  "additionalTextStarters": "",
+  "additionalTextStarters": "* Plat végétarien possible *",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
     "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
   },
   "deserts": [
     {
-      "name": "Sabayon aux fruits rouges ",
+      "name": "Tiramisu ",
       "description": ""
     }
   ]
