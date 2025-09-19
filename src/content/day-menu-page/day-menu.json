@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Blanquette de porc aux champignons ",
-      "description": "accompagnée de riz aux herbes "
+      "name": "Filet mignon sauce moutarde ",
+      "description": "accompagné de légumes et pommes de terre "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Salade césar ",
-      "description": "Olives noires, poulet, parmesan"
+      "name": "Assiette Anglaise",
+      "description": "Charcuterie, salade, wrap et œuf "
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-09-18T12:08:00.000+02:00",
+  "date": "2025-09-19T12:14:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "* Plat végétarien possible *",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Mousse au spéculoos ",
+      "name": "Panna Cotta ",
       "description": ""
     }
   ]
