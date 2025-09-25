@@ -1,31 +1,31 @@
 {
   "mainDishes": [
     {
-      "name": "Suprême de volaille et son jus ",
-      "description": "accompagné de semoule "
+      "name": "Mix and grill (poulet & merguez)",
+      "description": "accompagné de frites fraîches "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Tartare de saumon",
+      "name": "Œuf poché, crème de choux fleurs",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-09-23T12:11:00.000+02:00",
+  "date": "2025-09-25T11:02:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
-  "additionalTextStarters": "* Plat végétarien possible *",
+  "additionalTextStarters": "",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
     "description": "Menu du jour du restaurant Le Bouillon des Eaux Vives à Saint-Pierre-de-Bœuf."
   },
   "deserts": [
     {
-      "name": "Fondant au chocolat & chantilly ",
+      "name": "Tiramisu caramel & St Michel ",
       "description": ""
     }
   ]
