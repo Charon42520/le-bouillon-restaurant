@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Brochette de dinde",
-      "description": "accompagnée de polenta crémeuse "
+      "name": "Sauté de veau et porc aux olives vertes, sauce tomate ",
+      "description": "accompagné de pommes de terre et carottes "
     }
   ],
   "threeDishesPrice": 22,
   "starters": [
     {
-      "name": "Accra de morue et Salade ",
+      "name": "Pâté en croûte ",
       "description": ""
     }
   ],
   "oneDishPrice": 14,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-10-02T10:59:00.000+02:00",
+  "date": "2025-10-07T11:07:00.000+02:00",
   "twoDishesPrice": 18,
   "additionalTextMainDishes": "* plat végétarien possible *",
   "additionalTextStarters": "* Plat végétarien possible *",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Entremet chocolat ",
+      "name": "Tiramisu café",
       "description": ""
     }
   ]
