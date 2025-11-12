@@ -1,23 +1,32 @@
 {
   "mainDishes": [
     {
-      "name": "Tagliatelles à la bolognaise ",
+      "name": "Tajine de poulet aux olives et légumes de saison, sauce piquante ",
       "description": ""
+    },
+    {
+      "name": "Saumon chaud et froid en deux états, crème d'aneth"
+    },
+    {
+      "name": "Risotto crémeux, oeuf poché & tuile au parmesan"
     }
   ],
-  "threeDishesPrice": 22,
+  "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Salade de chèvre chaud",
+      "name": "St Félicien rôti au miel, chips de topinambours",
       "description": ""
+    },
+    {
+      "name": "Escargots de Bourgogne à la persillade"
     }
   ],
-  "oneDishPrice": 14,
+  "oneDishPrice": 15,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-10-10T13:21:00.000+02:00",
-  "twoDishesPrice": 18,
-  "additionalTextMainDishes": "* plat végétarien possible *",
+  "date": "2025-10-14T13:21:00.000+02:00",
+  "twoDishesPrice": 20,
+  "additionalTextMainDishes": "",
   "additionalTextStarters": "",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
@@ -25,8 +34,11 @@
   },
   "deserts": [
     {
-      "name": "Nougat glacé ",
-      "description": "Café OFFERT "
+      "name": "Nougat glacé, tuile au carambar",
+      "description": ""
+    },
+    {
+      "name": "Roulé à la crème, éclat d'oreo "
     }
   ]
 }
