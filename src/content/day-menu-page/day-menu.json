@@ -1,30 +1,28 @@
 {
   "mainDishes": [
     {
-      "name": "Tajine de poulet aux olives et légumes de saison, sauce piquante ",
-      "description": ""
+      "name": "Raclette du Bouillon Fromage au chèvre (ferme de la Cabriole) & Morbier AOP",
+      "description": "Servi avec pomme de terre, salade et charcuterie "
     },
     {
-      "name": "Saumon chaud et froid en deux états, crème d'aneth"
-    },
-    {
-      "name": "Risotto crémeux, oeuf poché & tuile au parmesan"
+      "name": "Tempura de filet de Lieu",
+      "description": "accompagné de frites fraîches, mayonnaise aux condiments (échalotes, câpre, persil) "
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "St Félicien rôti au miel, chips de topinambours",
+      "name": "Mousseline de poisson, beurre blanc",
       "description": ""
     },
     {
-      "name": "Escargots de Bourgogne à la persillade"
+      "name": "Arancini, salade et gressin au sésame "
     }
   ],
   "oneDishPrice": 15,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-11-14T13:21:00.000+01:00",
+  "date": "2025-11-21T13:21:00.000+01:00",
   "twoDishesPrice": 20,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -34,11 +32,11 @@
   },
   "deserts": [
     {
-      "name": "Nougat glacé, tuile au carambar",
+      "name": "Fondant chocolat au lait, cœur coulant au caramel beurre salé ",
       "description": ""
     },
     {
-      "name": "Roulé à la crème, éclat d'oreo "
+      "name": "Feuilleté aux pommes et à la cannelle "
     }
   ]
 }
