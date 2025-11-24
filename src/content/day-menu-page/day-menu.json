@@ -1,28 +1,28 @@
 {
   "mainDishes": [
     {
-      "name": "Raclette du Bouillon Fromage au chèvre (ferme de la Cabriole) & Morbier AOP",
-      "description": "Servi avec pomme de terre, salade et charcuterie "
+      "name": "Parmentier Végé",
+      "description": "Écrasé de pommes de terre, lentilles & oignons caramélisés "
     },
     {
-      "name": "Tempura de filet de Lieu",
-      "description": "accompagné de frites fraîches, mayonnaise aux condiments (échalotes, câpre, persil) "
+      "name": "Tournedos de paleron de boeuf, sauce vigneronne ",
+      "description": "Cuisson 12 heures "
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Mousseline de poisson, beurre blanc",
+      "name": "Wraps au saumon fumé, avocat & crème aux herbes ",
       "description": ""
     },
     {
-      "name": "Arancini, salade et gressin au sésame "
+      "name": "Velouté de potimarron, croûtons à l'ail, & ciboulette  "
     }
   ],
   "oneDishPrice": 15,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-11-21T13:21:00.000+01:00",
+  "date": "2025-11-28T13:21:00.000+01:00",
   "twoDishesPrice": 20,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -32,11 +32,11 @@
   },
   "deserts": [
     {
-      "name": "Fondant chocolat au lait, cœur coulant au caramel beurre salé ",
+      "name": "Crème fouettée, éclats de cookies & Nutella ",
       "description": ""
     },
     {
-      "name": "Feuilleté aux pommes et à la cannelle "
+      "name": "Poire pchée au vin chaud & écorce d'orange"
     }
   ]
 }
