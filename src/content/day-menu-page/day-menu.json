@@ -1,22 +1,22 @@
 {
   "mainDishes": [
     {
-      "name": "Parmentier Végé",
-      "description": "Écrasé de pommes de terre, lentilles & oignons caramélisés "
+      "name": "Poêlé de courgettes aux ravioles du Dauphiné, Mousseline de potimarron",
+      "description": ""
     },
     {
-      "name": "Tournedos de paleron de boeuf, sauce vigneronne ",
+      "name": "Tagliatelles au poulet et champignons de saison, crème à l'ail et au thym ",
       "description": "Cuisson 12 heures "
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Wraps au saumon fumé, avocat & crème aux herbes ",
+      "name": "Toast: comté & jambon blanc, carottes et choux",
       "description": ""
     },
     {
-      "name": "Velouté de potimarron, croûtons à l'ail, & ciboulette  "
+      "name": "Cake aux noix, chèvre frais aux épices (ferme de la Cabriole) Espumas olive et brisures"
     }
   ],
   "oneDishPrice": 15,
@@ -32,11 +32,11 @@
   },
   "deserts": [
     {
-      "name": "Crème fouettée, éclats de cookies & Nutella ",
+      "name": "Mousse au chocolat au lait, noisette torréfié, tuile au carambar ",
       "description": ""
     },
     {
-      "name": "Poire pochée au vin chaud & écorce d'orange"
+      "name": "Brioche perdue au beurre AOP, caramel au poire, zeste d'orange et vanille"
     }
   ]
 }
