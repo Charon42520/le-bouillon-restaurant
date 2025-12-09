@@ -97,6 +97,10 @@
       {
         "alt": "Photo d'un plat du restaurant Le Bouillon des Eaux Vives",
         "image": "@assets/photo-restaurant-le-bouillon-brasserie-des-eaux-vives-15-.jpg"
+      },
+      {
+        "image": "@assets/a7408588.jpg",
+        "alt": "Burgers du Bouillon sur place ou à emporter"
       }
     ]
   },
