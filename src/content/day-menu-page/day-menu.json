@@ -1,28 +1,29 @@
 {
   "mainDishes": [
     {
-      "name": "Poêlé de courgettes aux ravioles du Dauphiné, Mousseline de potimarron",
-      "description": ""
+      "name": "Basse-côte de Bœuf (France)",
+      "description": "Cuisson lente 12 heures, jus réduit aux échalotes confites"
     },
     {
-      "name": "Tagliatelles au poulet et champignons de saison, crème à l'ail et au thym ",
+      "name": "Crozets de Savoie gratinés au Morbier AOP, pickles de carottes acidulées & salade gourmande ",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Toast: comté & jambon blanc, carottes et choux",
+      "name": "Saumon Gravelax, Iceberg, crème ciboulette ",
       "description": ""
     },
     {
-      "name": "Cake aux noix, chèvre frais aux épices (ferme de la Cabriole) Espumas olive et brisures"
+      "name": "Opéra de Foie Gras IGP Sud Ouest",
+      "description": "Génoise Amaretto, mi-cuit de Foie Gras (France), Gelé de Coings "
     }
   ],
   "oneDishPrice": 15,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-12-05T13:21:00.000+01:00",
+  "date": "2025-12-12T13:21:00.000+01:00",
   "twoDishesPrice": 20,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -32,11 +33,11 @@
   },
   "deserts": [
     {
-      "name": "Mousse au chocolat au lait, noisette torréfié, tuile au carambar ",
+      "name": "Crème brûlée à la vanille de Madagascar ",
       "description": ""
     },
     {
-      "name": "Brioche perdue au beurre AOP, caramel au poire, zeste d'orange et vanille"
+      "name": "Panna cotta a la fève de Tonka"
     }
   ]
 }
