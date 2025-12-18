@@ -1,31 +1,31 @@
 {
   "mainDishes": [
     {
-      "name": "Basse-côte de Bœuf (France)",
-      "description": "Cuisson lente 12 heures, jus réduit aux échalotes confites"
+      "name": "Pot au Feu Montbéliard (version végé possible)",
+      "description": "Saucisse, céleri, navet, carotte, poireaux, oignon, pdt "
     },
     {
-      "name": "Crozets de Savoie gratinés au Morbier AOP, pickles de carottes acidulées & salade gourmande ",
-      "description": ""
+      "name": "Boeuf au chorizo & poivron, jus réduit au vin",
+      "description": "Accompagné de riz basmati "
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Saumon Gravelax, Iceberg, crème ciboulette ",
-      "description": ""
+      "name": "Pain Suédois Surprise ",
+      "description": "Créme ciboulette, concombre, oignons rouges, salade"
     },
     {
-      "name": "Opéra de Foie Gras IGP Sud Ouest",
-      "description": "Génoise Amaretto, mi-cuit de Foie Gras (France), Gelé de Coings "
+      "name": "St Félicien rôti au Miel ",
+      "description": "& Salade Croquante & Noix "
     }
   ],
   "oneDishPrice": 15,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-12-12T13:21:00.000+01:00",
+  "date": "2025-12-19T13:21:00.000+01:00",
   "twoDishesPrice": 20,
-  "additionalTextMainDishes": "",
+  "additionalTextMainDishes": "Origine viande:  France",
   "additionalTextStarters": "",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
@@ -33,11 +33,11 @@
   },
   "deserts": [
     {
-      "name": "Crème brûlée à la vanille de Madagascar ",
+      "name": "Entremet au chocolat et spéculoos ",
       "description": ""
     },
     {
-      "name": "Panna cotta a la fève de Tonka"
+      "name": "Verrine au coing, crumble de fruit sec"
     }
   ]
 }
