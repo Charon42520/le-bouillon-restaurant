@@ -1,31 +1,31 @@
 {
   "mainDishes": [
     {
-      "name": "Pot au Feu Montbéliard (version végé possible)",
-      "description": "Saucisse, céleri, navet, carotte, poireaux, oignon, pdt "
+      "name": "Tagliatelles \"Sottu Mare\" ",
+      "description": "Fruits de mer et coquillages, réduction de crème au vin blanc "
     },
     {
-      "name": "Boeuf au chorizo & poivron, jus réduit au vin",
-      "description": "Accompagné de riz basmati "
+      "name": "Minestrone de légumes de saison, Bouillon clair & croûtons ",
+      "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Pain Suédois Surprise ",
-      "description": "Créme ciboulette, concombre, oignons rouges, salade"
+      "name": "Meli mélo carottes et courgettes, vinaigrette au miel et suprême de pomelo",
+      "description": ""
     },
     {
-      "name": "St Félicien rôti au Miel ",
-      "description": "& Salade Croquante & Noix "
+      "name": "Bouchée garni au Morbier AOP, chips de jambon cru",
+      "description": ""
     }
   ],
   "oneDishPrice": 15,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2025-12-19T13:21:00.000+01:00",
+  "date": "2026-01-07T10:00:00.000+01:00",
   "twoDishesPrice": 20,
-  "additionalTextMainDishes": "Origine viande:  France",
+  "additionalTextMainDishes": "",
   "additionalTextStarters": "",
   "seo": {
     "title": "Le Bouillon des Eaux Vives | Menu du jour",
@@ -33,11 +33,11 @@
   },
   "deserts": [
     {
-      "name": "Entremet au chocolat et spéculoos ",
+      "name": "Profiteroles vanille, sauce chocolat et chantilly ",
       "description": ""
     },
     {
-      "name": "Verrine au coing, crumble de fruit sec"
+      "name": "Tarte aux citrons Bio, éclats de meringue"
     }
   ]
 }
