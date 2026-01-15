@@ -1,29 +1,29 @@
 {
   "mainDishes": [
     {
-      "name": "Tagliatelles \"Sottu Mare\" ",
-      "description": "Fruits de mer et coquillages, réduction de crème au vin blanc "
+      "name": "Nouilles sautées carottes & courgettes, sauce Satay ",
+      "description": ""
     },
     {
-      "name": "Minestrone de légumes de saison, Bouillon clair & croûtons ",
-      "description": ""
+      "name": "Joue de Boeuf confite a la bière, pomme & cannelle ",
+      "description": "Accompagnée d'un gratin de chou-fleur "
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Meli mélo carottes et courgettes, vinaigrette au miel et suprême de pomelo",
+      "name": "Velouté de Légumes de saison, crème fouettée aux épices ",
       "description": ""
     },
     {
-      "name": "Bouchée garni au Morbier AOP, chips de jambon cru",
+      "name": "Bruschetta au fromage, salade croquante & maïs",
       "description": ""
     }
   ],
   "oneDishPrice": 15,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-01-09T10:00:00.000+01:00",
+  "date": "2026-01-16T10:00:00.000+01:00",
   "twoDishesPrice": 20,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -33,11 +33,11 @@
   },
   "deserts": [
     {
-      "name": "Profiteroles vanille, sauce chocolat et chantilly ",
+      "name": "Pavlova a la mandarine, crémeux citron ",
       "description": ""
     },
     {
-      "name": "Tarte aux citrons Bio, éclats de meringue"
+      "name": "Galette des Rois à la frangipane"
     }
   ]
 }
