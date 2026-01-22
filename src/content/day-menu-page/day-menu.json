@@ -1,29 +1,29 @@
 {
   "mainDishes": [
     {
-      "name": "Nouilles sautées carottes & courgettes, sauce Satay ",
+      "name": "Mignon de porc sauce moutarde à l’ancienne",
       "description": ""
     },
     {
-      "name": "Joue de Boeuf confite a la bière, pomme & cannelle ",
-      "description": "Accompagnée d'un gratin de chou-fleur "
+      "name": "Cabillaud en fish & chips, mayonnaise aux herbes fraîches",
+      "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Velouté de Légumes de saison, crème fouettée aux épices ",
+      "name": "Croque-monsieur au jambon blanc & cheddar affiné",
       "description": ""
     },
     {
-      "name": "Bruschetta au fromage, salade croquante & maïs",
+      "name": "Gratin de ravioles du Dauphiné à la crème",
       "description": ""
     }
   ],
   "oneDishPrice": 15,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-01-16T10:00:00.000+01:00",
+  "date": "2026-01-23T10:00:00.000+01:00",
   "twoDishesPrice": 20,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -33,11 +33,11 @@
   },
   "deserts": [
     {
-      "name": "Pavlova a la mandarine, crémeux citron ",
+      "name": "Entremets mousse framboise",
       "description": ""
     },
     {
-      "name": "Galette des Rois à la frangipane"
+      "name": "Vacherin glacé vanille Bourbon & chocolat"
     }
   ]
 }
