@@ -1,29 +1,29 @@
 {
   "mainDishes": [
     {
-      "name": "Poulet Yassa, carottes, oignons, olives",
+      "name": "Ballotine de volaille fermière, jus au thym",
       "description": ""
     },
     {
-      "name": "Boulgour, crème de chou-fleur, œuf parfait ",
+      "name": "Filet de truite rose, beurre citronné ",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Salade de pomme de terre aux maquereaux, huile d'olive & 5 baies",
+      "name": "Croustillant de chèvre, miel & noix",
       "description": ""
     },
     {
-      "name": "Bricks à la courgette, carotte & fêta ",
+      "name": "Opera de fois gras IGP Sud Ouest ",
       "description": ""
     }
   ],
   "oneDishPrice": 15,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-01-30T10:00:00.000+01:00",
+  "date": "2026-02-13T10:00:00.000+01:00",
   "twoDishesPrice": 20,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -33,11 +33,11 @@
   },
   "deserts": [
     {
-      "name": "Crème brûlée à la fève de Tonka ",
+      "name": "Moelleux au chocolat Weiss, coeur coulant ",
       "description": ""
     },
     {
-      "name": "Rose des sables, chocolat au lait Weiss"
+      "name": "Panna cotta vanille, coulis de fruits rouges "
     }
   ]
 }
