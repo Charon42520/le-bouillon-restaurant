@@ -1,29 +1,29 @@
 {
   "mainDishes": [
     {
-      "name": "Ballotine de volaille fermière, jus au thym",
-      "description": ""
+      "name": "Travers de porc fondant (Origine France), jus corsé infusé à la verveine",
+      "description": "accompagné de frites fraîches "
     },
     {
-      "name": "Filet de truite rose, beurre citronné ",
+      "name": "Risotto crémeux au parmesan & petits pois œuf parfait, cœur coulant",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Croustillant de chèvre, miel & noix",
-      "description": ""
+      "name": "Velouté onctueux de potimarron",
+      "description": "Noisettes torréfiées & filet d’huile de sésame"
     },
     {
-      "name": "Opera de fois gras IGP Sud Ouest ",
-      "description": ""
+      "name": "Croûte forestière aux champignons",
+      "description": "Crème légère, chips de lard croustillantes"
     }
   ],
   "oneDishPrice": 15,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-02-13T10:00:00.000+01:00",
+  "date": "2026-02-20T10:00:00.000+01:00",
   "twoDishesPrice": 20,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -33,11 +33,12 @@
   },
   "deserts": [
     {
-      "name": "Moelleux au chocolat Weiss, coeur coulant ",
+      "name": "Crumble gourmand poire & fruits secs",
       "description": ""
     },
     {
-      "name": "Panna cotta vanille, coulis de fruits rouges "
+      "name": "Île flottante traditionnelle",
+      "description": "Crème anglaise, caramel & amandes effilées"
     }
   ]
 }
