@@ -1,29 +1,29 @@
 {
   "mainDishes": [
     {
-      "name": "Travers de porc fondant (Origine France), jus corsé infusé à la verveine",
-      "description": "accompagné de frites fraîches "
+      "name": "Suprême de volaille sauce forestière",
+      "description": "accompagné purée maison & légumes"
     },
     {
-      "name": "Risotto crémeux au parmesan & petits pois œuf parfait, cœur coulant",
-      "description": ""
+      "name": "Filet de lieu noir, beurre au kumquat",
+      "description": "accompagné riz basmati & légumes "
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Velouté onctueux de potimarron",
-      "description": "Noisettes torréfiées & filet d’huile de sésame"
+      "name": "Velouté de légumes de saison, émulsion crème légère chips de panais ",
+      "description": ""
     },
     {
-      "name": "Croûte forestière aux champignons",
-      "description": "Crème légère, chips de lard croustillantes"
+      "name": "Salade gourmande (lardons, œuf parfait, croûtons)",
+      "description": ""
     }
   ],
   "oneDishPrice": 15,
   "additionalTextDeserts": "",
-  "text": "Découvrez le menu du jour",
-  "date": "2026-02-20T10:00:00.000+01:00",
+  "text": "Découvrez le menu du jour, pour la fête des grands-mères ",
+  "date": "2026-02-27T10:00:00.000+01:00",
   "twoDishesPrice": 20,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -33,12 +33,12 @@
   },
   "deserts": [
     {
-      "name": "Crumble gourmand poire & fruits secs",
+      "name": "Tarte fine aux pommes & cannelle ",
       "description": ""
     },
     {
-      "name": "Île flottante traditionnelle",
-      "description": "Crème anglaise, caramel & amandes effilées"
+      "name": "Coupe glacé vanille/framboise & éclats de meringue",
+      "description": ""
     }
   ]
 }
