@@ -18,9 +18,7 @@
     "astro": "^5.7.10",
     "astro-decap": "^0.3.0",
     "astro-seo": "^0.8.4",
-    "typescript": "^5.8.3"
-  },
-  "devDependencies": {
+    "typescript": "^5.8.3",
     "@astrojs/cloudflare": "^12.5.2",
     "@types/node": "^22.15.3",
     "@unocss/reset": "^66.0.0",
