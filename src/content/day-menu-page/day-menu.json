@@ -1,29 +1,29 @@
 {
   "mainDishes": [
     {
-      "name": "Suprême de volaille sauce forestière",
-      "description": "accompagné purée maison & légumes"
+      "name": "Filet mignon de porc rôti, jus court",
+      "description": "accompagné de carottes fanes & pommes grenailles"
     },
     {
-      "name": "Filet de lieu noir, beurre au kumquat",
-      "description": "accompagné riz basmati & légumes "
+      "name": "Poêlée de légumes de saison, œuf parfait & gressins croustillants",
+      "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Velouté de légumes de saison, émulsion crème légère chips de panais ",
+      "name": "Asperges vertes, mayonnaise & zeste d’orange",
       "description": ""
     },
     {
-      "name": "Salade gourmande (lardons, œuf parfait, croûtons)",
-      "description": ""
+      "name": "Panier croquant de légumes de printemps",
+      "description": "radis, concombre & beurre demi-sel"
     }
   ],
   "oneDishPrice": 15,
   "additionalTextDeserts": "",
-  "text": "Découvrez le menu du jour, pour la fête des grands-mères ",
-  "date": "2026-02-27T10:00:00.000+01:00",
+  "text": "Découvrez le menu du jour",
+  "date": "2026-03-06T10:00:00.000+01:00",
   "twoDishesPrice": 20,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -33,11 +33,11 @@
   },
   "deserts": [
     {
-      "name": "Tarte fine aux pommes & cannelle ",
+      "name": "Salade de fruits de saison",
       "description": ""
     },
     {
-      "name": "Coupe glacé vanille/framboise & éclats de meringue",
+      "name": "Crème brûlée à la praline rose",
       "description": ""
     }
   ]
