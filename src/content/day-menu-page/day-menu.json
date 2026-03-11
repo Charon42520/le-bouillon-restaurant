@@ -1,29 +1,29 @@
 {
   "mainDishes": [
     {
-      "name": "Filet mignon de porc rôti, jus court",
-      "description": "accompagné de carottes fanes & pommes grenailles"
+      "name": "Brochette d'onglet Angus grillé",
+      "description": "accompagnée de frites, coleslaw"
     },
     {
-      "name": "Poêlée de légumes de saison, œuf parfait & gressins croustillants",
+      "name": "Lieu noir snacké, fondue de poireaux, bisque d'écrevissesgressins croustillants",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Asperges vertes, mayonnaise & zeste d’orange",
+      "name": "Salade de jambon blanc au Bouillon, jeunes pousses, vinaigrette",
       "description": ""
     },
     {
-      "name": "Panier croquant de légumes de printemps",
-      "description": "radis, concombre & beurre demi-sel"
+      "name": "Tartine au Saint-Félicien affiné, tomates confites, et fruits sec",
+      "description": ""
     }
   ],
   "oneDishPrice": 15,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-03-06T10:00:00.000+01:00",
+  "date": "2026-03-13T10:00:00.000+01:00",
   "twoDishesPrice": 20,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -33,11 +33,11 @@
   },
   "deserts": [
     {
-      "name": "Salade de fruits de saison",
-      "description": ""
+      "name": "Tomme daubée",
+      "description": " Gaec de la Cabriole - Pelussin"
     },
     {
-      "name": "Crème brûlée à la praline rose",
+      "name": "Flan pâtissier, crémeux à la vanille, brisure de granola",
       "description": ""
     }
   ]
