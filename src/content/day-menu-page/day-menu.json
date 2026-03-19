@@ -1,29 +1,29 @@
 {
   "mainDishes": [
     {
-      "name": "Brochette d'onglet Angus grillé",
-      "description": "accompagnée de frites, coleslaw"
+      "name": "Carré d’agneau rôti au thym, jus réduit",
+      "description": "accompagné d'un écrasé de pommes de terre"
     },
     {
-      "name": "Lieu noir snacké, fondue de poireaux, bisque d'écrevissesgressins croustillants",
-      "description": ""
+      "name": "Longe de thon snackée",
+      "description": "accompagné de légumes de saison, huile vierge citronnée"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Salade de jambon blanc au Bouillon, jeunes pousses, vinaigrette",
+      "name": "Wrap de jambon blanc, fromage frais aux herbes, sucrine croquante",
       "description": ""
     },
     {
-      "name": "Tartine au Saint-Félicien affiné, tomates confites, et fruits sec",
+      "name": "Œuf mimosa, mayonnaise légèrement truffée",
       "description": ""
     }
   ],
   "oneDishPrice": 15,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-03-13T10:00:00.000+01:00",
+  "date": "2026-03-20T10:00:00.000+01:00",
   "twoDishesPrice": 20,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -33,11 +33,11 @@
   },
   "deserts": [
     {
-      "name": "Tomme daubée",
-      "description": " Gaec de la Cabriole - Pelussin"
+      "name": "Brownie au chocolat fondant",
+      "description": ""
     },
     {
-      "name": "Flan pâtissier, crémeux à la vanille, brisure de granola",
+      "name": "Tartelette à l’orange sanguine",
       "description": ""
     }
   ]
