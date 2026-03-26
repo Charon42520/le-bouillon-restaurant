@@ -1,29 +1,29 @@
 {
   "mainDishes": [
     {
-      "name": "Carré d’agneau rôti au thym, jus réduit",
-      "description": "accompagné d'un écrasé de pommes de terre"
+      "name": "Suprême de volaille, crème de champignons",
+      "description": "accompagné d'un gratin dauphinois "
     },
     {
-      "name": "Longe de thon snackée",
-      "description": "accompagné de légumes de saison, huile vierge citronnée"
+      "name": "Risotto de courgettes, parmesan ",
+      "description": "accompagné d'un œuf parfait"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Wrap de jambon blanc, fromage frais aux herbes, sucrine croquante",
+      "name": "Club sandwich à la rillette de thon, salade vinaigrette",
       "description": ""
     },
     {
-      "name": "Œuf mimosa, mayonnaise légèrement truffée",
+      "name": "Feuilleté à l’emmental et jambon cru, salade vinaigrette",
       "description": ""
     }
   ],
   "oneDishPrice": 15,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-03-20T10:00:00.000+01:00",
+  "date": "2026-03-27T10:00:00.000+01:00",
   "twoDishesPrice": 20,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -33,11 +33,11 @@
   },
   "deserts": [
     {
-      "name": "Brownie au chocolat fondant",
+      "name": "Fondant à la châtaigne",
       "description": ""
     },
     {
-      "name": "Tartelette à l’orange sanguine",
+      "name": "Poire pochée au vin rouge et amandes effilées",
       "description": ""
     }
   ]
