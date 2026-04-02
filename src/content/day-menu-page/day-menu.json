@@ -1,22 +1,14 @@
 {
   "mainDishes": [
     {
-      "name": "Suprême de volaille, crème de champignons",
-      "description": "accompagné d'un gratin dauphinois "
-    },
-    {
-      "name": "Risotto de courgettes, parmesan ",
-      "description": "accompagné d'un œuf parfait"
+      "name": "Ballotine de volaille au cheddar",
+      "description": "accompagnée de frites fraîches "
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Club sandwich à la rillette de thon, salade vinaigrette",
-      "description": ""
-    },
-    {
-      "name": "Feuilleté à l’emmental et jambon cru, salade vinaigrette",
+      "name": "Tartine effiloché de porc,  comté, salade ",
       "description": ""
     }
   ],
@@ -33,11 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Fondant à la châtaigne",
-      "description": ""
-    },
-    {
-      "name": "Poire pochée au vin rouge et amandes effilées",
+      "name": "Gâteau poire amandine",
       "description": ""
     }
   ]
