@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Ballotine de volaille au cheddar",
-      "description": "accompagnée de frites fraîches "
+      "name": "Araignée de porc",
+      "description": "accompagnée de carottes et courgettes sauce soja, oignon botte "
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Tartine effiloché de porc,  comté, salade ",
+      "name": "Œufs durs, crème d’avocat citronnée",
       "description": ""
     }
   ],
   "oneDishPrice": 15,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-04-02T07:50:00.000+02:00",
+  "date": "2026-04-03T20:18:00.000+02:00",
   "twoDishesPrice": 20,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Gâteau poire amandine",
+      "name": "Crème brûlée, fève de Tonka",
       "description": ""
     }
   ]
