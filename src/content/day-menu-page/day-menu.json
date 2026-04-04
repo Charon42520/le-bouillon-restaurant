@@ -1,22 +1,29 @@
 {
   "mainDishes": [
     {
-      "name": "Araignée de porc",
-      "description": "accompagnée de carottes et courgettes sauce soja, oignon botte "
+      "name": "Côtes d’agneau et son jus au romarin",
+      "description": "accompagnée Gratin dauphinois & flan de carottes"
+    },
+    {
+      "name": "Mi-cuit de thon, huile vierge citronnée (tomates, olives noires, oignons bottes)",
+      "description": "Accompagné Gratin dauphinois & flan de carottes"
     }
   ],
-  "threeDishesPrice": 25,
+  "threeDishesPrice": 30,
   "starters": [
     {
-      "name": "Œufs durs, crème d’avocat citronnée",
+      "name": "Asperges blanches, siphon de crème beurrée, herbes folles",
       "description": ""
+    },
+    {
+      "name": "Mi-cuit de foie gras, génoise, gelée de coing, crumble de fruits secs"
     }
   ],
   "oneDishPrice": 15,
-  "additionalTextDeserts": "",
+  "additionalTextDeserts": "Fromages – Supplément 5 € Assiette de fromages secs (Comté, Saint-Nectaire, Rigotte) ou tomme daubée",
   "text": "Découvrez le menu du jour",
-  "date": "2026-04-03T20:18:00.000+02:00",
-  "twoDishesPrice": 20,
+  "date": "2026-04-04T20:18:00.000+02:00",
+  "twoDishesPrice": 22,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
   "seo": {
@@ -25,8 +32,11 @@
   },
   "deserts": [
     {
-      "name": "Crème brûlée, fève de Tonka",
+      "name": "Pavlova aux fraises, coulis de fruits rouges",
       "description": ""
+    },
+    {
+      "name": "Nid de Pâques au chocolat, crème praliné"
     }
   ]
 }
