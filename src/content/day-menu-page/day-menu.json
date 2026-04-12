@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Pièce de bœuf grillée au sel viking, origine France",
-      "description": "accompagnée de frites ou légumes"
+      "name": "Poitrine de porc confite (origine France)",
+      "description": "accompagnée de choux rouge braisé & carottes glacées au miel"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Carpaccio de tomates anciennes, mozzarella crémeuse, pesto de basilic",
+      "name": "Velouté de légumes de saison, huile verte, oeuf parfait & croûtons",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-04-10T22:35:00.000+02:00",
+  "date": "2026-04-13T21:01:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Déclinaison gourmande de desserts maison",
+      "name": "Crêpes maison, pommes caramélisées & sauce caramel",
       "description": ""
     }
   ]
