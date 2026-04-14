@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Poitrine de porc confite (origine France)",
-      "description": "accompagnée de choux rouge braisé & carottes glacées au miel"
+      "name": "Saumon rôti",
+      "description": "accompagné courgettes & coudes rayés, beurre blanc "
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Velouté de légumes de saison, huile verte, oeuf parfait & croûtons",
+      "name": "Roquette, burrata & pensées, réduction balsamique ",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-04-13T21:01:00.000+02:00",
+  "date": "2026-04-14T08:36:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Crêpe maison, pommes caramélisées & sauce caramel",
+      "name": "Coupe glacée chocolat, éclats de meringue, chantilly",
       "description": ""
     }
   ]
