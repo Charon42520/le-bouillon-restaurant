@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Steak haché maison (basse côte)",
-      "description": "accompagné gratin dauphinois fondant, sauce cheddar"
+      "name": "Moules marinières à la crème,",
+      "description": "accompagnées frites fraîches"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Tartine de Saint-Nectaire rôti, noix torréfiées & miel, salade croquante",
+      "name": "Rouleau de melon au jambon cru, éclats de feta ",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-04-15T08:20:00.000+02:00",
+  "date": "2026-04-16T08:20:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Panna cotta à la vanille, coulis caramel beurre salé",
+      "name": "Brunoise de poire aux amandes, sorbet verveine",
       "description": ""
     }
   ]
