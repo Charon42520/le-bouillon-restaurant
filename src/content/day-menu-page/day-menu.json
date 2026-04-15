@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Saumon rôti",
-      "description": "accompagné courgettes & coudes rayés, beurre blanc "
+      "name": "Steak haché maison (basse côte)",
+      "description": "accompagné gratin dauphinois fondant, sauce cheddar"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Roquette, burrata & pensées, réduction balsamique ",
+      "name": "Tartine de Saint-Nectaire rôti, noix torréfiées & miel, salade croquante",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-04-14T08:36:00.000+02:00",
+  "date": "2026-04-15T08:20:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Coupe glacée chocolat, éclats de meringue, chantilly",
+      "name": "Panna cotta à la vanille, coulis caramel beurre salé",
       "description": ""
     }
   ]
