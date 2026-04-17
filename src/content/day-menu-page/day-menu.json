@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Moules marinières à la crème,",
-      "description": "accompagnées frites fraîches"
+      "name": "Filet mignon de porc rôti(Origine AURA), jus à la moutarde à l’ancienne,",
+      "description": "accompagné nouilles sautées, tomates confites, tuile croustillante de parmesan"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Rouleau de melon au jambon cru, éclats de feta ",
+      "name": "Panna cotta salé \"saveur estivale\", concombre & tomate, burrata, huile verte de roquette",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-04-16T08:20:00.000+02:00",
+  "date": "2026-04-17T08:59:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Brunoise de poire aux amandes, sorbet verveine",
+      "name": "Crème brûlée à la fève de tonka, croûte caramélisée à la cassonade",
       "description": ""
     }
   ]
