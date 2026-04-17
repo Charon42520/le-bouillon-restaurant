@@ -2,11 +2,11 @@
 import CustomSeo from "@components/CustomSeo.astro";
 import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
-// import heart from "@components/heart.svg";
-// import leaf from "@components/leaf.svg";
+import heart from "@components/heart.svg";
+import leaf from "@components/leaf.svg";
 import Layout from "@layouts/Layout.astro";
 import { getEntry } from "astro:content";
-import { Content as WinterMenu } from "./winter-menu.md";
+// import { Content as WinterMenu } from "./winter-menu.md";
 
 const entry = await getEntry("menu-page", "menu");
 
@@ -53,9 +53,9 @@ function slugify(input: string) {
         La carte
       </h1>
 
-      <WinterMenu />
+      <!-- <WinterMenu /> -->
 
-      <!--  <p m="t-4 x-4" flex gap-4 items-center>
+      <p m="t-4 x-4" flex gap-4 items-center>
         <img {...leaf} inline-block w-5 h-5 />
 
         Plat végétarien
@@ -76,7 +76,7 @@ function slugify(input: string) {
             class="w-full mt-8"
           />
         ))
-      } -->
+      }
     </div>
 
     <!-- <div fixed right-4 md:right-54 bottom-4 text-primary>
