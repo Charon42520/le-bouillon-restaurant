@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Côte de porc sauce charcutière",
-      "description": "accompagnée d'un écrasé de pommes de terre"
+      "name": "Filet de saumon rôti, beurre mousseux aux herbes fraîches,",
+      "description": "accompagné de riz basmati parfumé"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Déclinaison de charcuteries, beurre demi-sel, salade croquante",
+      "name": "Chèvre frais contisé aux fleurs, toast & jeunes pousses croquantes",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-04-20T08:50:00.000+02:00",
+  "date": "2026-04-21T08:50:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Mousse citron légère, éclats de meringue",
+      "name": "Sélection de fromages affinés ou Tomme daubée",
       "description": ""
     }
   ]
