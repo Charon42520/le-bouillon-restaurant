@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Paleron de bœuf grillé, ",
-      "description": "accompagné de frites fraîches, salade croquante"
+      "name": "Sauté de volaille aux légumes de saison ",
+      "description": "accompagné de semoule parfumée aux épices douces"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Déclinaison de tomates colorées, burrata crémeuse, basilic frais & filet d’huile d’olive",
+      "name": "Œuf cocotte à la crème d’Époisses, mouillettes croustillantes",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-04-22T09:12:00.000+02:00",
+  "date": "2026-04-23T22:17:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Sabayon aux fraises citronnées, éclats de spéculoos",
+      "name": "Brioche perdue dorée Ananas flambé au rhum",
       "description": ""
     }
   ]
