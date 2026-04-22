@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Filet de saumon rôti, beurre mousseux aux herbes fraîches,",
-      "description": "accompagné de riz basmati parfumé"
+      "name": "Paleron de bœuf grillé, ",
+      "description": "accompagné de frites fraîches, salade croquante"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Chèvre frais contisé aux fleurs, toast & jeunes pousses croquantes",
+      "name": "Déclinaison de tomates colorées, burrata crémeuse, basilic frais & filet d’huile d’olive",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-04-21T08:50:00.000+02:00",
+  "date": "2026-04-22T09:12:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Sélection de fromages affinés ou Tomme daubée",
+      "name": "Sabayon aux fraises citronné, éclats de spéculoos",
       "description": ""
     }
   ]
