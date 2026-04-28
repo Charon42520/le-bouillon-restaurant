@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Tagliatelles au saumon, crème légère, oignons bottes ciselés & herbes fraîches",
-      "description": ""
+      "name": "Poulet mijoté à la tomate",
+      "description": "Accompagné d'un écrasé de pommes de terre maison & aubergine fondante"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Chili cheese nuggets \"Maison\" croustillants, salade fraîcheur & vinaigrette légèreVinaigrette miel et balsamique",
+      "name": "Croque-monsieur gratiné au jambon blanc & emmental, salade croquante",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-04-27T22:02:00.000+02:00",
+  "date": "2026-04-28T08:23:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Glace chocolat noir, sauce chocolat maison & éclats de meringue croquants ",
+      "name": "Panna cotta, coulis exotique",
       "description": ""
     }
   ]
