@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Médaillon de filet mignon de porc, compotée d’échalotes au jus",
-      "description": "Accompagné de frites fraîches "
+      "name": "Brochette de bœuf (origine France) grillée",
+      "description": "Accompagné de risotto crémeux & tomates confites"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Moelleux cake aux olives vertes et ricotta fraîche, feuilles de chêne",
+      "name": "Panier croquant de légumes de saison & pickles d’oignons rouge",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-04-29T08:45:00.000+02:00",
+  "date": "2026-04-30T23:16:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Sorbet mangue, ananas snacké à la vanille, chantilly",
+      "name": "Crème brûlée parfumée à la fève de Tonka",
       "description": ""
     }
   ]
