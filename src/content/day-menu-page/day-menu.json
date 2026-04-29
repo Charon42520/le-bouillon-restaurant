@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Poulet mijoté à la tomate",
-      "description": "Accompagné d'un écrasé de pommes de terre maison & aubergine fondante"
+      "name": "Médaillon de filet mignon de porc, compotée d’échalotes au jus",
+      "description": "Accompagné de frites fraîches "
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Croque-monsieur gratiné au jambon blanc & emmental, salade croquante",
+      "name": "Moelleux cake aux olives vertes et ricotta fraîche, feuilles de chêne",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-04-28T08:23:00.000+02:00",
+  "date": "2026-04-29T08:45:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Panna cotta, coulis exotique",
+      "name": "Sorbet mangue, ananas snacké à la vanille, chantilly",
       "description": ""
     }
   ]
