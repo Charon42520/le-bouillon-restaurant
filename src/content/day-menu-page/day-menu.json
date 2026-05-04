@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Brochette de bœuf (origine France) grillée",
-      "description": "Accompagné de risotto crémeux & tomates confites"
+      "name": "Rôti de porc (origine France) au romarin",
+      "description": "Accompagné de pommes de terre fondantes délicatesse & courgettes grillées "
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Panier croquant de légumes de saison & pickles d’oignons rouge",
+      "name": "Tomates anciennes & burrata crémeuse basilic frais, huile d’olive parfumée",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-04-30T23:16:00.000+02:00",
+  "date": "2026-05-04T08:08:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Crème brûlée parfumée à la fève de Tonka",
+      "name": "Vacherin glacé framboise & citron meringue croquante",
       "description": ""
     }
   ]
