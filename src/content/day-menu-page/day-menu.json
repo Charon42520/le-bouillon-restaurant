@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Rôti de porc (origine France) au romarin",
-      "description": "Accompagné de pommes de terre fondantes délicatesse & courgettes grillées "
+      "name": "Pièce de bœuf grillée (Origine France),",
+      "description": "Accompagnée de frites fraîches & salade croquante"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Tomates anciennes & burrata crémeuse basilic frais, huile d’olive parfumée",
+      "name": "Bouchée de chèvre frais aux herbes, toast croustillant & jeunes pousses",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-05-04T08:08:00.000+02:00",
+  "date": "2026-05-05T08:09:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Vacherin glacé framboise & citron meringue croquante",
+      "name": "Tiramisu au Nutella, éclats de noisettes croquantes",
       "description": ""
     }
   ]
