@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Pièce de bœuf grillée (Origine France),",
-      "description": "Accompagnée de frites fraîches & salade croquante"
+      "name": "Chili con carne maison, riz blanc parfumé & herbes folles",
+      "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Bouchée de chèvre frais aux herbes, toast croustillant & jeunes pousses",
+      "name": "Tartine de reblochon gratiné, chiffonnade de charcuterie & salade croquante",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-05-05T08:09:00.000+02:00",
+  "date": "2026-05-06T08:09:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,8 +25,11 @@
   },
   "deserts": [
     {
-      "name": "Tiramisu au Nutella, éclats de noisettes croquantes",
+      "name": "Tiramisu crémeux au Nutella",
       "description": ""
+    },
+    {
+      "name": "Coupe de fraises fraîches"
     }
   ]
 }
