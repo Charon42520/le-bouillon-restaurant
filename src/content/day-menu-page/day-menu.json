@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Chili con carne maison, riz blanc parfumé & herbes folles",
+      "name": "Moules marinières à la bisque d’écrevisses, frites fraîches",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Tartine de reblochon gratiné, chiffonnade de charcuterie & salade croquante",
+      "name": "Nori croustillant de carottes râpées, feta émiettée, vinaigrette citron & miel, salade",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-05-06T08:09:00.000+02:00",
+  "date": "2026-05-07T08:09:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,11 +25,8 @@
   },
   "deserts": [
     {
-      "name": "Tiramisu crémeux au Nutella",
+      "name": "Muffin moelleux à l’ananas, légèrement caramélisé",
       "description": ""
-    },
-    {
-      "name": "Coupe de fraises fraîches"
     }
   ]
 }
