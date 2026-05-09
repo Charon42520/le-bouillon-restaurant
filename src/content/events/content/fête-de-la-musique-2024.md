@@ -1,24 +1,14 @@
 ---
-title: FÊTE DE LA MUSIQUE 2025 🎶
-date: 2025-06-21T20:00:00.000Z
+title: FÊTE DE LA MUSIQUE 2026 🎶
+date: 2026-06-21T22:00:00.000+02:00
 summary: Venez profiter de la terrasse et son esprit guinguette afin de danser,
-  chanter au bord de l'eau et de fêter ensemble la fête de la musique 2025.
-image: "@assets/sunnyloulight2.jpg"
+  chanter au bord de l'eau et de fêter ensemble la fête de la musique 2026.
+image: "@assets/5ddffddc-12b8-48ba-898c-97cd9ee83295.jpg"
 ---
-Venez profiter du Duo Lou & Sunny à partir de 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives afin de fêter la fête de la musique avec l'équipe du Bouillon.
+Venez profiter de Tito Hermano à partir de 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives afin de fêter la fête de la musique avec l'équipe du Bouillon.
 
-Lou & Sunny, le duo guitare électrique-voix issu du groupe PLLouF' Band, pour une configuration réduite passe-partout et une atmosphère plus intimiste, mais toujours aussi frais !
 
-De la pop, du jazz, un peu de rock et une bonne dose de funk 
+Chanteur guitariste de rumba gitane (GYPSI FLAMENCO)
 
-Réservation 06.07.38.31.61
 
-Tarif : entrée libre, menu unique à 25€
-
-* Tartare aux 2 saumons, avocat 
-* Echine de porc des Montagnes (origine AURA) cuisson lente et pomme de terre grenaille 
-* Profiteroles
-
-Artiste de Bourgoin (Isère 38)[](https://youtu.be/i3eamZgK7gQ?feature=shared)
-
-[Découvrir Lou & Sunny](https://www.facebook.com/lousunnyduo/)
+Réservation 06.07.38.31.61[](https://www.facebook.com/lousunnyduo/)
