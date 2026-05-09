@@ -1,8 +1,8 @@
 ---
 title: CONCERT - TWO FLOU 🎶
 date: 2026-07-14T15:20:00.000+02:00
-summary: Venez profiter de Willy et Linda dans un Duo Saxo & Guitare à partir de
-  20h00 sur la terrasse du Bouillon des Eaux-Vives.
+summary: En concert le 14 juillet 2026 à partir de 20h00 sur la terrasse du
+  Bouillon - Brasserie des Eaux-Vives.
 image: "@assets/twoflou.jpg"
 ---
 CONCERT - TWO FLOU
