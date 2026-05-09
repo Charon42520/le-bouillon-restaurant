@@ -5,4 +5,10 @@ summary: En concert le 14 Août 2026 à partir de 20h00 sur la terrasse du
   Bouillon - Brasserie des Eaux-Vives.
 image: "@assets/photo-restaurant-le-bouillon-brasserie-des-eaux-vives-8-.jpg"
 ---
+Venez profiter de Moodies à partir de 20h00 sur la terrasse du Bouillon des Eaux-Vives.
+
+Jazz
+
+Réservation 06.07.38.31.61
+
 Pour en savoir plus : <https://www.youtube.com/watch?v=5SKg-145a4Q&list=RD5SKg-145a4Q&start_radio=1>
