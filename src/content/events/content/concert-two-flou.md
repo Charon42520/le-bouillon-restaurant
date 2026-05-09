@@ -1,6 +1,6 @@
 ---
 title: CONCERT - TWO FLOU 🎶
-date: 2025-09-26T20:00:00.000Z
+date: 2026-07-14T15:20:00.000+02:00
 summary: >-
   CONCERT - TWO FLOU
 
@@ -12,8 +12,6 @@ CONCERT - TWO FLOU
 Venez profiter de Willy et Linda dans un Duo Saxo & Guitare à partir de 20h00 sur la terrasse du Bouillon des Eaux-Vives.
 
 Réservation 06.07.38.31.61
-
-Tarif : 25€ incluant le menu unique ainsi que le concert (Le menu sera communiqué plus tard)
 
 • Artistes locaux de Salaise sur Sanne • Duo Saxo & Guitare
 
