@@ -5,8 +5,7 @@ summary: En concert le 17 Juillet 2026 à partir de 20h00 sur la terrasse du
   Bouillon - Brasserie des Eaux-Vives.
 image: "@assets/logo.jpg"
 ---
-Venez profiter de CHRISTIAN REY (Solo) pour le 1er concert de la saison à partir de 20h00 sur la terrasse du Bouillon des Eaux-Vives.
-
+Venez profiter de CHRISTIAN REY (Solo) à partir de 20h00 sur la terrasse du Bouillon des Eaux-Vives.
 
 Répertoire généraliste large et varié en Français et Anglais.
 En acoustique et en électrique, Chanson, Pop, Rock, Blues, Funk et Reggae font partir de sa palette de couleurs.
