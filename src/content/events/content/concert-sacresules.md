@@ -1,5 +1,5 @@
 ---
-title: CONCERT - SACRESULES
+title: CONCERT - SACRESULES  🎶
 date: 2026-06-12T14:38:00.000+02:00
 summary: En concert le 12 Juin 2026 à partir de 20h00 sur la terrasse du
   Bouillon - Brasserie des Eaux-Vives.
