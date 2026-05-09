@@ -12,3 +12,5 @@ UN PROGRAMME MUSICAL ELECTRIQUE
 ​Téléphone, Niagara, Balavoine, Goldman, Bashung, Rita Mitsouko, De Palmas, Franz Ferdinand, Johnny, Taxis girl, Axel Bauer, le Brio, Mylène Farmer, Mademoiselle K, Calogero,The Beatles, Tina Turner, James Brown, Cranberries, Alice Merton, Four no Blonde, Joan Jett, Etta james, Spencer Davis, Wilson Pickett, The Knack's, Lynird Skynyrd, Bruno Mars, Police, Radiohead, Pink, Chris Isaak, Police, AC/DC, Pink Floyd
 
 Réservation 06.07.38.31.61
+
+Pour en savoir plus : <https://catiem3.wixsite.com/catiem-musique>
