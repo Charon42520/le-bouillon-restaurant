@@ -1,5 +1,5 @@
 ---
-title: CONCERT - Christian REY
+title: CONCERT - Christian REY🎶
 date: 2026-07-17T15:44:00.000+02:00
 summary: En concert le 17 Juillet 2026 à partir de 20h00 sur la terrasse du
   Bouillon - Brasserie des Eaux-Vives.
