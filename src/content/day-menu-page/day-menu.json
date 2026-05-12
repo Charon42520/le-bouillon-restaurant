@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Brochette de porc marinée, jus de viande réduit, graines de moutarde & riz au four parfumé",
+      "name": "Poulet basquaise mijoté Flan de légumes du soleil & pommes de terre fondantes",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Tartinade crémeuse de fêta aux olives vertes, toasts croustillants & herbes fraîches",
+      "name": "Salade fraîche de ravioles & mozzarella fumée",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-05-11T07:29:00.000+02:00",
+  "date": "2026-05-12T07:56:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Crêpes à la confiture artisanale et fraises fraîches",
+      "name": "Fondant au chocolat au lait Chantilly maison",
       "description": ""
     }
   ]
