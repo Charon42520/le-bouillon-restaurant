@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Poulet basquaise mijoté Flan de légumes du soleil & pommes de terre fondantes",
+      "name": "Pavé de saumon frais, beurre blanc maison, polenta crémeuse & courgettes jaunes poêlées à l’ail",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Salade fraîche de ravioles & mozzarella fumée",
+      "name": "Wraps au saumon fumé, concombre croquant & crémeux à la feta",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-05-12T07:56:00.000+02:00",
+  "date": "2026-05-13T23:35:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Fondant au chocolat au lait Chantilly maison",
+      "name": "Brioche perdue tiède, sauce caramel",
       "description": ""
     }
   ]
