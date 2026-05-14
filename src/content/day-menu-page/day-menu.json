@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Pavé de saumon frais, beurre blanc maison, polenta crémeuse & courgettes jaunes poêlées à l’ail",
-      "description": ""
+      "name": "Ragoût de porc mijoté à la tomate",
+      "description": "Accompagné d'haricots rouges fondants & frites fraîches"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Wraps au saumon fumé, concombre croquant & crémeux à la feta",
+      "name": "Crêpe maison gratinée à la Fourme de Montbrison Salade croquante & vinaigrette ",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-05-13T23:35:00.000+02:00",
+  "date": "2026-05-15T23:35:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Brioche perdue tiède, sauce caramel",
+      "name": "Tiramisu au spéculoos & caramel gourmand",
       "description": ""
     }
   ]
