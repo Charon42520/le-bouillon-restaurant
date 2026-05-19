@@ -3,7 +3,7 @@ title: CONCERT - MOODIES🎶
 date: 2026-08-14T16:38:00.000+02:00
 summary: En concert le 14 Août 2026 à partir de 20h00 sur la terrasse du
   Bouillon - Brasserie des Eaux-Vives.
-image: "@assets/moodies-3.jpeg"
+image: "@assets/moodies-32.jpeg"
 ---
 Venez profiter de Moodies à partir de 20h00 sur la terrasse du Bouillon des Eaux-Vives.
 
