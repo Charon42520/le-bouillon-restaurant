@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Araignée de porc marinée au soja",
-      "description": "Accompagnée nouilles sautées aux légumes croquants"
+      "name": "Lasagnes de bœuf gratinées,",
+      "description": "Accompagnées salade croquante et croûtons dorés"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Chèvre frais à tartiner, toasts croustillants & salade croquante",
+      "name": "Tomates fraîches, mozzarella & pesto basilic",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-05-18T08:08:00.000+02:00",
+  "date": "2026-05-19T09:16:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Chou glacé vanille, chantilly légère",
+      "name": "Nougat glacé, coulis de fruits rouges",
       "description": ""
     }
   ]
