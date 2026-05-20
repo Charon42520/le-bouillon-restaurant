@@ -7,8 +7,7 @@ image: "@assets/moodies-32.jpeg"
 ---
 Venez profiter de Moodies à partir de 20h00 sur la terrasse du Bouillon des Eaux-Vives.
 
-
-"De belles cover de chansons Pop à la sauce Soul Music, laissez vous envouter par la voix suave de Anna soutenu par ses musiciens qui sauront vous faire voyager le temps d'une soirée"
+"De belles cover de chansons Pop à la sauce Soul Music, laissez vous envouter par la voix suave de Anna soutenue par ses musiciens qui sauront vous faire voyager le temps d'une soirée"
 
 Réservation 06.07.38.31.61
 
