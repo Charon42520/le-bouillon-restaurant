@@ -17,8 +17,20 @@
       "image": "@assets/menu-page-3.svg"
     },
     {
-      "title": "Au déjeuner - suite",
+      "title": "Desserts",
       "image": "@assets/menu-page-4.svg"
+    },
+    {
+      "title": "Snacking sucré",
+      "image": "@assets/menu-page-5.svg"
+    },
+    {
+      "title": "Snacking salé",
+      "image": "@assets/menu-page-6.svg"
+    },
+    {
+      "title": "Afterwork",
+      "image": "@assets/menu-page-7.svg"
     }
   ]
 }
