@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Poitrine de porc cuite à basse température, jus au romarin épicé,",
-      "description": "Accompagné de  riz au four parfumé"
+      "name": "Aiguillettes de canard laquées au miel, écrasé de pommes de terre maison",
+      "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Feuilleté croustillant à la tomate & pesto de basilic, salade croquante",
+      "name": "Croûte feuilletée au fromage, salade croquante",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-05-22T22:35:00.000+02:00",
+  "date": "2026-05-26T08:59:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,11 +25,8 @@
   },
   "deserts": [
     {
-      "name": "Tomme daubée du GAEC de la Cabriole",
+      "name": "Tiramisu au Nutella du Chef \"Nicolas\"",
       "description": ""
-    },
-    {
-      "name": "salade de fruits de saison"
     }
   ]
 }
