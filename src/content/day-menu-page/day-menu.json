@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Aiguillettes de canard laquées au miel, écrasé de pommes de terre maison",
+      "name": "Poulet Yassa à la moutarde & au piment, oignons blancs fondants, riz aux carottes",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Croûte feuilletée au fromage, salade croquante",
+      "name": "Bûche de chèvre contisée aux fleurs & toasts croustillants, salade mêlée",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-05-26T08:59:00.000+02:00",
+  "date": "2026-05-27T22:16:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Tiramisu au Nutella du Chef \"Nicolas\"",
+      "name": "Tartelette aux fraises & crémeux à l’orange",
       "description": ""
     }
   ]
