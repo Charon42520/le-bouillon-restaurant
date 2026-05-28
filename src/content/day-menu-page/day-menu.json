@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Poulet Yassa à la moutarde & au piment, oignons blancs fondants, riz aux carottes",
+      "name": "Carré de porc cuisson lente, jus réduit au thym Pommes de terre rôties au four",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Bûche de chèvre contisée aux fleurs & toasts croustillants, salade mêlée",
+      "name": "Betteraves rôties, ricotta onctueuse & concombre croquant, vinaigrette aux herbes fraîches",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-05-27T22:16:00.000+02:00",
+  "date": "2026-05-28T12:05:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Tartelette aux fraises & crémeux à l’orange",
+      "name": "Mousse au chocolat au lait Tuile croustillante au Carambar",
       "description": ""
     }
   ]
