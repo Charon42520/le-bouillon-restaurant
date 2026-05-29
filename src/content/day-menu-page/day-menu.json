@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Carré de porc cuisson lente, jus réduit au thym Pommes de terre rôties au four",
+      "name": "Basse côte grillée, sauce aux échalotes, frites croustillantes, salade verte",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Betteraves rôties, ricotta onctueuse & concombre croquant, vinaigrette aux herbes fraîches",
+      "name": "Tagliatelles de légumes croquants au saumon fumé, crème légère aux herbes fraîches",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-05-28T12:05:00.000+02:00",
+  "date": "2026-05-29T07:39:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Mousse au chocolat au lait Tuile croustillante au Carambar",
+      "name": "Brunoise d’ananas, myrtilles, sorbet poire",
       "description": ""
     }
   ]
