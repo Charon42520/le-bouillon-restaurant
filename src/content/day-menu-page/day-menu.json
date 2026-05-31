@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Basse côte grillée, sauce aux échalotes, frites croustillantes, salade verte",
-      "description": ""
+      "name": "Ballotine de volaille fermière au chorizo",
+      "description": "Accompagnée d'une déclinaison de légumes de saison"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Tagliatelles de légumes croquants au saumon fumé, crème légère aux herbes fraîches",
+      "name": "Salade gourmande au Comté & éclats de noix",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-05-29T07:39:00.000+02:00",
+  "date": "2026-06-01T23:00:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Brunoise d’ananas, myrtilles, sorbet poire",
+      "name": "Tiramisu aux fraises fraîches",
       "description": ""
     }
   ]
