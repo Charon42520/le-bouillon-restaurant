@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Ballotine de volaille fermière au chorizo",
-      "description": "Accompagnée d'une déclinaison de légumes de saison"
+      "name": "Brochette de bœuf grillée,",
+      "description": "Accompagnée frites fraîches & salade croquante"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Salade gourmande au Comté & éclats de noix",
+      "name": "Asperges vertes snackées, espuma Sriracha légère  ",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-01T23:00:00.000+02:00",
+  "date": "2026-06-02T21:35:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Tiramisu aux fraises fraîches",
+      "name": "Fondant au chocolat au lait Weiss, crème anglaise vanillée",
       "description": ""
     }
   ]
