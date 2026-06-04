@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Rôti de porc à la moutarde à l'ancienne, déclinaison de légumes de saison",
+      "name": "Paleron de bœuf cuit longuement au bouillon, sauce vigneronne  Garniture de Saison ",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Cake moelleux à la tomate & Spinata piquante, salade croquanteSerrano",
+      "name": "Mousseline de poisson frais, beurre blanc à l'échalotecroquanteSerrano",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-04T12:22:00.000+02:00",
+  "date": "2026-06-05T21:51:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Panna cotta à la vanille, coulis de fruits rouges",
+      "name": " Île flottante maison, sauce caramel crème anglaise à la vanille & amandes torréfiées",
       "description": ""
     }
   ]
