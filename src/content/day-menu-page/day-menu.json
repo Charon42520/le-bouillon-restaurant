@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Sauté de veau mijoté, risotto crémeux au Comté",
+      "name": "Rôti de porc à la moutarde à l'ancienne, déclinaison de légumes de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Panier de légumes croquants, melon au Porto & jambon cru Serrano",
+      "name": "Cake moelleux à la tomate & Spinata piquante, salade croquanteSerrano",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-03T21:35:00.000+02:00",
+  "date": "2026-06-04T12:22:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Brioche perdue dorée, glace vanille & éclats de nougat",
+      "name": "Panna cotta à la vanille, coulis de fruits rouges",
       "description": ""
     }
   ]
