@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Thon rouge snacké, huile vierge aux herbes fraîches, déclinaison de légumes de saison",
+      "name": "Araignée de porc marinée au Nuoc-Mâm, nouilles aux légumes croquants",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Pizzetta tomate, mozzarella & merguez ",
+      "name": "Tomates anciennes de saison, mozzarella & pesto de basilic frais",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-08T08:55:00.000+02:00",
+  "date": "2026-06-09T08:55:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Crumble gourmand aux pommes et poires",
+      "name": "Assortiment de mignardises maison",
       "description": ""
     }
   ]
