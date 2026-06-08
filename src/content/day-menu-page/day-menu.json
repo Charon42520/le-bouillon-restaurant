@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Paleron de bœuf cuit longuement au bouillon, sauce vigneronne  Garniture de Saison ",
+      "name": "Thon rouge snacké, huile vierge aux herbes fraîches, déclinaison de légumes de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Mousseline de poisson frais, beurre blanc à l'échalote",
+      "name": "Pizzetta tomate, mozzarella & merguez ",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-05T21:51:00.000+02:00",
+  "date": "2026-06-08T08:55:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": " Île flottante maison, sauce caramel crème anglaise à la vanille & amandes torréfiées",
+      "name": "Crumble gourmand aux pommes et poires",
       "description": ""
     }
   ]
