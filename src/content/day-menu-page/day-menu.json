@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Carré de cochon cuit à basse température, jus réduit à la pomme et à la poire, pommes de terre grenailles rôties",
+      "name": "Braisé de veau mijoté, farfalles, carottes à la crème et champignons sautés",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Gaspacho de légumes de saison, éclats de feta & croûtons croustillants",
+      "name": "Wrap au jambon Serrano, fromage frais et pickles d'oignons rouges",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-11T09:01:00.000+02:00",
+  "date": "2026-06-12T00:48:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Tarte fine aux pommes, glace vanille",
+      "name": "Minestrone de fruits frais de saison",
       "description": ""
     }
   ]
