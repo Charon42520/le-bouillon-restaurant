@@ -1,5 +1,5 @@
 ---
-title: Gala fin d'année - Résonnance 🎶
+title: Gala fin d'année - Résonance 🎶
 date: 2026-06-24T17:00:00.000+02:00
 summary: Rendez-vous mercredi 24 juin à partir de 17h pour le concert de fin d’année.
 image: "@assets/1000101726.jpg"
