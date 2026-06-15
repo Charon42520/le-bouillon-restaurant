@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Braisé de veau mijoté, farfalles, carottes à la crème et champignons sautés",
-      "description": ""
+      "name": "Bavette de porc grillée",
+      "description": "accompagnée de gratin dauphinois maison"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Wrap au jambon Serrano, fromage frais et pickles d'oignons rouges",
+      "name": "Ravioles gratinées à la mozzarella & velouté de légumes de saison et éclats de merguez",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-12T08:55:00.000+02:00",
+  "date": "2026-06-15T08:51:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Minestrone de fruits frais de saison",
+      "name": "Tiramisu exotique aux fruits de la passion",
       "description": ""
     }
   ]
