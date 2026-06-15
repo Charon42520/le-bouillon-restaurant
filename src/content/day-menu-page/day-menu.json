@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Bavette de porc grillée",
-      "description": "accompagnée de gratin dauphinois maison"
+      "name": "Bun'n'Roll végétarien ",
+      "description": "Flan au légumes fondant, poire fraîche et fruits secs"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Ravioles gratinées à la mozzarella & velouté de légumes de saison et éclats de merguez",
+      "name": "Salade, concombre, mais, fromage frais, basilic & ail",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-15T08:51:00.000+02:00",
+  "date": "2026-06-16T08:51:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Tiramisu exotique aux fruits de la passion",
+      "name": "After Raspberry en deux textures Déclinaison gourmande autour de la framboise",
       "description": ""
     }
   ]
