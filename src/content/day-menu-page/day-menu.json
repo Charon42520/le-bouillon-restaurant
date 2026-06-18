@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Bun'n'Roll végétarien ",
-      "description": "Flan au légumes fondant, poire fraîche et fruits secs"
+      "name": "Lasagnes traditionnelles au bœuf, salade verte et crudités croquantes",
+      "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Salade, concombre, maïs, fromage frais, basilic & ail",
+      "name": "Velouté glacé de pastèque à la menthe, feta émiettée et huile d'olive vierge",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
-  "additionalTextDeserts": "Déclinaison gourmande autour de la framboise",
+  "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-16T08:51:00.000+02:00",
+  "date": "2026-06-18T08:45:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "After Raspberry en deux textures",
+      "name": "Déclinaison d'ananas et de mangue, sorbet citron",
       "description": ""
     }
   ]
