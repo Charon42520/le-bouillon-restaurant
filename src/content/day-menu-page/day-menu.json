@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Lasagnes traditionnelles au bœuf, salade verte et crudités croquantes",
-      "description": ""
+      "name": "Échine de porc confite, jus réduit au thym",
+      "description": "Pommes grenailles rôties et poêlée de courgettes"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Velouté glacé de pastèque à la menthe, feta émiettée et huile d'olive vierge",
+      "name": "Œuf parfait, velouté de chou-fleur, noisettes torréfiées",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-18T08:45:00.000+02:00",
+  "date": "2026-06-19T08:43:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Déclinaison d'ananas et de mangue, sorbet citron",
+      "name": "Pavlova aux fraises Meringue croustillante, chantilly et fruits frais",
       "description": ""
     }
   ]
