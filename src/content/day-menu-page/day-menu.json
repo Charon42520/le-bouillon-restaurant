@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Échine de porc confite, jus réduit au thym",
-      "description": "Pommes grenailles rôties et poêlée de courgettes"
+      "name": "Burger du Chef, frites fraîches et salade verte",
+      "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Œuf parfait, velouté de chou-fleur, noisettes torréfiées",
+      "name": "Mousseline de saumon, beurre blanc à l'échalote",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-19T08:43:00.000+02:00",
+  "date": "2026-06-23T00:53:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Pavlova aux fraises Meringue croustillante, chantilly et fruits frais",
+      "name": "Crumble aux abricots, servi tiède",
       "description": ""
     }
   ]
