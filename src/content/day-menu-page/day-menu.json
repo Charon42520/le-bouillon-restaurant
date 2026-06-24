@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Burger du Chef, frites fraîches et salade verte",
+      "name": "Tagliatelles à la poitrine de porc confite, jus réduit et copeaux de parmesan",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Mousseline de saumon, beurre blanc à l'échalote",
+      "name": "Tomates anciennes, mozzarella, pesto maison et amandes effilées",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-23T01:05:00.000+02:00",
+  "date": "2026-06-24T08:15:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Crumble aux abricots, servi tiède",
+      "name": "Panna cotta à la vanille, coulis de fruits rouges",
       "description": ""
     }
   ]
