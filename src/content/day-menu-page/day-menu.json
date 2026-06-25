@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Tagliatelles à la poitrine de porc confite, jus réduit et copeaux de parmesan",
+      "name": "Poulet mijoté aux oignons et olives vertes, légèrement épicé, servi avec sa semoule",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Tomates anciennes, mozzarella, pesto maison et amandes effilées",
+      "name": "Tartine de fromage frais, abricots frais et amandes effilées",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-24T08:15:00.000+02:00",
+  "date": "2026-06-25T11:36:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Panna cotta à la vanille, coulis de fruits rouges",
+      "name": "Coupe exotique : mangue fraîche et sorbet citron",
       "description": ""
     }
   ]
