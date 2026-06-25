@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Poulet mijoté aux oignons et olives vertes, légèrement épicé, servi avec sa semoule",
+      "name": "Filet de rouget, huile vierge, rösti de légumes",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Tartine de fromage frais, abricots frais et amandes effilées",
+      "name": "Fromage blanc aux fines herbes, croustillant de brick",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-25T11:36:00.000+02:00",
+  "date": "2026-06-26T11:36:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Coupe exotique : mangue fraîche et sorbet citron",
+      "name": "Tiramisu coulis passion & Mangue fraîche",
       "description": ""
     }
   ]
