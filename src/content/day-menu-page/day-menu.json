@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Filet de rouget, huile vierge, rösti de légumes",
+      "name": "Mi-cuit de thon, riz aux légumes de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Fromage blanc aux fines herbes, croustillant de brick",
+      "name": "Wrap de poulet, sauce aux herbes fraîches",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-26T11:36:00.000+02:00",
+  "date": "2026-06-29T00:39:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Tiramisu coulis passion & Mangue fraîche",
+      "name": "Chiffonnade de melon, sorbet fraise",
       "description": ""
     }
   ]
