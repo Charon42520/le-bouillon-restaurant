@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Mi-cuit de thon, riz aux légumes de saison",
+      "name": "Tagliatelles au saumon fumé, Crème légère aux herbes fraîches",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Wrap de poulet, sauce aux herbes fraîches",
+      "name": "Salade de Saint-Nectaire, Noix croquantes et vinaigrette",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-29T12:30:00.000+02:00",
+  "date": "2026-06-30T12:30:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Chiffonnade de melon, sorbet fraise",
+      "name": "Mousse au chocolat au lait, éclats de chocolat noir",
       "description": ""
     }
   ]
