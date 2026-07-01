@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Tagliatelles au saumon fumé, Crème légère aux herbes fraîches",
+      "name": "Cuisse de poulet rôtie, pommes de terre grenaille et courgettes sautées",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Salade de Saint-Nectaire, Noix croquantes et vinaigrette",
+      "name": "Maki de carottes, feta fraîche et fines herbes",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-06-30T12:30:00.000+02:00",
+  "date": "2026-07-01T08:21:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Mousse au chocolat au lait, éclats de chocolat noir",
+      "name": "Panna cotta à la vanille, coulis de fruits",
       "description": ""
     }
   ]
