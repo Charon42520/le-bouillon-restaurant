@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Cuisse de poulet rôtie, pommes de terre grenaille et courgettes sautées",
+      "name": "Filet mignon de porc, sauce à la moutarde, flan de légumes de saison et riz basmati ",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Maki de carottes, feta fraîche et fines herbes",
+      "name": "Bun's Roll charcuterie & pesto rosso ",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-07-01T08:21:00.000+02:00",
+  "date": "2026-07-02T09:02:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Panna cotta à la vanille, coulis de fruits",
+      "name": "Coupe fraîche de melon et d'ananas",
       "description": ""
     }
   ]
