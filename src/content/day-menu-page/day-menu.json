@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Filet mignon de porc, sauce à la moutarde, flan de légumes de saison et riz basmati ",
+      "name": "Émincé de bœuf aux saveurs asiatiques, nouilles sautées aux légumes",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Bun's Roll charcuterie & pesto rosso ",
+      "name": "Panier de légumes croquants, feta émiettée, vinaigrette",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-07-02T09:02:00.000+02:00",
+  "date": "2026-07-03T08:39:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Coupe fraîche de melon et d'ananas",
+      "name": "Crème brûlée à la fève de tonka",
       "description": ""
     }
   ]
