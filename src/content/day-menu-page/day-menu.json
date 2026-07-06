@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Émincé de poulet rôti au chorizo, poivrons fondants, riz et jus corsé",
+      "name": "Filet de saumon rôti, beurre blanc, déclinaison de légumes de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Tomates anciennes, burrata crémeuse, pesto au basilic et huile d'olive vierge",
+      "name": "Wrap de saumon fumé, fromage frais aux herbes ",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-07-06T06:56:00.000+02:00",
+  "date": "2026-07-07T22:51:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Tiramisu au café, tuile au Carambar",
+      "name": "Salade de fruits frais de saison, sirop à la menthe",
       "description": ""
     }
   ]
