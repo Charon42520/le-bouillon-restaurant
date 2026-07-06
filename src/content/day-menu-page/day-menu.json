@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Émincé de bœuf aux saveurs asiatiques, nouilles sautées aux légumes",
+      "name": "Émincé de poulet rôti au chorizo, poivrons fondants, riz et jus corsé",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Panier de légumes croquants, feta émiettée, vinaigrette",
+      "name": "Tomates anciennes, burrata crémeuse, pesto au basilic et huile d'olive vierge",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-07-03T08:39:00.000+02:00",
+  "date": "2026-07-06T06:56:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Crème brûlée à la fève de tonka",
+      "name": "Tiramisu au café, tuile au Carambar",
       "description": ""
     }
   ]
