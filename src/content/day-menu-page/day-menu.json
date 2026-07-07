@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Filet de saumon rôti, beurre blanc, déclinaison de légumes de saison",
+      "name": "Chipolatas relevées au piment d'Espelette, frites et salade verte croquante",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Wrap de saumon fumé, fromage frais aux herbes ",
+      "name": "Croque croustillant au jambon blanc, Comté affiné et moutarde à l'ancienne",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-07-07T22:51:00.000+02:00",
+  "date": "2026-07-08T00:20:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Salade de fruits frais de saison, sirop à la menthe",
+      "name": "Fondant au chocolat au lait, crème anglaise à la vanille",
       "description": ""
     }
   ]
