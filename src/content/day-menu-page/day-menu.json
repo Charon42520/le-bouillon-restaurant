@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Cuisse de poulet rôtie, jus de volaille, garniture de saison",
+      "name": "Émincé de porc sauté, pommes de terre grenailles rôties et courgettes de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Gratin de ravioles à la mozzarella, velouté de poivrons rôtis et carottes",
+      "name": "Saint-Marcellin rôti, coppa et salade croquante",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-07-09T01:00:00.000+02:00",
+  "date": "2026-07-10T00:51:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Sabayon léger aux fruits frais de saison",
+      "name": "Île flottante, crème anglaise à la vanille, caramel maison et amandes effilées torréfiées",
       "description": ""
     }
   ]
