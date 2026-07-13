@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Émincé de porc sauté, pommes de terre grenailles rôties et courgettes de saison",
+      "name": "Confit de porc, nouilles de blé sautées aux légumes de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Saint-Marcellin rôti, coppa et salade croquante",
+      "name": "Toast de chèvre frais, salade croquante",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-07-10T11:09:00.000+02:00",
+  "date": "2026-07-13T07:19:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Île flottante, crème anglaise à la vanille, caramel maison et amandes effilées torréfiées",
+      "name": "Tiramisu au spéculoos",
       "description": ""
     }
   ]
