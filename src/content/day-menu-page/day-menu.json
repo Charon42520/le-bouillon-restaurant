@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Déclinaison de porc confit et snacké, frites et salade croquante au four",
+      "name": "Filet de poulet grillé, légumes du soleil rôtis au four et jus de cuisson",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Melon de saison et jambon cru affiné",
+      "name": "Gaspacho glacé de pastèque, éclats de feta et filet d'huile d'olive ",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-07-16T08:51:00.000+02:00",
+  "date": "2026-07-17T07:48:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Brioche perdue caramélisée, chantilly",
+      "name": "Flan pâtissier à la vanille",
       "description": ""
     }
   ]
