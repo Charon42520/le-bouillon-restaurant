@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Filet de poulet grillé, légumes du soleil rôtis au four et jus de cuisson",
+      "name": "Émincé de bœuf sauté, nouilles aux courgettes croquantes, jus réduit au soja ",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Gaspacho glacé de pastèque, éclats de feta et filet d'huile d'olive ",
+      "name": "Mousseline de saumon fumé, beurre blanc citronné et fines herbes",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-07-17T07:48:00.000+02:00",
+  "date": "2026-07-20T00:25:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Flan pâtissier à la vanille",
+      "name": "Ananas rôti à la vanille, brunoise de brioche au beurre demi-sel",
       "description": ""
     }
   ]
