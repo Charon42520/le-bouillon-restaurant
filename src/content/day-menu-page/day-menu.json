@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Émincé de bœuf sauté, nouilles aux courgettes croquantes, jus réduit au soja ",
+      "name": "Filet de saumon frais, beurre blanc à la tomate, riz aux petits légumes de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Mousseline de saumon fumé, beurre blanc citronné et fines herbes",
+      "name": "Tartine de Saint-Nectaire gratinée, salade croquante",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-07-20T10:25:00.000+02:00",
+  "date": "2026-07-21T09:01:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Ananas rôti à la vanille, brunoise de brioche au beurre demi-sel",
+      "name": "Coupe de pêche fraîche, sorbet fraise",
       "description": ""
     }
   ]
