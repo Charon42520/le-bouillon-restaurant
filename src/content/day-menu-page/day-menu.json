@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Filet de saumon frais, beurre blanc à la tomate, riz aux petits légumes de saison",
+      "name": "Filet mignon de porc, sauce à la moutarde à l'ancienne, accompagné de sa garniture de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Tartine de Saint-Nectaire gratinée, salade croquante",
+      "name": "Tomates à l'ancienne, burrata crémeuse, velours de balsamique et croûtons ",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-07-21T09:01:00.000+02:00",
+  "date": "2026-07-22T09:01:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Coupe de pêche fraîche, sorbet fraise",
+      "name": "Tiramisu au spéculoos, crème légère au mascarpone",
       "description": ""
     }
   ]
