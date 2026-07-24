@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Brochette de poulet mariné au citron et au thym, tagliatelles fraîches",
+      "name": "Pavé de porc au piment d'Espelette, pommes de terre grenaille rôties et julienne de légumes de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Assiette de charcuteries fines, cornichons et pickles de cerises",
+      "name": "Ravioles du Dauphiné gratinées, crème aux herbes fraîches",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-07-23T09:17:00.000+02:00",
+  "date": "2026-07-24T05:37:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Tarte aux pommes maison parfumée à la cannelle",
+      "name": "Crémeux au citron, éclats de fruits rouges frais",
       "description": ""
     }
   ]
