@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Poulet basquaise mijoté, garniture de saison",
+      "name": "Moules à la crème et persillade, servies avec des frites fraîches",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Maki de carottes et chou blanc, salade croquante fraîche",
+      "name": "Rillettes de thon, œuf dur et concombre croquant",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-07-27T05:37:00.000+02:00",
+  "date": "2026-07-28T05:37:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Sabayon aux fruits frais",
+      "name": "Flan pâtissier à la vanille Bourbon",
       "description": ""
     }
   ]
