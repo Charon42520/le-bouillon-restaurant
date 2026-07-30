@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Moules marinières, servies avec des frites fraîches",
+      "name": "Filet mignon de porc à la moutarde à l'ancienne, accompagné de tagliatelles fraîches et d'une fondue de carottes au beurre",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Œuf à L' époisses gratiné et lardons fumés",
+      "name": "Brunoise de tomates au basilic frais, billes de mozzarella",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-07-29T05:37:00.000+02:00",
+  "date": "2026-07-30T08:40:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Gâteau au chocolat maison, chantilly légère",
+      "name": "Crumble aux pommes, aux éclats de noisettes torréfiées",
       "description": ""
     }
   ]
