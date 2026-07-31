@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Filet mignon de porc à la moutarde à l'ancienne, accompagné de tagliatelles fraîches et d'une fondue de carottes au beurre",
+      "name": "Mi-cuit de thon, huile vierge et garniture de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Brunoise de tomates au basilic frais, billes de mozzarella",
+      "name": "Salade gourmande de gésiers confits, lardons fumés et pommes de terre",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-07-30T08:40:00.000+02:00",
+  "date": "2026-07-31T07:33:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Crumble aux pommes, aux éclats de noisettes torréfiées",
+      "name": "Ananas rôti à la cassonade, brioche dorée au beurre, sirop vanillé",
       "description": ""
     }
   ]
