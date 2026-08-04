@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Filet de poulet rôti, sauce crémeuse aux champignons, servi avec une garniture de saison",
+      "name": "Lasagnes au bœuf maison, servies avec une salade croquante et vinaigrette",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Chili cheese croustillants, accompagnés d'une salade croquante",
+      "name": "Wrap aux rillettes de thon et saumon fumé",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-08-03T08:45:00.000+02:00",
+  "date": "2026-08-04T09:01:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Tiramisu au café, revisité avec des brisures d'Oreo",
+      "name": "Demi-macaron glacé, accompagné de chantilly",
       "description": ""
     }
   ]
