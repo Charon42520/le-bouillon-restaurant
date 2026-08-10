@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Travers de porc laqué, roesti de légumes et salade croquante",
+      "name": "Émincé de porc à la crème Tagliatelles fraîches, jus crémeux et herbes aromatiques",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Feuilleté roulé au cheddar affiné et saucisse fumée",
+      "name": "Tartine de Saint-Nectaire fondant Mesclun croquant, vinaigrette",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-08-07T08:46:00.000+02:00",
+  "date": "2026-08-10T08:58:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Crémeux à l'orange, framboises fraîches et éclats croustillants",
+      "name": "Coupe fraîcheur à la pêche Crémeux citron, pêche fraîche et éclats de meringue",
       "description": ""
     }
   ]
