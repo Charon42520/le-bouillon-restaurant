@@ -1,14 +1,14 @@
 {
   "mainDishes": [
     {
-      "name": "Risotto crémeux aux crevettes",
+      "name": "Araignée de porc rôtie, pommes grenaille & haricots verts",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Wrap jambon cru Serrano Mesclun croquant & pickles d’oignons rouges",
+      "name": "Concombre, feta & olives noires, croûtons ",
       "description": ""
     }
   ],
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Brioche perdue Glace vanille & caramel gourmand",
+      "name": "Coupe Oreo, glace vanille, brisures d’Oreo & chantilly",
       "description": ""
     }
   ]
