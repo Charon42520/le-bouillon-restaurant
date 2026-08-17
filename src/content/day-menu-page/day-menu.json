@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Chipolatas au piment d’Espelette, frites & salade",
+      "name": "Filet de rouget à l’huile d’olive, graines de tournesol, pommes grenaille & haricots verts",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Salade de pastèque, éclats de feta & croûtons dorés",
+      "name": "Ravioles gratinées, velouté de courgettes",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-08-17T08:30:00.000+02:00",
+  "date": "2026-08-18T08:30:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Coupe de raisins frais",
+      "name": "Mousse à l’orange, crémeux citron jaune & éclats de meringue",
       "description": ""
     }
   ]
