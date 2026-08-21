@@ -1,5 +1,5 @@
 ---
-title: Concert Soloi 🎶
+title: CONCERT - Soli 🎶
 date: 2026-09-04T20:20:00.000+02:00
 summary: >+
   Venez profiter du duo à partir de 20h00 sur la terrasse du Bouillon -
