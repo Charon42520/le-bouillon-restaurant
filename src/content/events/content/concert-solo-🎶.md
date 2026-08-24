@@ -5,7 +5,7 @@ summary: >+
   Venez profiter du duo à partir de 20h00 sur la terrasse du Bouillon -
   Brasserie des Eaux-Vives.
 
-image: "@assets/photo-restaurant-le-bouillon-brasserie-des-eaux-vives-8-.jpg"
+image: "@assets/1000106510.jpg"
 ---
 Venez profiter du duo à partir de 20h00 sur la terrasse du Bouillon - Brasserie des Eaux-Vives.
 
