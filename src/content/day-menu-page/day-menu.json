@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Travers de porc confit, linguine à la sauce tomate",
+      "name": "Cuisse de poulet rôtie Jus réduit, déclinaison de légumes de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Samoussas de saumon, salade croquante",
+      "name": "Pâté de campagne Pickles de cornichons & oignons rouges",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-08-24T08:56:00.000+02:00",
+  "date": "2026-08-25T22:46:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Sorbet framboise, figue fraîche & éclats de meringue",
+      "name": "Panna cotta aux fruits rouges Coulis de fruits rouges & fruits frais",
       "description": ""
     }
   ]
