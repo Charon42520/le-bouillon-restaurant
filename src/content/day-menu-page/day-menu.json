@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Brick croustillante de julienne au pesto, riz pilaf parfumé",
+      "name": "Travers de porc confit, linguine à la sauce tomate",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Cromesqui de lapin, mesclun croquant",
+      "name": "Samoussas de saumon, salade croquante",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-08-21T23:06:00.000+02:00",
+  "date": "2026-08-24T08:56:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Tarte amandine à la poire, amande effilées",
+      "name": "Sorbet framboise, figue fraîche & éclats de meringue",
       "description": ""
     }
   ]
