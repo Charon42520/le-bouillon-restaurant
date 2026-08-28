@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Filet de saumon, linguine à la tomate & échalotes braisées",
+      "name": "Andouillette de Troyes, frites fraîches & salade croquante",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Salade composée, dés de jambon, œuf dur & mayonnaise aux herbes",
+      "name": "Buns à la courgette, tomates marinées & herbes fraîches",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-08-27T23:08:00.000+02:00",
+  "date": "2026-08-28T08:26:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Brioche perdue à la banane caramélisée",
+      "name": "Fromage blanc au miel, éclats de fruits secs torréfiés",
       "description": ""
     }
   ]
