@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Andouillette de Troyes, frites fraîches & salade croquante",
+      "name": "Filet mignon de porc, sauce à la moutarde et légumes de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Buns à la courgette, tomates marinées & herbes fraîches",
+      "name": "Verrine de guacamole d’avocat et crevettes à l’ail",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-08-28T08:26:00.000+02:00",
+  "date": "2026-08-31T08:01:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Fromage blanc au miel, éclats de fruits secs torréfiés",
+      "name": "Cervelle de canut",
       "description": ""
     }
   ]
