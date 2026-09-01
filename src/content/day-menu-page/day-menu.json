@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Pièce de bœuf grillée, marinade Tex-Mex Frites & salade verte",
+      "name": "Boulettes de bœuf à la tomate, nouilles de blé, carottes & courgettes poêlées",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Salade estivale Concombre, melon & feta",
+      "name": "Toast de chèvre chaud, miel & noix",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-09-01T22:05:00.000+02:00",
+  "date": "2026-09-02T21:44:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Brownie au chocolat & fruits secs Glace vanille",
+      "name": "Tiramisu au caramel & spéculoos",
       "description": ""
     }
   ]
