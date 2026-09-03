@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Boulettes de bœuf à la tomate, nouilles de blé, carottes & courgettes poêlées",
+      "name": "Risotto crémeux au chorizo, œuf parfait",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Toast de chèvre chaud, miel & noix",
+      "name": "Carpaccio de tomates anciennes & Cantal affiné",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-09-02T21:44:00.000+02:00",
+  "date": "2026-09-03T07:13:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Tiramisu au caramel & spéculoos",
+      "name": "Clafoutis aux abricots",
       "description": ""
     }
   ]
