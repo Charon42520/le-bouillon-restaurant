@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Thon snacké, déclinaison de légumes de saison",
+      "name": "Brochette de bœuf grillée Frites fraîches & salade verte",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Crémeux de poivrons, wraps aux légumes marinés & oignons frits",
+      "name": "Assiette de charcuterie (rosette, salami, mortadelle)",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-09-07T08:48:00.000+02:00",
+  "date": "2026-09-08T23:27:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Gâteau à la banane, crème anglaise",
+      "name": "Moelleux au chocolat au lait Glace vanille",
       "description": ""
     }
   ]
