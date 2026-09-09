@@ -1,4 +1,5 @@
 import type { CmsCollectionFile } from "node_modules/astro-decap/types/types.js";
+import { imageMediaLibrary } from "./image-media-library.ts";
 import { seoField } from "./seo-field.ts";
 
 export const menuPage: CmsCollectionFile = {
@@ -21,6 +22,7 @@ export const menuPage: CmsCollectionFile = {
           label: "Image",
           name: "image",
           widget: "image",
+          media_library: imageMediaLibrary,
         },
       ],
     },

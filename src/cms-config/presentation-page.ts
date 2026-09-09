@@ -1,4 +1,5 @@
 import type { CmsCollectionFile } from "node_modules/astro-decap/types/types.js";
+import { imageMediaLibrary } from "./image-media-library.ts";
 import { seoField } from "./seo-field.ts";
 
 export const presentationPage: CmsCollectionFile = {
@@ -16,6 +17,7 @@ export const presentationPage: CmsCollectionFile = {
           label: "Image",
           name: "image",
           widget: "image",
+          media_library: imageMediaLibrary,
         },
         {
           label: "Text alternatif (important pour le SEO)",

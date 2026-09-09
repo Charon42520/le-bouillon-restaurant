@@ -2,6 +2,7 @@ import type {
   CmsCollectionFile,
   CmsField,
 } from "node_modules/astro-decap/types/types.js";
+import { imageMediaLibrary } from "./image-media-library.ts";
 import { seoField } from "./seo-field.ts";
 
 const galleryFields: CmsField[] = [
@@ -20,6 +21,7 @@ const galleryFields: CmsField[] = [
         label: "Image",
         name: "image",
         widget: "image",
+        media_library: imageMediaLibrary,
       },
       {
         label: "Text alternatif (important pour le SEO)",
