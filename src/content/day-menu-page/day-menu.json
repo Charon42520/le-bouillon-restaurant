@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Brochette de bœuf grillée Frites fraîches & salade verte",
+      "name": "Paleron de porc à la tomate, garniture de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Assiette de charcuterie (rosette, salami, mortadelle)",
+      "name": "Œuf parfait, velouté de légumes",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-09-08T23:27:00.000+02:00",
+  "date": "2026-09-09T08:11:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Moelleux au chocolat au lait Glace vanille",
+      "name": "Tartelette aux pommes & chèvre frais",
       "description": ""
     }
   ]
