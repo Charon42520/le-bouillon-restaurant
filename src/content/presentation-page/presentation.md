@@ -15,4 +15,4 @@ Originaire de Bourgogne, nous avons grandi dans la **gastronomie française** et
 
 Tous nos plats sont préparés **sur place** à partir de produits bruts - fait maison et au maximum avec des produits locaux. Nous sélectionnons nos produits pour leur qualité et aussi les **valeurs environnementales et humaines** de chaque fournisseur.
 
-Pendant que Yoann sera au fourneau toute la journée à vous raviver les papilles, ne soyez pas surpris de croiser Simon sur un raft ou le soir au service, c'est bien le même il n'a pas de jumeau ! Il a juste troqué l'olive de la pagaie contre l'olive des cocktails
+Pendant que Yoann sera au fourneau toute la journée à vous raviver les papilles, ne soyez pas surpris de croiser Simon sur un raft ou le soir au service, c'est bien le même il n'a pas de jumeau ! Il a juste troqué l'olive de la pagaie contre l'olive des cocktails.
