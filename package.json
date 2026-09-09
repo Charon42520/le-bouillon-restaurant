@@ -20,7 +20,7 @@
     "@unocss/astro": "^66.10.0",
     "@unocss/reset": "^66.10.0",
     "astro": "^7.3.1",
-    "astro-decap": "^0.4.1",
+    "astro-decap": "^0.4.2",
     "astro-seo": "^0.8.4",
     "concurrently": "^9.1.2",
     "decap-server": "^3.2.0",

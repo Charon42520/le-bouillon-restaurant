@@ -14,8 +14,6 @@ export default defineConfig({
       cmsConfig,
       cmsScriptSrc: "https://unpkg.com/decap-cms@3.8.0/dist/decap-cms.js",
       injectOAuthRoute: true,
-      getEnvObjectFromRequestContext: async () =>
-        (await import("cloudflare:workers")).env,
     }),
   ],
   output: "static",
