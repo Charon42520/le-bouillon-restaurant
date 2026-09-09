@@ -2,6 +2,12 @@ name = "le-bouillon-restaurant"
 main = "@astrojs/cloudflare/entrypoints/server"
 compatibility_date = "2026-09-09"
 compatibility_flags = ["nodejs_compat"]
+# Publishes at le-bouillon-restaurant.bouillonrestaurant.workers.dev.
+workers_dev = true
+
+routes = [
+  { pattern = "lebouillondeseauxvives.fr", custom_domain = true },
+]
 
 [observability]
 enabled = true
