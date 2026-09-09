@@ -1,9 +1,9 @@
 ---
 import { Picture } from "astro:assets";
-import type { ImageFunction, z } from "astro:content";
+import type { ImageMetadata } from "astro";
 
 export interface Props {
-  image: z.infer<ReturnType<ImageFunction>>;
+  image: ImageMetadata;
   alt: string;
 }
 
