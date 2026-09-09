@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import type { CollectionEntry } from "astro:content";
+import { render, type CollectionEntry } from "astro:content";
 import DropDown from "./DropDown.astro";
 
 export interface Props {
@@ -8,7 +8,7 @@ export interface Props {
 }
 
 const { event } = Astro.props;
-const { Content } = await event.render();
+const { Content } = await render(event);
 
 const date = new Date(event.data.date);
 ---

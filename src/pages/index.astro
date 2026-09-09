@@ -4,7 +4,7 @@ import Logo from "@components/Logo.astro";
 import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
-import { getEntry } from "astro:content";
+import { getEntry, render } from "astro:content";
 
 const indexEntry = await getEntry("index-page", "index");
 
@@ -12,7 +12,7 @@ if (indexEntry === undefined) {
   throw new Error("Entry not found");
 }
 
-const { data, render } = indexEntry;
+const { data } = indexEntry;
 
 const contactEntry = await getEntry("contact-hours-page", "contact-hours");
 
@@ -21,7 +21,7 @@ if (contactEntry === undefined) {
 }
 
 const { data: contactData } = contactEntry;
-const { Content } = await render();
+const { Content } = await render(indexEntry);
 ---
 
 <Layout>

@@ -1,4 +1,6 @@
-import { z, defineCollection } from "astro:content";
+import { defineCollection } from "astro:content";
+import { glob } from "astro/loaders";
+import { z } from "astro/zod";
 
 const seo = z.object({
   title: z.string(),
@@ -6,7 +8,7 @@ const seo = z.object({
 });
 
 const indexPageCollection = defineCollection({
-  type: "content",
+  loader: glob({ pattern: "*.md", base: "./src/content/index-page" }),
   schema: z.object({
     seo,
     headline: z.string(),
@@ -14,7 +16,7 @@ const indexPageCollection = defineCollection({
 });
 
 const presentationPageCollection = defineCollection({
-  type: "content",
+  loader: glob({ pattern: "*.md", base: "./src/content/presentation-page" }),
   schema: ({ image }) =>
     z.object({
       seo,
@@ -27,7 +29,7 @@ const presentationPageCollection = defineCollection({
 });
 
 const galleryPageCollection = defineCollection({
-  type: "data",
+  loader: glob({ pattern: "*.json", base: "./src/content/gallery-page" }),
   schema: ({ image }) =>
     z.object({
       seo,
@@ -53,7 +55,7 @@ const galleryPageCollection = defineCollection({
 });
 
 const menuPageCollection = defineCollection({
-  type: "data",
+  loader: glob({ pattern: "*.json", base: "./src/content/menu-page" }),
   schema: ({ image }) =>
     z.object({
       seo,
@@ -64,7 +66,7 @@ const menuPageCollection = defineCollection({
 const dish = z.object({ name: z.string(), description: z.string().optional() });
 
 const dayMenuPageCollection = defineCollection({
-  type: "data",
+  loader: glob({ pattern: "*.json", base: "./src/content/day-menu-page" }),
   schema: z.object({
     seo,
     text: z.string(),
@@ -82,7 +84,7 @@ const dayMenuPageCollection = defineCollection({
 });
 
 const eventsPageCollection = defineCollection({
-  type: "data",
+  loader: glob({ pattern: "*.json", base: "./src/content/events-page" }),
   schema: z.object({ seo, noEventsText: z.string() }),
 });
 
@@ -92,7 +94,10 @@ const contactField = z.object({
 });
 
 const contactHoursCollection = defineCollection({
-  type: "data",
+  loader: glob({
+    pattern: "*.json",
+    base: "./src/content/contact-hours-page",
+  }),
   schema: z.object({
     seo,
     phone: contactField,
@@ -110,12 +115,12 @@ const contactHoursCollection = defineCollection({
 });
 
 const legalPageCollection = defineCollection({
-  type: "data",
+  loader: glob({ pattern: "*.json", base: "./src/content/legal-page" }),
   schema: z.object({ seo }),
 });
 
 const eventsCollection = defineCollection({
-  type: "content",
+  loader: glob({ pattern: "*.md", base: "./src/content/events" }),
   schema: ({ image }) =>
     z.object({
       title: z.string(),
@@ -126,7 +131,7 @@ const eventsCollection = defineCollection({
 });
 
 const legalCollection = defineCollection({
-  type: "content",
+  loader: glob({ pattern: "*.md", base: "./src/content/legal" }),
   schema: z.object({ title: z.string() }),
 });
 

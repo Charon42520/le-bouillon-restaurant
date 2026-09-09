@@ -16,12 +16,10 @@ const { data } = entry;
 
 const rawEvents = await getCollection("events");
 
-const events = rawEvents
-  .sort(
-    (e1, e2) =>
-      new Date(e1.data.date).getTime() - new Date(e2.data.date).getTime()
-  )
-  .filter((e) => e.id.startsWith("content"));
+const events = rawEvents.sort(
+  (e1, e2) =>
+    new Date(e1.data.date).getTime() - new Date(e2.data.date).getTime()
+);
 
 const pastEvents = events.filter((e) => new Date(e.data.date) < new Date());
 const futureEvents = events.filter((e) => new Date(e.data.date) >= new Date());

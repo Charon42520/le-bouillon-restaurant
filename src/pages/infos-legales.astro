@@ -4,11 +4,9 @@ import MainContent from "@components/MainContent.astro";
 import SideNav from "@components/SideNav.astro";
 import TopNav from "@components/TopNav.astro";
 import Layout from "@layouts/Layout.astro";
-import { getCollection, getEntry } from "astro:content";
+import { getCollection, getEntry, render } from "astro:content";
 
-const legalSections = (await getCollection("legal")).filter((e) =>
-  e.id.startsWith("content")
-);
+const legalSections = await getCollection("legal");
 
 const entry = await getEntry("legal-page", "legal");
 
@@ -54,7 +52,7 @@ const { data } = entry;
 
     {
       legalSections.map(async (section) => {
-        const { Content } = await section.render();
+        const { Content } = await render(section);
 
         return (
           <details>
