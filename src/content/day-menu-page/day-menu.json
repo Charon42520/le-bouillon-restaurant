@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Filet mignon de porc, pommes purée & haricots verts",
+      "name": "Saucisse grillée, garniture du moment",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Mousse de betterave, rillettes de thon au fromage frais & croûtons",
+      "name": "Crevettes cocktail, mayonnaise aux condiments",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-09-11T09:49:00.000+02:00",
+  "date": "2026-09-14T08:07:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Panna cotta, coulis de fruits rouges & fruits frais",
+      "name": "Crémeux aux fruits rouges",
       "description": ""
     }
   ]
