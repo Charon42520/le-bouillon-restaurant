@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Suprême de volaille rôti Garniture de saison, jus aux herbes",
+      "name": "Bœuf bourguignon Pommes de terre grenaille, sauce au vin rouge Brisures de jambon Serrano",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Tomates, mozzarella & Basilic frais, huile d’olive",
+      "name": "Feuilleté au fromage & salade fraîche",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-09-21T08:59:00.000+02:00",
+  "date": "2026-09-22T08:59:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Fondant au chocolat au lait, Cœur fondant",
+      "name": "Crème brûlée à la fève de Tonka",
       "description": ""
     }
   ]
