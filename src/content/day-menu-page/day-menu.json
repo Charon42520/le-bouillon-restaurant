@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Pavé de porc au piment d’Espelette, garniture de saison",
+      "name": "Suprême de volaille rôti Garniture de saison, jus aux herbes",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Mousse de chèvre frais, salade croquante",
+      "name": "Tomates, mozzarella & Basilic frais, huile d’olive",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-09-18T09:21:00.000+02:00",
+  "date": "2026-09-21T08:59:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Île flottante, crème anglaise et amandes effilées",
+      "name": "Fondant au chocolat au lait, Cœur fondant",
       "description": ""
     }
   ]
