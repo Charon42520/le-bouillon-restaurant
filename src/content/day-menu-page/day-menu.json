@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Bœuf bourguignon Pommes de terre grenaille, sauce au vin rouge Brisures de jambon Serrano",
+      "name": "Gigot d’agneau, sauce au romarin Ratatouille & pipe rigate",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Feuilleté au fromage & salade fraîche",
+      "name": "Salade de pommes de terre, mortadelle & cornichons",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-09-22T08:59:00.000+02:00",
+  "date": "2026-09-23T22:20:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Crème brûlée à la fève de Tonka",
+      "name": "Tiramisu au café",
       "description": ""
     }
   ]
