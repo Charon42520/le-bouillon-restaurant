@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Saucisse sèche, pommes de terre grenaille & jus de viande",
+      "name": "Pavé de saumon, déclinaison de légumes de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Salade de concombre & feta",
+      "name": "Assiette de charcuterie & fromages de région",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-09-28T09:46:00.000+02:00",
+  "date": "2026-09-29T09:46:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Minestrone de fruits frais",
+      "name": "Tiramisu au spéculoos",
       "description": ""
     }
   ]
