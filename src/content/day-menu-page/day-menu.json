@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Pavé de saumon, déclinaison de légumes de saison",
+      "name": "Saucisse grillée au couteau, écrasé de pommes de terre aux herbes, chou-fleur et légumes de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Assiette de charcuterie & fromages de région",
+      "name": "Cake à la tomate et aux noix, salade gourmande",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-09-29T09:46:00.000+02:00",
+  "date": "2026-09-30T09:24:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Tiramisu au spéculoos",
+      "name": "Île flottante au caramel et fruits secs",
       "description": ""
     }
   ]
