@@ -3,19 +3,22 @@
     {
       "name": "Linguine à la bolognaise",
       "description": ""
+    },
+    {
+      "name": "Saucisse au couteau, garniture de saison"
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Chili cheese nuggets maison, sauce cheddar",
+      "name": "Œuf mimosa, salade croquante",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-10-01T09:05:00.000+02:00",
+  "date": "2026-10-02T19:55:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +28,7 @@
   },
   "deserts": [
     {
-      "name": "Moelleux à l’ananas",
+      "name": "Panna cotta, coulis de fruits rouges",
       "description": ""
     }
   ]
