@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Rôti d’échine de porc Jus de viande, garniture de saison",
+      "name": "Vol-au-vent, quenelle & champignons, sauce crème",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Œuf parfait Velouté de légumes",
+      "name": "Wraps au fromage frais & chair de crabe",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-10-08T09:36:00.000+02:00",
+  "date": "2026-10-09T09:36:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,7 +25,7 @@
   },
   "deserts": [
     {
-      "name": "Mousse au chocolat au lait",
+      "name": "Panna cotta, coulis de fruits",
       "description": ""
     }
   ]
