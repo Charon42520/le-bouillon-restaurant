@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Araignée de porc laquée, déclinaison de légumes de saison",
+      "name": "Filet mignon de porc Légumes de saison",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Bouchée à la reine au brochet",
+      "name": "Ravioles gratinées Velouté de légumes et mozzarella",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-10-12T09:36:00.000+02:00",
+  "date": "2026-10-15T09:36:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,8 +25,8 @@
   },
   "deserts": [
     {
-      "name": "Tiramisu maison",
-      "description": ""
+      "name": "Coupe Oreo",
+      "description": "Glace vanille, sauce chocolat et brisures d’Oreo"
     }
   ]
 }
