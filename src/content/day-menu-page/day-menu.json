@@ -1,21 +1,21 @@
 {
   "mainDishes": [
     {
-      "name": "Filet mignon de porc Légumes de saison",
+      "name": "Mi-cuit de thon, riz et légumes de saison ",
       "description": ""
     }
   ],
   "threeDishesPrice": 25,
   "starters": [
     {
-      "name": "Ravioles gratinées Velouté de légumes et mozzarella",
+      "name": "Chili cheese, salade croquante ",
       "description": ""
     }
   ],
   "oneDishPrice": 16,
   "additionalTextDeserts": "",
   "text": "Découvrez le menu du jour",
-  "date": "2026-10-15T09:36:00.000+02:00",
+  "date": "2026-10-16T08:15:00.000+02:00",
   "twoDishesPrice": 21,
   "additionalTextMainDishes": "",
   "additionalTextStarters": "",
@@ -25,8 +25,8 @@
   },
   "deserts": [
     {
-      "name": "Coupe Oreo",
-      "description": "Glace vanille, sauce chocolat et brisures d’Oreo"
+      "name": "Ananas rôti aux fruits secs",
+      "description": ""
     }
   ]
 }
